@@ -84,7 +84,29 @@ print(atributos2.findChildren("li")[12].text , atributos2.findChildren("li")[13]
 # SOR
 print(atributos2.findChildren("li")[14].text , atributos2.findChildren("li")[15].text)
 
-print("----- Drops (","10",") -----") 
+drop = bs.find('section',{'id':'slider-result'})
+listitens = drop.findChildren("ul")[0]
+contents = listitens.findChildren("li")
+drop_quantidaded = bs.find('li',{'class':'drops-monsters'})
+print("----- ",drop_quantidaded.text," -----")
+if drop_quantidaded.text != "Drops (0)":
+    for i in contents:
+        type_item = i.find('a')['href'].split("/")[5]
+        id_name_item = i.find('a')['href'].split("/")[7]
+        nome = i.find('h5').text
+
+        texto_drop = i.find_all('label')[1].text.split(" ")[0]
+        valor_drop = i.find_all('label')[1].text.split(" ")[1]
+
+        texto_preco = i.find_all('label')[2].text.split(" ")[0]
+        valor_preco = i.find_all('label')[2].text.split(" ")[1]
+        
+        
+        print( " Tipo de item: ", type_item, ", ID_Name: ",id_name_item , ", Nome: ", nome, ","
+        , texto_drop, ": ", valor_drop, ",", texto_preco, ": ",valor_preco )
+        # print(i)
+        
+
 
 
 ## Imprime todo texto contido em cada linha ##
