@@ -5,4 +5,4 @@ pip install beautifulsoup4
 pip install pandas
 pip install --upgrade pip
 
-python directory_mob.py
+python init_item.py

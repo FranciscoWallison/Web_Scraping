@@ -162,27 +162,3 @@ else:
 
 path_drop_new.close()
 path_mob_new.close()
-
-## Imprime todo texto contido em cada linha ##
-# for i in linhaNome:
-#     filho = i.findChildren("h1")
-#     print(filho)
-        
-## Imprime o texto de cada uma das tags filhas ##
-# for i in linhas:
-#     filhas = i.findChildren("span")
-#     print(filhas[0])
-#     print(filhas[1])
-#     print(filhas[2])
-
-# codigo, descricao, periodo = [], [], []
-
-# for i in linhas:
-#     children = i.findChildren("span")
-#     codigo.append(children[0].text)
-#     descricao.append(children[1].text)
-#     periodo.append(children[2].text)
-
-# df = pd.DataFrame({'Código': codigo, 'Descrição': descricao, 'Período': periodo})
-# df.head()
-# df.to_excel('caminho_do_arquivo.xlsx')
