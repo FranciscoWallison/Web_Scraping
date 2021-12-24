@@ -5,15 +5,15 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 
-file_path = "inst_text/mob_db.txt"
+file_path = "inst_text/mob_db_re.txt"
 # TRADUZINDO O BANCO 
 # file_path_new = "inst_text/mob_db_re_new.txt"
 # path_new = open(file_path_new, "wt")
 
 # CRIANDO SQL COM OS DADOS DO SITE
-file_path_mob_new = "db_extra/create_scrapin/mob_description.txt"
+file_path_mob_new = "db_extra/create_scrapin/mob_description_re.txt"
 path_mob_new = open(file_path_mob_new, "wt")
-file_path_drop_new = "db_extra/create_scrapin/mob_item_drop.txt"
+file_path_drop_new = "db_extra/create_scrapin/mob_item_drop_re.txt"
 path_drop_new = open(file_path_drop_new, "wt")
 
 with open(file_path) as f:
