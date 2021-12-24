@@ -1,12 +1,12 @@
-CREATE TABLE IF NOT EXISTS `item_description` (
+CREATE TABLE IF NOT EXISTS `mob_description` (
   `id` int(11) NOT NULL auto_increment,
   `name_aegis` varchar(24) NOT NULL,
   `nivel` smallint(5) unsigned DEFAULT NULL,
   `raca` varchar(39) NOT NULL DEFAULT '',
   `propriedade` varchar(39) NOT NULL DEFAULT '',
   `tamanho` varchar(39) NOT NULL DEFAULT '',
-  `exp_base` varchar(100) NOT NULL DEFAULT '',
-  `exp_classe` varchar(100) NOT NULL DEFAULT '',
+  `exp_base` smallint(6) unsigned DEFAULT NULL,
+  `exp_classe` smallint(6) unsigned DEFAULT NULL,
 
   `neutro` smallint(5) unsigned DEFAULT NULL,
   `agua` smallint(5) unsigned DEFAULT NULL,
@@ -15,10 +15,11 @@ CREATE TABLE IF NOT EXISTS `item_description` (
   `vento` smallint(5) unsigned DEFAULT NULL,
   `veneno` smallint(5) unsigned DEFAULT NULL,
   `sagrado` smallint(5) unsigned DEFAULT NULL,
-  `fantasma` smallint(5) unsigned DEFAULT NULL,
+  `sombrio` smallint(5) unsigned DEFAULT NULL,
+  `fantasma` smallint(5) unsigned DEFAULT NULL,  
   `maldito` smallint(5) unsigned DEFAULT NULL,
   
-  `hp` varchar(100) NOT NULL DEFAULT '',
+  `hp` int(10) unsigned DEFAULT NULL,
   `ataque` varchar(100) NOT NULL DEFAULT '',
   `alcance` smallint(5) unsigned DEFAULT NULL,
   `precisao` smallint(5) unsigned DEFAULT NULL,
@@ -34,3 +35,6 @@ CREATE TABLE IF NOT EXISTS `item_description` (
   PRIMARY KEY  (`id`),
   INDEX (`name_aegis`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1;
+
+
+-- DROP TABLE  `item_description`;
