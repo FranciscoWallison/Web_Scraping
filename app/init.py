@@ -4,11 +4,14 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 
-# file_path_new = "db_extra/item_descrip_insert.txt"
-# path_new = open(file_path_new, "wt")
+file_path_mob_new = "db_extra/create_scrapin/mob_description.txt"
+path_mob_new = open(file_path_mob_new, "wt")
 
-idname_mob = "ill_assulter"
-req = Request("https://playragnarokonlinebr.com/database/thor/monstros/detalhes/"+ idname_mob, headers={'User-Agent': 'Mozilla/5.0'})
+file_path_drop_new = "db_extra/create_scrapin/mob_item_drop.txt"
+path_drop_new = open(file_path_drop_new, "wt")
+
+id_name_mob = "aliot"
+req = Request("https://playragnarokonlinebr.com/database/thor/monstros/detalhes/"+ id_name_mob, headers={'User-Agent': 'Mozilla/5.0'})
 html = urlopen(req).read()
 bs = BeautifulSoup(html, 'html.parser')
 linhas = bs.find('div', {'id':'itemDescription'})
@@ -121,14 +124,14 @@ else:
     sor = atributos2.findChildren("li")[15].text
     print(atributos2.findChildren("li")[14].text , sor)
 
-    strin_insert_db = "REPLACE INTO `item_description` "
-    strin_insert_db = strin_insert_db + "(`name_aegis`,`nivel`,`raca`,`propriedade`,`tamanho`,`exp_base`,`exp_classe`,`neutro`,`agua`,`terra`,`fogo`,`vento`,`veneno`,`sagrado`, `sombrio`, `fantasma`,`maldito`,`hp`,`ataque`,`alcance`,`precisao`,`esquiva`,`def`,`vit`,`defm`,`int`,`for`,`des`,`agi`,`sor`) VALUES ("
-    strin_insert_db = strin_insert_db + "'"+idname_mob +"'"+", "+ nivel+", "+ raca+", "+ propriedade+", "+ tamanho+", "+ exp_base+", "+ exp_classe+", "+neutro+", "+agua+", "+terra+", "+fogo+", "+vento+", "+veneno+", "+sagrado+", "+sombrio+", "+fantasma+", "+maldito+", "+hp+", "+ataque+", "+alcance+", "+precisao
-    strin_insert_db = strin_insert_db +", " + esquiva+", " + defense+", " +vit+", " +defm+", " +int+", " +force+", " +des+", " +agi+", "+sor + ");"
+    strin_insert_mob_db = "REPLACE INTO `mob_description` "
+    strin_insert_mob_db = strin_insert_mob_db + "(`name_aegis`,`nivel`,`raca`,`propriedade`,`tamanho`,`exp_base`,`exp_classe`,`neutro`,`agua`,`terra`,`fogo`,`vento`,`veneno`,`sagrado`, `sombrio`, `fantasma`,`maldito`,`hp`,`ataque`,`alcance`,`precisao`,`esquiva`,`def`,`vit`,`defm`,`int`,`for`,`des`,`agi`,`sor`) VALUES ("
+    strin_insert_mob_db = strin_insert_mob_db + "'"+id_name_mob +"'"+", "+ nivel+", "+ raca+", "+ propriedade+", "+ tamanho+", "+ exp_base+", "+ exp_classe+", "+neutro+", "+agua+", "+terra+", "+fogo+", "+vento+", "+veneno+", "+sagrado+", "+sombrio+", "+fantasma+", "+maldito+", "+hp+", "+ataque+", "+alcance+", "+precisao
+    strin_insert_mob_db = strin_insert_mob_db +", " + esquiva+", " + defense+", " +vit+", " +defm+", " +int+", " +force+", " +des+", " +agi+", "+sor + ");"
 
-    print(strin_insert_db)
-    # path_new.write(strin_insert_db)
-
+    print(strin_insert_mob_db)
+    # path_new.write(strin_insert_mob_db)
+    path_mob_new.write(strin_insert_mob_db)
     # init drop
     drop = bs.find('section',{'id':'slider-result'})
     listitens = drop.findChildren("ul")[0]
@@ -142,18 +145,23 @@ else:
             nome = i.find('h5').text
 
             texto_drop = i.find_all('label')[1].text.split(" ")[0]
-            valor_drop = i.find_all('label')[1].text.split(" ")[1]
-
+            valor_drop = i.find_all('label')[1].text.split(" ")[1].replace('%', '').replace('.', '')
             texto_preco = i.find_all('label')[2].text.split(" ")[0]
-            valor_preco = i.find_all('label')[2].text.split(" ")[1]
+            valor_preco = i.find_all('label')[2].text.split(" ")[1].replace('Z', '')
             
+            # print( " Tipo de item: ", type_item, ", ID_Name: ",id_name_item , ", Nome: ", nome, ","
+            # , texto_drop, ": ", valor_drop, ",", texto_preco, ": ",valor_preco )
+            insert_mob_item_drop_db = "REPLACE INTO `mob_item_drop` " 
+            insert_mob_item_drop_db = insert_mob_item_drop_db + "(`name_aegis_mob`, `name_aegis_item`, `type`, `name`, `drop`, `preco`) VALUES ("
+            insert_mob_item_drop_db= insert_mob_item_drop_db + "'"+id_name_mob +"'"+", "+  "'"+id_name_item +"'"+", '"+type_item+"', "+"'"+nome+"', "+valor_drop+", "+valor_preco+ ");\n"
+            path_drop_new.write(insert_mob_item_drop_db)
+            print( insert_mob_item_drop_db)
             
-            print( " Tipo de item: ", type_item, ", ID_Name: ",id_name_item , ", Nome: ", nome, ","
-            , texto_drop, ": ", valor_drop, ",", texto_preco, ": ",valor_preco )
             # print(i)
         
 
-
+path_drop_new.close()
+path_mob_new.close()
 
 ## Imprime todo texto contido em cada linha ##
 # for i in linhaNome:

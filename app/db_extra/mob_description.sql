@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `item_description` (
+CREATE TABLE IF NOT EXISTS `mob_description` (
   `id` int(11) NOT NULL auto_increment,
   `name_aegis` varchar(24) NOT NULL,
   `nivel` smallint(5) unsigned DEFAULT NULL,

@@ -1,0 +1,8 @@
+REPLACE INTO `mob_item_drop` (`name_aegis_mob`, `name_aegis_item`, `type`, `name`, `drop`, `preco`) VALUES ('aliot', 'burnt_parts', 'itens', 'Peça Queimada', 20, 1.200);
+REPLACE INTO `mob_item_drop` (`name_aegis_mob`, `name_aegis_item`, `type`, `name`, `drop`, `preco`) VALUES ('aliot', 'sturdy_iron_piece', 'itens', 'Pedaço de Ferro Sólido', 30, 631);
+REPLACE INTO `mob_item_drop` (`name_aegis_mob`, `name_aegis_item`, `type`, `name`, `drop`, `preco`) VALUES ('aliot', 'falcon_robe', 'equipamentos', 'Sobrepeliz do Falcão', 01, 30.000);
+REPLACE INTO `mob_item_drop` (`name_aegis_mob`, `name_aegis_item`, `type`, `name`, `drop`, `preco`) VALUES ('aliot', 'smoke_powder', 'itens', 'Gás de Fumaça', 2, 625);
+REPLACE INTO `mob_item_drop` (`name_aegis_mob`, `name_aegis_item`, `type`, `name`, `drop`, `preco`) VALUES ('aliot', 'claw_', 'armamentos', 'Garra [2]', 01, 67.000);
+REPLACE INTO `mob_item_drop` (`name_aegis_mob`, `name_aegis_item`, `type`, `name`, `drop`, `preco`) VALUES ('aliot', 'elunium_stone', 'itens', 'Minério de Elunium', 005, 487);
+REPLACE INTO `mob_item_drop` (`name_aegis_mob`, `name_aegis_item`, `type`, `name`, `drop`, `preco`) VALUES ('aliot', 'curved_sword', 'armamentos', 'Espada Curva [2]', 015, 20);
+REPLACE INTO `mob_item_drop` (`name_aegis_mob`, `name_aegis_item`, `type`, `name`, `drop`, `preco`) VALUES ('aliot', 'aliot_card', 'itens-slot', 'Carta Aliot', 001, 20);
