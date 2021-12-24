@@ -3,6 +3,10 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 import pandas as pd
 
+
+file_path_new = "db_extra/item_descrip_insert.txt"
+path_new = open(file_path_new, "wt")
+
 idname_mob = "ill_assulter"
 req = Request("https://playragnarokonlinebr.com/database/thor/monstros/detalhes/"+ idname_mob, headers={'User-Agent': 'Mozilla/5.0'})
 html = urlopen(req).read()
@@ -13,7 +17,8 @@ linhas = bs.find('div', {'id':'itemDescription'})
 linhaNome = bs.find('div',{'class':'col-xs-10'})
 
 if(len(linhaNome.findChildren("h1")) == 0):
-    print("----- NÃO TEM -----") 
+    print("----- NÃO TEM -----")
+    
 else:
     print("----- Monstro -----")
     print("Nome: ", linhaNome.findChildren("h1")[0].text) 
@@ -87,6 +92,11 @@ else:
     # SOR
     print(atributos2.findChildren("li")[14].text , atributos2.findChildren("li")[15].text)
 
+    strin_insert_db = ""
+
+    path_new.write(strin_insert_db)
+
+    # init drop
     drop = bs.find('section',{'id':'slider-result'})
     listitens = drop.findChildren("ul")[0]
     contents = listitens.findChildren("li")
