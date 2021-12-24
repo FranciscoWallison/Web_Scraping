@@ -127,7 +127,7 @@ else:
     strin_insert_mob_db = "REPLACE INTO `mob_description` "
     strin_insert_mob_db = strin_insert_mob_db + "(`name_aegis`,`nivel`,`raca`,`propriedade`,`tamanho`,`exp_base`,`exp_classe`,`neutro`,`agua`,`terra`,`fogo`,`vento`,`veneno`,`sagrado`, `sombrio`, `fantasma`,`maldito`,`hp`,`ataque`,`alcance`,`precisao`,`esquiva`,`def`,`vit`,`defm`,`int`,`for`,`des`,`agi`,`sor`) VALUES ("
     strin_insert_mob_db = strin_insert_mob_db + "'"+id_name_mob +"'"+", "+ nivel+", "+ raca+", "+ propriedade+", "+ tamanho+", "+ exp_base+", "+ exp_classe+", "+neutro+", "+agua+", "+terra+", "+fogo+", "+vento+", "+veneno+", "+sagrado+", "+sombrio+", "+fantasma+", "+maldito+", "+hp+", "+ataque+", "+alcance+", "+precisao
-    strin_insert_mob_db = strin_insert_mob_db +", " + esquiva+", " + defense+", " +vit+", " +defm+", " +int+", " +force+", " +des+", " +agi+", "+sor + ");"
+    strin_insert_mob_db = strin_insert_mob_db +", " + esquiva+", " + defense+", " +vit+", " +defm+", " +int+", " +force+", " +des+", " +agi+", "+sor + ");\n"
 
     print(strin_insert_mob_db)
     # path_new.write(strin_insert_mob_db)
@@ -149,13 +149,13 @@ else:
             texto_preco = i.find_all('label')[2].text.split(" ")[0]
             valor_preco = i.find_all('label')[2].text.split(" ")[1].replace('Z', '')
             
-            # print( " Tipo de item: ", type_item, ", ID_Name: ",id_name_item , ", Nome: ", nome, ","
-            # , texto_drop, ": ", valor_drop, ",", texto_preco, ": ",valor_preco )
+            print( " Tipo de item: ", type_item, ", ID_Name: ",id_name_item , ", Nome: ", nome, ","
+            , texto_drop, ": ", valor_drop, ",", texto_preco, ": ",valor_preco )
             insert_mob_item_drop_db = "REPLACE INTO `mob_item_drop` " 
             insert_mob_item_drop_db = insert_mob_item_drop_db + "(`name_aegis_mob`, `name_aegis_item`, `type`, `name`, `drop`, `preco`) VALUES ("
             insert_mob_item_drop_db= insert_mob_item_drop_db + "'"+id_name_mob +"'"+", "+  "'"+id_name_item +"'"+", '"+type_item+"', "+"'"+nome+"', "+valor_drop+", "+valor_preco+ ");\n"
             path_drop_new.write(insert_mob_item_drop_db)
-            print( insert_mob_item_drop_db)
+            # print( insert_mob_item_drop_db)
             
             # print(i)
         
