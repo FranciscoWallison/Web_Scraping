@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 
-file_path_new = "db_extra/item_descrip_insert.txt"
-path_new = open(file_path_new, "wt")
+# file_path_new = "db_extra/item_descrip_insert.txt"
+# path_new = open(file_path_new, "wt")
 
 idname_mob = "ill_assulter"
 req = Request("https://playragnarokonlinebr.com/database/thor/monstros/detalhes/"+ idname_mob, headers={'User-Agent': 'Mozilla/5.0'})
@@ -26,75 +26,108 @@ else:
     print("----- Informações -----") 
     informacoes = bs.find('ul',{'id':'informacoes-list'})
     # Nível
-    print(informacoes.findChildren("li")[0].text , informacoes.findChildren("li")[1].text)
+    nivel = informacoes.findChildren("li")[1].text
+    print(informacoes.findChildren("li")[0].text , nivel)
     # Raça
-    print(informacoes.findChildren("li")[2].text , informacoes.findChildren("li")[3].text)
+    raca = "'"+informacoes.findChildren("li")[3].text+"'"
+    print(informacoes.findChildren("li")[2].text , raca)
     # Propriedade
-    print(informacoes.findChildren("li")[4].text , informacoes.findChildren("li")[5].text)
+    propriedade = "'"+informacoes.findChildren("li")[5].text+"'"
+    print(informacoes.findChildren("li")[4].text , propriedade)
     # Tamanho
-    print(informacoes.findChildren("li")[6].text , informacoes.findChildren("li")[7].text)
+    tamanho = "'"+informacoes.findChildren("li")[7].text+"'"
+    print(informacoes.findChildren("li")[6].text , tamanho)
     # Exp Base
-    print(informacoes.findChildren("li")[8].text , informacoes.findChildren("li")[9].text)
+    exp_base = informacoes.findChildren("li")[9].text.replace('.', '')
+    print(informacoes.findChildren("li")[8].text , exp_base)
     # Exp Classe
-    print(informacoes.findChildren("li")[10].text , informacoes.findChildren("li")[11].text)
+    exp_classe = informacoes.findChildren("li")[11].text.replace('.', '')
+    print(informacoes.findChildren("li")[10].text , exp_classe)
 
     print("----- Resistências e Fraquezas -----") 
     resistencias_fraquezas = bs.find('ul',{'id':'property'})
     # Neutro
-    print(resistencias_fraquezas.findChildren("li")[0].text , resistencias_fraquezas.findChildren("li")[1].text)
+    neutro = resistencias_fraquezas.findChildren("li")[1].text.replace('%', '')
+    print(resistencias_fraquezas.findChildren("li")[0].text , neutro)
     # Água
-    print(resistencias_fraquezas.findChildren("li")[2].text , resistencias_fraquezas.findChildren("li")[3].text)
+    agua = resistencias_fraquezas.findChildren("li")[3].text.replace('%', '')
+    print(resistencias_fraquezas.findChildren("li")[2].text , agua)
     # Terra
-    print(resistencias_fraquezas.findChildren("li")[4].text , resistencias_fraquezas.findChildren("li")[5].text)
+    terra = resistencias_fraquezas.findChildren("li")[5].text.replace('%', '')
+    print(resistencias_fraquezas.findChildren("li")[4].text , terra)
     # Fogo
-    print(resistencias_fraquezas.findChildren("li")[6].text , resistencias_fraquezas.findChildren("li")[7].text)
+    fogo =  resistencias_fraquezas.findChildren("li")[7].text.replace('%', '')
+    print(resistencias_fraquezas.findChildren("li")[6].text , fogo)
     # Vento
-    print(resistencias_fraquezas.findChildren("li")[8].text , resistencias_fraquezas.findChildren("li")[9].text)
+    vento = resistencias_fraquezas.findChildren("li")[9].text.replace('%', '')
+    print(resistencias_fraquezas.findChildren("li")[8].text , vento)
     # Veneno
-    print(resistencias_fraquezas.findChildren("li")[10].text , resistencias_fraquezas.findChildren("li")[11].text)
+    veneno = resistencias_fraquezas.findChildren("li")[11].text.replace('%', '')
+    print(resistencias_fraquezas.findChildren("li")[10].text , veneno)
     # Sagrado
-    print(resistencias_fraquezas.findChildren("li")[12].text , resistencias_fraquezas.findChildren("li")[13].text)
+    sagrado = resistencias_fraquezas.findChildren("li")[13].text.replace('%', '')
+    print(resistencias_fraquezas.findChildren("li")[12].text , sagrado)
     # Sombrio
-    print(resistencias_fraquezas.findChildren("li")[14].text , resistencias_fraquezas.findChildren("li")[15].text)
+    sombrio = resistencias_fraquezas.findChildren("li")[15].text.replace('%', '')
+    print(resistencias_fraquezas.findChildren("li")[14].text , sombrio)
     # Fantasma
-    print(resistencias_fraquezas.findChildren("li")[16].text , resistencias_fraquezas.findChildren("li")[17].text)
+    fantasma = resistencias_fraquezas.findChildren("li")[17].text.replace('%', '')
+    print(resistencias_fraquezas.findChildren("li")[16].text , fantasma)
     # Maldito
-    print(resistencias_fraquezas.findChildren("li")[18].text , resistencias_fraquezas.findChildren("li")[19].text)
+    maldito = resistencias_fraquezas.findChildren("li")[19].text.replace('%', '')
+    print(resistencias_fraquezas.findChildren("li")[18].text , maldito)
 
     print("----- Atributos -----") 
     atributos = bs.find('div',{'id':'two-flexbox'})
     atributos1 = atributos.findChildren("ul")[0]
     # HP
-    print(atributos1.findChildren("li")[0].text , atributos1.findChildren("li")[1].text)
+    hp = atributos1.findChildren("li")[1].text.replace('.', '')
+    print(atributos1.findChildren("li")[0].text , hp)
     # Ataque
-    print(atributos1.findChildren("li")[2].text , atributos1.findChildren("li")[3].text)
+    ataque = "'"+atributos1.findChildren("li")[3].text+"'"
+    print(atributos1.findChildren("li")[2].text , ataque)
     # Alcance
-    print(atributos1.findChildren("li")[4].text , atributos1.findChildren("li")[5].text)
+    alcance = atributos1.findChildren("li")[5].text
+    print(atributos1.findChildren("li")[4].text , alcance)
     # Precisão
-    print(atributos1.findChildren("li")[6].text , atributos1.findChildren("li")[7].text)
+    precisao = atributos1.findChildren("li")[7].text
+    print(atributos1.findChildren("li")[6].text , precisao)
     # Esquiva
-    print(atributos1.findChildren("li")[8].text , atributos1.findChildren("li")[9].text)
+    esquiva = atributos1.findChildren("li")[9].text
+    print(atributos1.findChildren("li")[8].text , esquiva)
     atributos2 = atributos.findChildren("ul")[1]
     # DEF
-    print(atributos2.findChildren("li")[0].text , atributos2.findChildren("li")[1].text)
+    defense = atributos2.findChildren("li")[1].text
+    print(atributos2.findChildren("li")[0].text , defense)
     # VIT
-    print(atributos2.findChildren("li")[2].text , atributos2.findChildren("li")[3].text)
+    vit =  atributos2.findChildren("li")[3].text
+    print(atributos2.findChildren("li")[2].text , vit)
     # DEFM
-    print(atributos2.findChildren("li")[4].text , atributos2.findChildren("li")[5].text)
+    defm = atributos2.findChildren("li")[5].text
+    print(atributos2.findChildren("li")[4].text , defm)
     # INT
-    print(atributos2.findChildren("li")[6].text , atributos2.findChildren("li")[7].text)
+    int = atributos2.findChildren("li")[7].text
+    print(atributos2.findChildren("li")[6].text , int)
     # FOR
-    print(atributos2.findChildren("li")[8].text , atributos2.findChildren("li")[9].text)
+    force = atributos2.findChildren("li")[9].text
+    print(atributos2.findChildren("li")[8].text , force)
     # DES
-    print(atributos2.findChildren("li")[10].text , atributos2.findChildren("li")[11].text)
+    des = atributos2.findChildren("li")[11].text
+    print(atributos2.findChildren("li")[10].text , des)
     # AGI
-    print(atributos2.findChildren("li")[12].text , atributos2.findChildren("li")[13].text)
+    agi = atributos2.findChildren("li")[13].text
+    print(atributos2.findChildren("li")[12].text , agi)
     # SOR
-    print(atributos2.findChildren("li")[14].text , atributos2.findChildren("li")[15].text)
+    sor = atributos2.findChildren("li")[15].text
+    print(atributos2.findChildren("li")[14].text , sor)
 
-    strin_insert_db = ""
+    strin_insert_db = "REPLACE INTO `item_description` "
+    strin_insert_db = strin_insert_db + "(`name_aegis`,`nivel`,`raca`,`propriedade`,`tamanho`,`exp_base`,`exp_classe`,`neutro`,`agua`,`terra`,`fogo`,`vento`,`veneno`,`sagrado`, `sombrio`, `fantasma`,`maldito`,`hp`,`ataque`,`alcance`,`precisao`,`esquiva`,`def`,`vit`,`defm`,`int`,`for`,`des`,`agi`,`sor`) VALUES ("
+    strin_insert_db = strin_insert_db + "'"+idname_mob +"'"+", "+ nivel+", "+ raca+", "+ propriedade+", "+ tamanho+", "+ exp_base+", "+ exp_classe+", "+neutro+", "+agua+", "+terra+", "+fogo+", "+vento+", "+veneno+", "+sagrado+", "+sombrio+", "+fantasma+", "+maldito+", "+hp+", "+ataque+", "+alcance+", "+precisao
+    strin_insert_db = strin_insert_db +", " + esquiva+", " + defense+", " +vit+", " +defm+", " +int+", " +force+", " +des+", " +agi+", "+sor + ");"
 
-    path_new.write(strin_insert_db)
+    print(strin_insert_db)
+    # path_new.write(strin_insert_db)
 
     # init drop
     drop = bs.find('section',{'id':'slider-result'})
