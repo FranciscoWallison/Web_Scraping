@@ -15,19 +15,54 @@ type_item = "armamentos"
 req = Request("https://playragnarokonlinebr.com/database/thor/"+type_item+"/detalhes/"+ id_name_item, headers={'User-Agent': 'Mozilla/5.0'})
 html = urlopen(req).read()
 bs = BeautifulSoup(html, 'html.parser')
-linhas = bs.find('div', {'id':'itemDescription'})
+linhas = bs.find('main', {'id':'itens-main'})
 
+linhaNome = bs.find('article',{'class':'items-emphasis'})
 
-linhaNome = bs.find('div',{'class':'col-xs-10'})
 
 if(len(linhaNome.findChildren("h1")) == 0):
     print("----- NÃO TEM -----")
 else:
-    print("----- "+type_item+" -----")
-    print("Nome: ", linhaNome.findChildren("h1")[0].text) 
+    print("----- "+type_item.capitalize()+" -----")
+    nome_traduzido = linhaNome.findChildren("h1")[0].text
+    print("Nome: ", nome_traduzido) 
 
-    # print("----- Informações -----") 
-    # informacoes = bs.find('ul',{'id':'informacoes-list'})
+    print("----- Descrição -----") 
+    descricao_iteminfor = bs.find_all('meta',{'name':'description'})[0]['content']
+    print(descricao_iteminfor)
+    descricao = linhaNome.findChildren("pre")[0].text
+    # print( descricao ) 
+
+    print("----- Informações -----") 
+    informacoes = bs.find_all('ul',{'class':'list'})[0]
+    # Preço
+    preco = informacoes.findChildren("li")[1].text.replace('.', '').replace('zeny', '').replace(' ', '')
+    print(informacoes.findChildren("li")[0].text, preco + "zeny")
+    # Peso
+    peso = informacoes.findChildren("li")[3].text
+    print(informacoes.findChildren("li")[2].text, preco)
+
+    print("----- Pode ser... -----")
+    pode_ser = bs.find_all('ul',{'class':'flex-check'})[0]
+    # Jogado no chão
+    jogado_no_chao = 'true' if "POSITIVE" in pode_ser.findChildren("li")[0].findAll('img')[0]['src'] else 'false'
+    print(pode_ser.findChildren("li")[1].text, jogado_no_chao)
+    # Guardado no carrinho
+    guardado_no_carrinho = 'true' if "POSITIVE" in pode_ser.findChildren("li")[2].findAll('img')[0]['src'] else 'false'
+    print(pode_ser.findChildren("li")[3].text, guardado_no_carrinho)
+    # Negociado
+    negociado = 'true' if "POSITIVE" in pode_ser.findChildren("li")[4].findAll('img')[0]['src'] else 'false'
+    print(pode_ser.findChildren("li")[5].text, negociado)
+    # Vendido para NPC
+    vendido_para_npc = 'true' if "POSITIVE" in pode_ser.findChildren("li")[6].findAll('img')[0]['src'] else 'false'
+    print(pode_ser.findChildren("li")[7].text, vendido_para_npc)
+    # Colocado no armazém
+    colocado_no_armazem = 'true' if "POSITIVE" in pode_ser.findChildren("li")[8].findAll('img')[0]['src'] else 'false'
+    print(pode_ser.findChildren("li")[9].text, colocado_no_armazem)
+    # Colocado no armazém da guilda
+    colocado_armazem_guilda = 'true' if "POSITIVE" in pode_ser.findChildren("li")[10].findAll('img')[0]['src'] else 'false'
+    print(pode_ser.findChildren("li")[11].text, colocado_armazem_guilda)
+    
     # # Nível
     # nivel = informacoes.findChildren("li")[1].text
     # print(informacoes.findChildren("li")[0].text , nivel)
