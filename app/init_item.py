@@ -30,7 +30,7 @@ else:
     print("----- Descrição -----") 
     descricao_iteminfor = bs.find_all('meta',{'name':'description'})[0]['content']
     print(descricao_iteminfor)
-    descricao = linhaNome.findChildren("pre")[0].text
+    # descricao_text_normal = linhaNome.findChildren("pre")[0].text
     # print( descricao ) 
 
     print("----- Informações -----") 

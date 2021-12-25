@@ -43,17 +43,15 @@ for idx, i in enumerate(lines):
         type_item = "itens-slot"
     if valores[3] == "'Cash'" or valores[3] == "'Delayconsume'" or valores[3] == "'Etc'" or valores[3] == "'Healing'" or valores[3] == "'Usable'": 
         type_item = "itens"
-    if valores[3] == "'Shadowgear'":
+    if valores[3] == "'Shadowgear'":  # não achei categoria para esse item
         print("'Shadowgear'", id_name_item_url)
-        continue
         # path_new.write(i) # NÃO SEI QUAL O TIPO  
-        # não achei categoria para esse item
-        
-    id_name_mob = valores[1]
+        continue
+    
     url = "https://playragnarokonlinebr.com/database/thor/"+type_item.replace('\'', '')+"/detalhes/"+ id_name_item_url.replace('\'', '')
     req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    print(valores[3])
-    print(id_name_item, id_name_item_url)
+    # print(valores[3])
+    # print(id_name_item, id_name_item_url)
     
     try:
         time.sleep(1)
@@ -81,59 +79,62 @@ for idx, i in enumerate(lines):
         print(url)
         break
         # path_new.write(i) # TRADUZINDO O BANCO 
-    # else:
+    else:
+        print("----- "+type_item.capitalize()+" -----")
+        nome_traduzido = linhaNome.findChildren("h1")[0].text.replace(" [4]", "").replace(" [3]", "").replace(" [2]", "").replace(" [1]", "")
+        print("Nome: ", nome_traduzido) 
 
-        # newLine = i.replace(valores[2], "'"+nome_mobe+"'")
-        # newLine = newLine.replace(valores[3], "'"+nome_mobe+"'")        
-        # path_new.write(newLine) # TRADUZINDO O BANCO 
+        newLine = i.replace(""+valores[1]+","+valores[2]+"", ""+valores[1]+",'"+nome_traduzido+"'")
+        id_item = valores[0].replace("(", "")
+        print(newLine)
+        # path_new.write(newLine) # TRADUZINDO A LINHA 
+        print("----- Descrição -----") 
+        descricao_iteminfor = bs.find_all('meta',{'name':'description'})[0]['content']
+        print(descricao_iteminfor)
 
-    #     print("----- "+type_item.capitalize()+" -----")
-    #     nome_traduzido = linhaNome.findChildren("h1")[0].text
-    #     print("Nome: ", nome_traduzido) 
+        print("----- Informações -----") 
+        informacoes = bs.find_all('ul',{'class':'list'})[0]
+        # Preço
+        preco = informacoes.findChildren("li")[1].text.replace('.', '').replace('zeny', '').replace(' ', '')
+        print(informacoes.findChildren("li")[0].text, preco + " zeny")
+        # Peso
+        peso = informacoes.findChildren("li")[3].text
+        print(informacoes.findChildren("li")[2].text, preco)
 
-    #     print("----- Descrição -----") 
-    #     descricao_iteminfor = bs.find_all('meta',{'name':'description'})[0]['content']
-    #     print(descricao_iteminfor)
-    #     descricao = linhaNome.findChildren("pre")[0].text
-    #     # print( descricao ) 
+        print("----- Pode ser... -----")
+        pode_ser = bs.find_all('ul',{'class':'flex-check'})[0]
+        # Jogado no chão
+        jogado_chao = 'true' if "POSITIVE" in pode_ser.findChildren("li")[0].findAll('img')[0]['src'] else 'false'
+        print(pode_ser.findChildren("li")[1].text, jogado_chao)
+        # Guardado no carrinho
+        guardado_carrinho = 'true' if "POSITIVE" in pode_ser.findChildren("li")[2].findAll('img')[0]['src'] else 'false'
+        print(pode_ser.findChildren("li")[3].text, guardado_carrinho)
+        # Negociado
+        negociado = 'true' if "POSITIVE" in pode_ser.findChildren("li")[4].findAll('img')[0]['src'] else 'false'
+        print(pode_ser.findChildren("li")[5].text, negociado)
+        # Vendido para NPC
+        vendido_npc = 'true' if "POSITIVE" in pode_ser.findChildren("li")[6].findAll('img')[0]['src'] else 'false'
+        print(pode_ser.findChildren("li")[7].text, vendido_npc)
+        # Colocado no armazém
+        colocado_armazem = 'true' if "POSITIVE" in pode_ser.findChildren("li")[8].findAll('img')[0]['src'] else 'false'
+        print(pode_ser.findChildren("li")[9].text, colocado_armazem)
+        # Colocado no armazém da guilda
+        colocado_armazem_guilda = 'true' if "POSITIVE" in pode_ser.findChildren("li")[10].findAll('img')[0]['src'] else 'false'
+        print(pode_ser.findChildren("li")[11].text, colocado_armazem_guilda)
 
-    #     print("----- Informações -----") 
-    #     informacoes = bs.find_all('ul',{'class':'list'})[0]
-    #     # Preço
-    #     preco = informacoes.findChildren("li")[1].text.replace('.', '').replace('zeny', '').replace(' ', '')
-    #     print(informacoes.findChildren("li")[0].text, preco + "zeny")
-    #     # Peso
-    #     peso = informacoes.findChildren("li")[3].text
-    #     print(informacoes.findChildren("li")[2].text, preco)
+        sql_inset_description = "REPLACE INTO `item_description` "
+        sql_inset_description = sql_inset_description +"(`id_item`,`name_aegis`,`nome_traduzido`,`description`,`preco`,`peso`,`jogado_chao`,`guardado_carrinho`,`negociado`,`vendido_npc`,`colocado_armazem`,`colocado_armazem_guilda`) VALUES ("
+        sql_inset_description = sql_inset_description + ""+id_item +"," +valores[1]+",'"+nome_traduzido+ "','"+descricao_iteminfor+"',"+preco+","+peso+","+jogado_chao+","+guardado_carrinho+","+negociado+","+vendido_npc+","+colocado_armazem+","+colocado_armazem_guilda+");"
+        print(sql_inset_description)
+        # path_mob_new.write(strin_insert_mob_db) # CRIANDO SQL COM OS DADOS DO SITE
 
-    #     print("----- Pode ser... -----")
-    #     pode_ser = bs.find_all('ul',{'class':'flex-check'})[0]
-    #     # Jogado no chão
-    #     jogado_no_chao = 'true' if "POSITIVE" in pode_ser.findChildren("li")[0].findAll('img')[0]['src'] else 'false'
-    #     print(pode_ser.findChildren("li")[1].text, jogado_no_chao)
-    #     # Guardado no carrinho
-    #     guardado_no_carrinho = 'true' if "POSITIVE" in pode_ser.findChildren("li")[2].findAll('img')[0]['src'] else 'false'
-    #     print(pode_ser.findChildren("li")[3].text, guardado_no_carrinho)
-    #     # Negociado
-    #     negociado = 'true' if "POSITIVE" in pode_ser.findChildren("li")[4].findAll('img')[0]['src'] else 'false'
-    #     print(pode_ser.findChildren("li")[5].text, negociado)
-    #     # Vendido para NPC
-    #     vendido_para_npc = 'true' if "POSITIVE" in pode_ser.findChildren("li")[6].findAll('img')[0]['src'] else 'false'
-    #     print(pode_ser.findChildren("li")[7].text, vendido_para_npc)
-    #     # Colocado no armazém
-    #     colocado_no_armazem = 'true' if "POSITIVE" in pode_ser.findChildren("li")[8].findAll('img')[0]['src'] else 'false'
-    #     print(pode_ser.findChildren("li")[9].text, colocado_no_armazem)
-    #     # Colocado no armazém da guilda
-    #     colocado_armazem_guilda = 'true' if "POSITIVE" in pode_ser.findChildren("li")[10].findAll('img')[0]['src'] else 'false'
-    #     print(pode_ser.findChildren("li")[11].text, colocado_armazem_guilda)
-                
-    # if(porcentagemtotal  == 100.0):
-    #     print("------------FIM------------")
-    # else:
-    #     print("Quantidade: ", len(lines), " Atual:", index , " Completo:", porcentagemtotal,"% " )
+    if(porcentagemtotal  == 100.0):
+        print("------------FIM------------")
+    else:
+        print("Quantidade: ", len(lines), " Atual:", index , " Completo:", porcentagemtotal,"% " )
 
-    # if(index == 2 ):
-    #     break
+    if(index == 1 ):
+        break
 
 # TRADUZINDO O BANCO 
 # path_new.close()
