@@ -7,14 +7,12 @@ import time
 
 file_path = "inst_text/item/item_db_equip.txt"
 # TRADUZINDO O BANCO 
-# file_path_new = "inst_text/mob_db_re_new.txt"
-# path_new = open(file_path_new, "wt")
+file_path_new = "inst_text/item_db_equip_new.txt"
+path_new = open(file_path_new, "wt")
 
 # CRIANDO SQL COM OS DADOS DO SITE
-# file_path_mob_new = "db_extra/create_scrapin/mob_description_re.txt"
-# path_mob_new = open(file_path_mob_new, "wt")
-# file_path_drop_new = "db_extra/create_scrapin/mob_item_drop_re.txt"
-# path_drop_new = open(file_path_drop_new, "wt")
+file_path_item_new = "db_extra/create_scrapin/item_description.txt"
+path_item_new = open(file_path_item_new, "wt")
 
 with open(file_path) as f:
     lines = f.readlines() ##Assume the sample file has 3 lines
@@ -45,7 +43,7 @@ for idx, i in enumerate(lines):
         type_item = "itens"
     if valores[3] == "'Shadowgear'":  # não achei categoria para esse item
         print("'Shadowgear'", id_name_item_url)
-        # path_new.write(i) # NÃO SEI QUAL O TIPO  
+        path_new.write(i) # NÃO SEI QUAL O TIPO  
         continue
     
     url = "https://playragnarokonlinebr.com/database/thor/"+type_item.replace('\'', '')+"/detalhes/"+ id_name_item_url.replace('\'', '')
@@ -59,7 +57,7 @@ for idx, i in enumerate(lines):
     except HTTPError as e:
         time.sleep(3)
         if e.code == 500:
-            # path_new.write(i) # O ITEM NÃO FOI ACHADO OU NÃO EXISTE
+            path_new.write(i) # O ITEM NÃO FOI ACHADO OU NÃO EXISTE
             print(e.code)
             print(url)
             continue
@@ -76,18 +74,15 @@ for idx, i in enumerate(lines):
 
     if(len(linhaNome.findChildren("h1")) == 0):
         print("----- NÃO TEM -----")
-        print(url)
-        break
-        # path_new.write(i) # TRADUZINDO O BANCO 
+        print(url)        
+        path_new.write(i) #  O ITEM NÃO FOI ACHADO OU NÃO EXISTE
     else:
         print("----- "+type_item.capitalize()+" -----")
         nome_traduzido = linhaNome.findChildren("h1")[0].text.replace(" [4]", "").replace(" [3]", "").replace(" [2]", "").replace(" [1]", "")
-        print("Nome: ", nome_traduzido) 
-
-        newLine = i.replace(""+valores[1]+","+valores[2]+"", ""+valores[1]+",'"+nome_traduzido+"'")
         id_item = valores[0].replace("(", "")
-        print(newLine)
-        # path_new.write(newLine) # TRADUZINDO A LINHA 
+        print(id_item, "- Nome: ", nome_traduzido)
+        newLine = i.replace(""+valores[1]+","+valores[2]+"", ""+valores[1]+",'"+nome_traduzido+"'")        
+        path_new.write(newLine) # TRADUZINDO A LINHA 
         print("----- Descrição -----") 
         descricao_iteminfor = bs.find_all('meta',{'name':'description'})[0]['content']
         print(descricao_iteminfor)
@@ -125,8 +120,7 @@ for idx, i in enumerate(lines):
         sql_inset_description = "REPLACE INTO `item_description` "
         sql_inset_description = sql_inset_description +"(`id_item`,`name_aegis`,`nome_traduzido`,`description`,`preco`,`peso`,`jogado_chao`,`guardado_carrinho`,`negociado`,`vendido_npc`,`colocado_armazem`,`colocado_armazem_guilda`) VALUES ("
         sql_inset_description = sql_inset_description + ""+id_item +"," +valores[1]+",'"+nome_traduzido+ "','"+descricao_iteminfor+"',"+preco+","+peso+","+jogado_chao+","+guardado_carrinho+","+negociado+","+vendido_npc+","+colocado_armazem+","+colocado_armazem_guilda+");"
-        print(sql_inset_description)
-        # path_mob_new.write(strin_insert_mob_db) # CRIANDO SQL COM OS DADOS DO SITE
+        path_item_new.write(sql_inset_description) # CRIANDO SQL COM OS DADOS DO SITE
 
     if(porcentagemtotal  == 100.0):
         print("------------FIM------------")
@@ -137,8 +131,8 @@ for idx, i in enumerate(lines):
         break
 
 # TRADUZINDO O BANCO 
-# path_new.close()
+path_new.close()
 
 # CRIANDO SQL INSERT CUSTON
-# path_mob_new.close()
+path_item_new.close()
 # path_drop_new.close()
