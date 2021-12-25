@@ -30,11 +30,25 @@ for idx, i in enumerate(lines):
     id_name_item_url = id_name_item.replace("\\\'s", '').replace('\\', '').replace("'s", '').replace('\'', '')
     type_item = ''
 
-    if valores[3] == "'Weapon'" or valores[3] == "'Petarmor'":
+    # SELECT type, count(*)
+    # FROM item_db_re 
+    # GROUP by type
+    # ORDER BY type
+
+    if valores[3] == "'Weapon'" or valores[3] == "'Petarmor'" or valores[3] == "'Ammo'":
         type_item = "armamentos"
-    if valores[3] == "'Poring_Egg'" or valores[3] == "'Armor'" or valores[3] == "'Petegg'":
+    if valores[3] == "'Poring_Egg'" or valores[3] == "'Armor'" or valores[3] == "'Petegg'" or valores[3] == "'Petarmor'" : 
         type_item = "equipamentos"
-   
+    if valores[3] == "'Card'":
+        type_item = "itens-slot"
+    if valores[3] == "'Cash'" or valores[3] == "'Delayconsume'" or valores[3] == "'Etc'" or valores[3] == "'Healing'" or valores[3] == "'Usable'": 
+        type_item = "itens"
+    if valores[3] == "'Shadowgear'":
+        print("'Shadowgear'", id_name_item_url)
+        continue
+        # path_new.write(i) # NÃO SEI QUAL O TIPO  
+        # não achei categoria para esse item
+        
     id_name_mob = valores[1]
     url = "https://playragnarokonlinebr.com/database/thor/"+type_item.replace('\'', '')+"/detalhes/"+ id_name_item_url.replace('\'', '')
     req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -47,7 +61,7 @@ for idx, i in enumerate(lines):
     except HTTPError as e:
         time.sleep(3)
         if e.code == 500:
-            # path_new.write(i) # TRADUZINDO O BANCO 
+            # path_new.write(i) # O ITEM NÃO FOI ACHADO OU NÃO EXISTE
             print(e.code)
             print(url)
             continue
