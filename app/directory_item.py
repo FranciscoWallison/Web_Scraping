@@ -5,13 +5,13 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 
-file_path = "inst_text/item/item_db_equip.txt"
+file_path = "inst_text/item/item_db_re_etc.txt"
 # TRADUZINDO O BANCO 
-file_path_new = "inst_text/item_db_equip_new.txt"
+file_path_new = "inst_text/item_db_re_etc_new.txt"
 path_new = open(file_path_new, "wt")
 
 # CRIANDO SQL COM OS DADOS DO SITE
-file_path_item_new = "db_extra/create_scrapin/item_description.txt"
+file_path_item_new = "db_extra/create_scrapin/item_description_re_etc.txt"
 path_item_new = open(file_path_item_new, "wt")
 
 with open(file_path) as f:
@@ -63,9 +63,10 @@ for idx, i in enumerate(lines):
             continue
         # html = urlopen(req).read()
         print("----- ERROR-----")
-        print(e.code)
+        print(e.code, id_name_item_url, type_item.replace('\'', ''))
         print(url)
-        break
+        path_new.write(i) # O ITEM NÃO FOI ACHADO OU NÃO EXISTE
+        continue
 
     bs = BeautifulSoup(html, 'html.parser')
     linhas = bs.find('main', {'id':'itens-main'})
@@ -126,9 +127,6 @@ for idx, i in enumerate(lines):
         print("------------FIM------------")
     else:
         print("Quantidade: ", len(lines), " Atual:", index , " Completo:", porcentagemtotal,"% " )
-
-    if(index == 1 ):
-        break
 
 # TRADUZINDO O BANCO 
 path_new.close()
