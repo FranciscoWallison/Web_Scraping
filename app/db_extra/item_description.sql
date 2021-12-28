@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS `item_description` (
   `nome_traduzido` varchar(30) NOT NULL,
   `description` text,
   `preco` int(11) unsigned DEFAULT NULL,
-  `peso` int(11) NOT NULL DEFAULT '',
+  `peso` int(11) unsigned DEFAULT NULL,
   `jogado_chao` BOOLEAN,
   `guardado_carrinho` BOOLEAN,
   `negociado` BOOLEAN,
