@@ -5,5 +5,6 @@ pip install requests
 pip install beautifulsoup4
 pip install pandas
 pip install --upgrade pip
+pip install pyyaml
 
-python directory_item.py
+python item_yml.py
