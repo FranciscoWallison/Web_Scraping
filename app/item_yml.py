@@ -13,10 +13,10 @@ mydb = mysql.connector.connect(
 mydb.set_charset_collation('utf8', 'utf8_general_ci')
 mycursor = mydb.cursor()
 
-file_path_item_new = "yml/item_new/pre-re/item_db_equip_new.yml"
+file_path_item_new = "yml/item_new/re/item_db_usable_new.yml"
 path_item_new = open(file_path_item_new, "wt")
 
-with open("yml/item/pre-re/item_db_equip.yml", 'r') as f:
+with open("yml/item/re/item_db_usable.yml", 'r') as f:
     try:
         body = ['Body']
         itens = []
@@ -27,7 +27,7 @@ with open("yml/item/pre-re/item_db_equip.yml", 'r') as f:
             mycursor.execute('SET NAMES utf8;')
             mycursor.execute('SET CHARACTER SET utf8;')
             mycursor.execute('SET character_set_connection=utf8;')
-            mycursor.execute("SELECT * FROM item_db where id = " + str(i['Id']))
+            mycursor.execute("SELECT * FROM item_db_re where id = " + str(i['Id']))
 
             myresult = mycursor.fetchall()
 
