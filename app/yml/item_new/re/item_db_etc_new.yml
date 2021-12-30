@@ -2483,7 +2483,7 @@
     Thief: true
   Locations:
     Ammo: true
-  Name: Elven Arrow
+  Name: Flecha Élfica
   SubType: Arrow
   Type: Ammo
   Weight: 1
@@ -2501,7 +2501,7 @@
     Thief: true
   Locations:
     Ammo: true
-  Name: Hunting Arrow
+  Name: Flecha de Caça
   SubType: Arrow
   Type: Ammo
   Weight: 1
@@ -2519,7 +2519,7 @@
     Thief: true
   Locations:
     Ammo: true
-  Name: Siege Arrow S
+  Name: Flecha de Cerco S
   SubType: Arrow
   Type: Ammo
   Weight: 1
@@ -2537,7 +2537,7 @@
     Thief: true
   Locations:
     Ammo: true
-  Name: Siege Arrow A
+  Name: Flecha de Cerco A
   SubType: Arrow
   Type: Ammo
   Weight: 1
@@ -8374,7 +8374,7 @@
   Id: 4375
   Locations:
     Garment: true
-  Name: Orc Baby Card
+  Name: Carta Filhote de Orc
   Script: '.@i = (getrefine()>=9?15:10);
 
     bonus2 bSubEle,Ele_Neutral,.@i;
@@ -9546,7 +9546,7 @@
   Id: 4446
   Locations:
     Right_Hand: true
-  Name: Enhanced Skeleton Card
+  Name: Carta Esqueleto Imortal
   Script: 'bonus bBaseAtk,15;
 
     bonus2 bAddEff,Eff_Stun,(BaseLevel>=100?300:200);
@@ -9670,7 +9670,7 @@
   Id: 4454
   Locations:
     Right_Hand: true
-  Name: Light Up Card
+  Name: Carta da Falquíria
   Type: Card
   Weight: 10
 - AegisName: Light_Up_Card2
@@ -9681,7 +9681,7 @@
   Id: 4455
   Locations:
     Right_Hand: true
-  Name: Light Up Card
+  Name: Carta da Falquíria
   Type: Card
   Weight: 10
 - AegisName: Nidhogg_Shadow_Card
@@ -9692,7 +9692,7 @@
   Id: 4456
   Locations:
     Armor: true
-  Name: Nidhoggur Shadow Card
+  Name: Carta Sombra do Guardião
   Script: "bonus bInt,5;\nif (Class == Job_High_Wizard || Class == Job_Baby_Warlock\
     \ || Class == Job_Warlock || Class == Job_Warlock_T)\n   bonus bFixedCastrate,-50;\n"
   Type: Card
@@ -9705,7 +9705,7 @@
   Id: 4457
   Locations:
     Armor: true
-  Name: Naght Sieger Card
+  Name: Carta Naght Sieger
   Script: 'bonus2 bMagicAtkEle,Ele_Ghost,30;
 
     '
@@ -9721,7 +9721,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Duneyrr Card
+  Name: Carta Duneyrr
   Script: 'bonus bBaseAtk,10;
 
     autobonus "{ bonus bFlee2,10; }",10,4000,BF_NORMAL,"{ specialeffect2 EF_HASTEUP;
@@ -9740,7 +9740,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Rata Card
+  Name: Carta Rata
   Script: 'bonus bMatk,10;
 
     autobonus "{ bonus bFixedCastrate,-50; }",5,4000,BF_MAGIC,"{ specialeffect2 EF_SUFFRAGIUM;
@@ -9759,7 +9759,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Rhyncho Card
+  Name: Carta Rhyncho
   Script: 'bonus bHealPower,4;
 
     bonus2 bSkillUseSP,"AL_HEAL",-15;
@@ -9777,7 +9777,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Phylla Card
+  Name: Carta Phylla
   Script: 'bonus bDex,1;
 
     bonus bAgi,1;
@@ -9796,7 +9796,7 @@
   Id: 4462
   Locations:
     Armor: true
-  Name: Hardrock Mammoth Card
+  Name: Carta Mamute Rochoso
   Script: ".@r = getrefine();\nbonus bDef,5;\nif (.@r>=12) {\n   bonus bDef,20;\n\
     \   bonus bMaxHPrate,10;\n}\nif (.@r>=14) {\n   bonus bMaxHPrate,3;\n}\n"
   Type: Card
@@ -9809,7 +9809,7 @@
   Id: 4463
   Locations:
     Right_Hand: true
-  Name: Tendrilrion Card
+  Name: Carta Leão de Vinhas
   Script: "bonus bCritical,5;\n.@r = getrefine();\nif (.@r>=12) {\n   bonus bBaseAtk,35;\n\
     }\nif (.@r>=14) {\n   bonus bCritical,10;\n}\n"
   Type: Card
@@ -9822,7 +9822,7 @@
   Id: 4464
   Locations:
     Right_Hand: true
-  Name: Aunoe Card
+  Name: Carta Aunoe
   Script: 'bonus bCritAtkRate,20;
 
     '
@@ -9836,7 +9836,7 @@
   Id: 4465
   Locations:
     Right_Hand: true
-  Name: Fanat Card
+  Name: Carta Fanat
   Script: "bonus bBaseAtk,10;\nif (getiteminfo(getequipid(EQI_HAND_R), ITEMINFO_VIEW)\
     \ == W_2HSWORD) {\n   .@r = getrefine();\n   if (.@r>=10) {\n      bonus bAspd,1;\n\
     \   }\n   if (.@r>=14) {\n      bonus bAspd,1;\n   }\n}\n"
@@ -9850,7 +9850,7 @@
   Id: 4466
   Locations:
     Right_Hand: true
-  Name: Beholder Master Card
+  Name: Carta Mestre Beholder
   Script: "bonus bLongAtkRate,3;\nif (getiteminfo(getequipid(EQI_HAND_R), ITEMINFO_VIEW)\
     \ == W_BOW) {\n   .@r = getrefine();\n   if (.@r>=10) {\n      bonus bAspd,1;\n\
     \   }\n   if (.@r>=14) {\n      bonus bAspd,1;\n   }\n}\n"
@@ -9864,7 +9864,7 @@
   Id: 4467
   Locations:
     Shoes: true
-  Name: Heavy Metaling Card
+  Name: Carta Heavy Metaling
   Script: "bonus bStr,2;\nif (BaseClass == Job_Merchant) {\n   bonus2 bSkillAtk,\"\
     MC_CARTREVOLUTION\",50;\n   bonus2 bSkillUseSP,\"MC_CARTREVOLUTION\",-12;\n}\n"
   Type: Card
@@ -9879,7 +9879,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Dark Pinguicula Card
+  Name: Carta Pinguicula Sombria
   Script: 'bonus bBaseAtk,10;
 
     bonus2 bAddMonsterDropItem,7932,10;
@@ -9905,7 +9905,7 @@
   Id: 4469
   Locations:
     Right_Hand: true
-  Name: Naga Card
+  Name: Carta Naga
   Script: 'bonus2 bMagicAddRace,RC_Fish,10;
 
     '
@@ -9919,7 +9919,7 @@
   Id: 4470
   Locations:
     Right_Hand: true
-  Name: Nepenthes Card
+  Name: Carta Nepenthes
   Script: 'bonus2 bMagicAddRace,RC_Plant,10;
 
     '
@@ -9933,7 +9933,7 @@
   Id: 4471
   Locations:
     Right_Hand: true
-  Name: Draco Egg Card
+  Name: Carta Ovo de Draco
   Script: 'bonus2 bMagicAddRace,RC_Dragon,10;
 
     '
@@ -9947,7 +9947,7 @@
   Id: 4472
   Locations:
     Right_Hand: true
-  Name: Bradium Golem Card
+  Name: Carta Golem de Bradium
   Script: 'bonus2 bMagicAddRace,RC_Brute,10;
 
     bonus2 bMagicAddRace,RC_Player_Doram,10;
@@ -9963,7 +9963,7 @@
   Id: 4473
   Locations:
     Right_Hand: true
-  Name: Ancient Tree Card
+  Name: Carta Árvore Anciã
   Script: 'bonus2 bMagicAddRace,RC_Undead,10;
 
     '
@@ -9977,7 +9977,7 @@
   Id: 4474
   Locations:
     Right_Hand: true
-  Name: Zakudam Card
+  Name: Carta Zakudam
   Script: 'bonus2 bMagicAddRace,RC_DemiHuman,10;
 
     bonus2 bMagicAddRace,RC_Player_Human,10;
@@ -9993,7 +9993,7 @@
   Id: 4475
   Locations:
     Right_Hand: true
-  Name: Cobalt Mineral Card
+  Name: Carta Cobalto
   Script: 'bonus2 bMagicAddRace,RC_Formless,10;
 
     '
@@ -10007,7 +10007,7 @@
   Id: 4476
   Locations:
     Right_Hand: true
-  Name: Pinguicula Card
+  Name: Carta Pinguicula
   Script: 'bonus2 bMagicAddRace,RC_Insect,10;
 
     '
@@ -10021,7 +10021,7 @@
   Id: 4477
   Locations:
     Right_Hand: true
-  Name: Hell Apocalypse Card
+  Name: Carta Apocalipse Infernal
   Script: 'bonus2 bMagicAddRace,RC_Demon,10;
 
     '
@@ -10035,7 +10035,7 @@
   Id: 4478
   Locations:
     Shoes: true
-  Name: Light Up Card
+  Name: Carta Falquíria
   Type: Card
   Weight: 10
 - AegisName: Light_Up_Card4
@@ -10046,7 +10046,7 @@
   Id: 4479
   Locations:
     Garment: true
-  Name: Light Up Card
+  Name: Carta Falquíria
   Type: Card
   Weight: 10
 - AegisName: Sealed_Kiel_Card
@@ -10059,7 +10059,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Sealed Kiel Card
+  Name: Carta Kiel Selada
   Script: 'bonus bDelayRate,((getrefine()>14)?-20:-15);
 
     '
@@ -10073,7 +10073,7 @@
   Id: 4481
   Locations:
     Armor: true
-  Name: Sealed Ktullanux Card
+  Name: Carta Ktullanux Selada
   Script: 'bonus2 bAddEle,Ele_Fire,((getrefine()>14)?35:25);
 
     bonus5 bAutoSpellWhenHit,"WZ_FROSTNOVA",10,10,BF_WEAPON|BF_MAGIC,0;
@@ -10089,7 +10089,7 @@
   Id: 4482
   Locations:
     Shoes: true
-  Name: Sealed General Egnigem Cenia Card
+  Name: Carta Egnigem Cenia Selada
   Script: '.@rate = ((getrefine()>14)?7:5);
 
     .@duration = ((getrefine()>14)?10000:5000);
@@ -10113,7 +10113,7 @@
   Id: 4483
   Locations:
     Right_Hand: true
-  Name: Sealed Dracula Card
+  Name: Carta Dracula Selada
   Script: 'bonus2 bSPDrainRate,((getrefine()>14)?70:50),5;
 
     '
@@ -10129,7 +10129,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Sealed Mistress Card
+  Name: Carta Abelha Rainha Selada
   Script: 'bonus bNoGemStone;
 
     bonus bUseSPrate,((getrefine()>14)?35:50);
@@ -10145,7 +10145,7 @@
   Id: 4485
   Locations:
     Armor: true
-  Name: Sealed Gloom Under Night Card
+  Name: Carta Pesar Noturno Selada
   Script: '.@rate = ((getrefine()>14)?30:20);
 
     bonus2 bAddEle,Ele_Holy,.@rate;
@@ -10167,7 +10167,7 @@
   Id: 4486
   Locations:
     Both_Accessory: true
-  Name: Sealed Berzebub Card
+  Name: Carta Belzebu Selada
   Script: 'bonus bVariableCastrate,-15;
 
     '
@@ -10201,7 +10201,7 @@
   Id: 4488
   Locations:
     Shoes: true
-  Name: Sealed Dark Lord Card
+  Name: Carta Senhor das Trevas Selada
   Script: 'bonus3 bAutoSpellWhenHit,"WZ_METEOR",5,50;
 
     '
@@ -10245,7 +10245,7 @@
   Id: 4491
   Locations:
     Right_Hand: true
-  Name: Sealed Sniper Card
+  Name: Carta Atiradora de Elite Cecil Selada
   Script: 'bonus bNoRegen,1;
 
     bonus2 bHPDrainRate,50,((getrefine()>14)?15:10);
@@ -10297,7 +10297,7 @@
   Id: 4494
   Locations:
     Right_Hand: true
-  Name: Sealed Turtle General Card
+  Name: Carta General Tartaruga Selada
   Script: '.@rate = ((getrefine()>14)?15:10);
 
     bonus2 bAddClass,Class_All,.@rate;
@@ -10315,7 +10315,7 @@
   Id: 4495
   Locations:
     Shoes: true
-  Name: Sealed Amon Ra Card
+  Name: Carta Amon Ra Selada
   Script: 'bonus bAllStats,1;
 
     bonus3 bAutoSpellWhenHit,"PR_KYRIE",((getrefine()>14)?8:5),(15+35*(readparam(bInt)>=99));
@@ -10349,7 +10349,7 @@
   Id: 4497
   Locations:
     Right_Hand: true
-  Name: Sealed Stormy Knight Card
+  Name: Carta Cavaleiro da Tempestade Selada
   Script: 'bonus3 bAutoSpell,"WZ_STORMGUST",1,10;
 
     bonus2 bAddEff,Eff_Freeze,((getrefine()>14)?1500:1000);
@@ -10365,7 +10365,7 @@
   Id: 4498
   Locations:
     Shoes: true
-  Name: Sealed Lady Tanee Card
+  Name: Carta Lady Tanee Selada
   Script: '.@r = getrefine();
 
     bonus bMaxHPrate,((.@r>14)?-50:-60);
@@ -10387,7 +10387,7 @@
   Id: 4499
   Locations:
     Right_Hand: true
-  Name: Sealed Samurai Spector Card
+  Name: Carta Samurai Encarnado Selada
   Script: "bonus bIgnoreDefClass,Class_Normal;\nbonus bNoRegen,1;\nif (getrefine()>14)\n\
     \   bonus2 bHPLossRate,777,8000;\nelse\n   bonus2 bHPLossRate,888,5000;\n"
   Type: Card
@@ -10403,7 +10403,7 @@
   Id: 4500
   Locations:
     Armor: true
-  Name: Sealed Orc Lord Card
+  Name: Carta Senhor dos Orcs Selada
   Script: 'bonus bShortWeaponDamageReturn,((getrefine()>14)?25:15);
 
     '
@@ -10417,7 +10417,7 @@
   Id: 4501
   Locations:
     Armor: true
-  Name: Sealed High Priest Card
+  Name: Carta Sumo-Sacerdotisa Margareta Selada
   Script: 'bonus5 bAutoSpellWhenHit,"HP_ASSUMPTIO",1,((getrefine()>14)?35:25),BF_WEAPON|BF_MAGIC,0;
 
     '
@@ -10431,7 +10431,7 @@
   Id: 4502
   Locations:
     Right_Hand: true
-  Name: Sealed MasterSmith Card
+  Name: Carta Mestre-ferreiro Howard Selada
   Script: '.@r = getrefine();
 
     bonus bBreakWeaponRate,(.@r>14?800:500);
@@ -10451,7 +10451,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Sealed Vesper Card
+  Name: Carta Vesper Selada
   Script: 'bonus bDex,2;
 
     bonus2 bIgnoreMdefClassRate,Class_Boss,((getrefine()>14)?25:15);
@@ -10467,7 +10467,7 @@
   Id: 4504
   Locations:
     Shoes: true
-  Name: Sealed Eddga Card
+  Name: Carta Eddga Selada
   Script: 'bonus bMaxHPrate,((getrefine()>14)?-35:-50);
 
     bonus bNoWalkDelay;
@@ -10483,7 +10483,7 @@
   Id: 4505
   Locations:
     Both_Accessory: true
-  Name: Scaraba Card
+  Name: Carta Scaraba
   Script: 'bonus bMatk,20;
 
     bonus bMaxSPrate,-1;
@@ -10501,7 +10501,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Dolomedes Card
+  Name: Carta Dolomedes
   Script: "bonus bDex,2;\nif (BaseClass == Job_Archer) {\n   bonus bDex,getrefine()/3;\n\
     }\n"
   Type: Card
@@ -10514,7 +10514,7 @@
   Id: 4507
   Locations:
     Right_Hand: true
-  Name: Queen Scaraba Card
+  Name: Carta Rainha Scaraba
   Script: 'bonus2 bAddRace2,RC2_SCARABA,30;
 
     bonus2 bAddMonsterDropItem,12806,50;
@@ -10530,7 +10530,7 @@
   Id: 4508
   Locations:
     Both_Accessory: true
-  Name: Gold Scaraba Card
+  Name: Carta Scaraba Dourado
   Script: 'bonus bBaseAtk,20;
 
     bonus bMaxHPrate,-1;
@@ -10548,7 +10548,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Gold Queen Scaraba Card
+  Name: Carta Rainha Scaraba Dourada
   Script: "bonus bInt,3;\nbonus2 bSubRace,RC_Insect,10;\nif (getrefine()>=9) {\n \
     \  bonus2 bSubRace,RC_Insect,5;\n}\n"
   Type: Card
@@ -10561,7 +10561,7 @@
   Id: 4510
   Locations:
     Right_Hand: true
-  Name: Miming Card
+  Name: Carta Plagiador
   Script: 'bonus3 bAutoSpell,"WM_LULLABY_DEEPSLEEP",1,30;
 
     '
@@ -10575,7 +10575,7 @@
   Id: 4511
   Locations:
     Right_Hand: true
-  Name: Little Fatum Card
+  Name: Carta Pequeno Fatum
   Script: 'bonus3 bAddEff,Eff_Silence,1000,ATF_MAGIC;
 
     '
@@ -10591,7 +10591,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Parus Card
+  Name: Carta Chapim
   Script: "bonus bHealPower,3;\nif (BaseClass == Job_Acolyte) {\n   bonus bHealPower,getrefine()/2;\n\
     }\n"
   Type: Card
@@ -10606,7 +10606,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Angra Mantis Card
+  Name: Carta Louva-a-deus Angra
   Script: "bonus bCritAtkRate,2;\nif (BaseClass == Job_Thief) {\n   bonus bCritAtkRate,getrefine()/2;\n\
     }\n"
   Type: Card
@@ -10619,7 +10619,7 @@
   Id: 4514
   Locations:
     Right_Hand: true
-  Name: Pom Spider Card
+  Name: Carta Aranha Pom
   Script: 'bonus2 bAddRace,RC_Undead,20;
 
     '
@@ -10633,7 +10633,7 @@
   Id: 4515
   Locations:
     Left_Hand: true
-  Name: Alnoldi Card
+  Name: Carta Rafflesia Alnoldi
   Script: 'bonus2 bSubRace,RC_Plant,30;
 
     '
@@ -10647,7 +10647,7 @@
   Id: 4516
   Locations:
     Armor: true
-  Name: Comodo Card
+  Name: Carta Comodo
   Script: 'bonus bDef,50;
 
     bonus bFlee,-25;
@@ -10665,7 +10665,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Cendrawasih Card
+  Name: Carta Cendrawasih
   Script: "bonus bInt,2;\nif (BaseClass == Job_Mage) {\n   bonus bInt,getrefine()/3;\n\
     }\n"
   Type: Card
@@ -10678,7 +10678,7 @@
   Id: 4518
   Locations:
     Right_Hand: true
-  Name: Banaspaty Card
+  Name: Carta Banaspaty
   Script: 'bonus3 bAddEff,Eff_Burning,300,ATF_TARGET;
 
     '
@@ -10692,7 +10692,7 @@
   Id: 4519
   Locations:
     Right_Hand: true
-  Name: Butoijo Card
+  Name: Carta Butoijo
   Script: 'bonus2 bAddRace,RC_Angel,20;
 
     '
@@ -10706,7 +10706,7 @@
   Id: 4520
   Locations:
     Garment: true
-  Name: Leak Card
+  Name: Carta Leak
   Script: 'bonus bStr,3;
 
     bonus3 bAddEffWhenHit,Eff_Confusion,100,ATF_WEAPON|ATF_MAGIC;
@@ -10724,7 +10724,7 @@
   Id: 4521
   Locations:
     Right_Hand: true
-  Name: Sedora Card
+  Name: Carta Sedora
   Script: 'bonus bCritAtkRate,15;
 
     '
@@ -10738,7 +10738,7 @@
   Id: 4522
   Locations:
     Right_Hand: true
-  Name: Sropho Card
+  Name: Carta Sropho
   Script: 'bonus4 bAddEff,Eff_Crystalize,500,ATF_SHORT,3000;
 
     '
@@ -10752,7 +10752,7 @@
   Id: 4523
   Locations:
     Armor: true
-  Name: Pot Dofle Card
+  Name: Carta Dofle
   Script: 'bonus bDefEle,Ele_Water;
 
     bonus2 bSubRace,RC_Fish,10;
@@ -10770,7 +10770,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: King Dramoh Card
+  Name: Carta Dramoh Rei
   Script: "bonus bStr,2;\nif (BaseClass == Job_Swordman)\n   bonus bStr,getrefine()/3;\n"
   Type: Card
   Weight: 10
@@ -10782,7 +10782,7 @@
   Id: 4525
   Locations:
     Garment: true
-  Name: Kraken Card
+  Name: Carta Kraken
   Script: 'bonus bFlee,10;
 
     skill "TF_HIDING",1;
@@ -10805,7 +10805,7 @@
   Id: 4526
   Locations:
     Armor: true
-  Name: Weird Coelacanth Card
+  Name: Carta Celacanto Cruel
   Script: 'bonus bMaxSPrate,5;
 
     bonus bMdef,50;
@@ -10821,7 +10821,7 @@
   Id: 4527
   Locations:
     Armor: true
-  Name: Dark Coelacanth Card
+  Name: Carta Celacanto Sombrio
   Script: 'bonus bMaxHPrate,10;
 
     bonus bDef,100;
@@ -10839,7 +10839,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Mutant Coelacanth Card
+  Name: Carta Celacanto Mutante
   Script: '.@r = getrefine();
 
     bonus bMatkRate,2+(.@r/2);
@@ -10859,7 +10859,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Violent Coelacanth Card
+  Name: Carta Celacanto Violento
   Script: '.@r = getrefine();
 
     bonus2 bAddClass,Class_All,2+(.@r/2);
@@ -10879,7 +10879,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Siorava Card
+  Name: Carta Siorava
   Script: "bonus bLuk,2;\nif (BaseClass == Job_Merchant)\n   bonus bLuk,getrefine()/3;\n"
   Type: Card
   Weight: 10
@@ -10891,7 +10891,7 @@
   Id: 4531
   Locations:
     Right_Hand: true
-  Name: Red Eruma Card
+  Name: Carta Eruma Vermelho
   Script: 'bonus3 bAddEff,Eff_Curse,100,ATF_MAGIC;
 
     '
@@ -10905,7 +10905,7 @@
   Id: 4532
   Locations:
     Shoes: true
-  Name: Wild Rider Card
+  Name: Carta Montaria Selvagem
   Script: 'bonus bAgi,1;
 
     bonus3 bAutoSpell,"AL_INCAGI",1,50;
@@ -10921,7 +10921,7 @@
   Id: 4533
   Locations:
     Right_Hand: true
-  Name: Octopus Card
+  Name: Carta Pequeno Polvo
   Script: 'bonus3 bAddEff,Eff_Blind,100,ATF_MAGIC;
 
     '
@@ -10935,7 +10935,7 @@
   Id: 4534
   Locations:
     Armor: true
-  Name: Giant Octopus Card
+  Name: Carta Polvo Gigante
   Script: 'bonus bMaxHPrate,12;
 
     skill "WZ_WATERBALL",5;
@@ -11022,7 +11022,7 @@
   Id: 4539
   Locations:
     Shoes: true
-  Name: Sealed Fallen Bishop Hibram Card
+  Name: Carta Bispo Decadente Selada
   Script: '.@r = getrefine();
 
     bonus bMatkRate,((.@r>14)?8:5);
@@ -11304,7 +11304,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Fenrir Card
+  Name: Carta Fenrir
   Script: 'bonus bMatk,50+getrefine()*5;
 
     bonus bFixedCastrate,-70;
@@ -11322,7 +11322,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Weakened Fenrir Card
+  Name: Carta Fenris
   Script: 'bonus bMatk,25;
 
     '
@@ -11354,7 +11354,7 @@
   Id: 4559
   Locations:
     Shoes: true
-  Name: Evil Morocc Card
+  Name: Carta do Rei Morroc
   Script: 'bonus bAspd,1;
 
     bonus bMaxSPrate,-10;
@@ -11679,7 +11679,7 @@
   Id: 4580
   Locations:
     Garment: true
-  Name: Dark Guardian Kades Card
+  Name: Carta Guardião Morto Kades
   Script: 'bonus2 bSubEle,Ele_Water,50;
 
     bonus2 bSubEle,Ele_Earth,50;
@@ -12034,7 +12034,7 @@
   Id: 4601
   Locations:
     Armor: true
-  Name: Amdarais Card
+  Name: Carta Amdarais
   Script: 'bonus2 bAddClass,Class_All,15;
 
     bonus bMatkRate,15;
@@ -12057,7 +12057,7 @@
   Id: 4602
   Locations:
     Armor: true
-  Name: Realized Amdarais Card
+  Name: Carta Amdarais Sombrio
   Script: 'bonus2 bAddClass,Class_All,20;
 
     bonus bMatkRate,20;
@@ -12080,7 +12080,7 @@
   Id: 4603
   Locations:
     Right_Hand: true
-  Name: Corruption Root Card
+  Name: Carta Origem da Maldição
   Script: 'bonus bBaseAtk,20;
 
     bonus5 bAutoSpell,"NPC_WIDESTONE",1,50,BF_SHORT,0;
@@ -12100,7 +12100,7 @@
   Id: 4604
   Locations:
     Right_Hand: true
-  Name: Realized Corruption Root Card
+  Name: Carta Origem da Escuridão
   Script: 'bonus bBaseAtk,30;
 
     bonus5 bAutoSpell,"NPC_WIDESTONE",2,50,BF_SHORT,0;
@@ -12120,7 +12120,7 @@
   Id: 4605
   Locations:
     Armor: true
-  Name: Agony Of Royal Knight Card
+  Name: Carta Cavaleiro Desmorto
   Script: 'bonus bMaxHPrate,-44;
 
     bonus bHPGainValue,200+10*getrefine();
@@ -12136,7 +12136,7 @@
   Id: 4606
   Locations:
     Garment: true
-  Name: Grudge of Royal Knight Card
+  Name: Carta Cavaleira Desmorta
   Script: 'bonus bMaxSPrate,-44;
 
     bonus bSPGainValue,20+(getrefine()/2);
@@ -12170,7 +12170,7 @@
   Id: 4608
   Locations:
     Right_Hand: true
-  Name: White Knight Card
+  Name: Carta Cavaleiro Branco
   Script: 'bonus bBaseAtk,15;
 
     bonus2 bAddSize,Size_Medium,20;
@@ -12188,7 +12188,7 @@
   Id: 4609
   Locations:
     Left_Hand: true
-  Name: Khalitzburg Knight Card
+  Name: Carta Cavaleira Khalitzburg
   Script: 'bonus bDef,20;
 
     bonus2 bSubSize,Size_Medium,25;
@@ -12206,7 +12206,7 @@
   Id: 4610
   Locations:
     Armor: true
-  Name: Sarah Card
+  Name: Carta Sara
   Script: 'bonus bAbsorbDmgMaxHP,100;
 
     '
@@ -12220,7 +12220,7 @@
   Id: 4625
   Locations:
     Right_Hand: true
-  Name: Time Holder Card
+  Name: Carta Vigia do Tempo
   Script: 'bonus bMatkRate,20;
 
     bonus bUseSPrate,10;
@@ -12236,7 +12236,7 @@
   Id: 4626
   Locations:
     Right_Hand: true
-  Name: Big Ben Card
+  Name: Carta Marca-Tempo
   Script: 'bonus2 bMagicAddRace,RC_Formless,5;
 
     bonus2 bMagicAddRace,RC_Demon,5;
@@ -12252,7 +12252,7 @@
   Id: 4627
   Locations:
     Right_Hand: true
-  Name: Big Bell Card
+  Name: Carta Despertador
   Script: 'bonus2 bAddRace,RC_Formless,10;
 
     bonus2 bAddRace,RC_Demon,10;
@@ -12268,7 +12268,7 @@
   Id: 4628
   Locations:
     Left_Hand: true
-  Name: Neo Punk Card
+  Name: Carta Neo Punk
   Script: 'bonus2 bSubRace,RC_Formless,20;
 
     bonus2 bSubRace,RC_Demon,20;
@@ -12284,7 +12284,7 @@
   Id: 4629
   Locations:
     Garment: true
-  Name: Arc Elder Card
+  Name: Carta Ancião Ancestral
   Script: 'bonus2 bSubEle,Ele_Neutral,15;
 
     bonus2 bMagicAtkEle,Ele_Earth,getrefine()*3;
@@ -12300,7 +12300,7 @@
   Id: 4630
   Locations:
     Shoes: true
-  Name: Nightmare Timer Keeper Card
+  Name: Carta Diretor
   Script: 'bonus3 bAutoSpell,"NPC_WIDECURSE",2,30;
 
     '
@@ -12314,7 +12314,7 @@
   Id: 4631
   Locations:
     Both_Accessory: true
-  Name: Owl Viscount Card
+  Name: Carta Visconde Coruja
   Script: 'bonus bAspdRate,3;
 
     '
@@ -12328,7 +12328,7 @@
   Id: 4632
   Locations:
     Both_Accessory: true
-  Name: Owl Marquees Card
+  Name: Carta Marquês Coruja
   Script: 'bonus5 bAutoSpell,"SA_VIOLENTGALE",(getskilllv("SA_VIOLENTGALE") == 5?5:1),20,BF_WEAPON,0;
 
     '
@@ -12342,7 +12342,7 @@
   Id: 4633
   Locations:
     Right_Hand: true
-  Name: Enhanced Archer Skeleton Card
+  Name: Carta Arqueiro Imortal
   Script: 'bonus bLongAtkRate,(BaseLevel>=100?12:10);
 
     '
@@ -12356,7 +12356,7 @@
   Id: 4634
   Locations:
     Right_Hand: true
-  Name: Enhanced Soldier Skeleton Card
+  Name: Carta Soldado Imortal
   Script: "if (BaseLevel<100) {\n   bonus bCritical,9;\n}\nelse {\n   bonus bCritical,10;\n\
     \   bonus bCritAtkRate,5;\n}\n"
   Type: Card
@@ -12369,7 +12369,7 @@
   Id: 4635
   Locations:
     Armor: true
-  Name: Enhanced Amdarais Card
+  Name: Carta Amdarais Imortal
   Script: ".@r = getrefine();\nbonus bDef,(.@r*10);\nbonus bFlee,(.@r*-2);\nif (BaseLevel>=100)\n\
     \   bonus bMaxHP,500;\n"
   Type: Card
@@ -12382,7 +12382,7 @@
   Id: 4636
   Locations:
     Left_Hand: true
-  Name: Bijou Card
+  Name: Carta Bijou
   Script: 'bonus2 bResEff,Eff_Freeze,10000;
 
     bonus2 bAddClass,Class_All,10;
@@ -12400,7 +12400,7 @@
   Id: 4637
   Locations:
     Garment: true
-  Name: Immortal Corps Card
+  Name: Carta Legião Imortal
   Script: 'bonus bHPGainValue,50;
 
     bonus bSPGainValue,5;
@@ -12423,7 +12423,7 @@
   Id: 4638
   Locations:
     Armor: true
-  Name: Watcher Card
+  Name: Carta Observador
   Script: 'bonus bBaseAtk,30;
 
     bonus bSPDrainValue,-5;
@@ -12439,7 +12439,7 @@
   Id: 4639
   Locations:
     Both_Accessory: true
-  Name: Taffy Card
+  Name: Carta Tappy
   Script: 'bonus2 bAddClass,Class_All,1;
 
     '
@@ -12453,7 +12453,7 @@
   Id: 4640
   Locations:
     Both_Accessory: true
-  Name: Frozen Wolf Card
+  Name: Carta Lobo de Gelo
   Script: 'bonus bMatkRate,1;
 
     '
@@ -12467,7 +12467,7 @@
   Id: 4641
   Locations:
     Left_Hand: true
-  Name: Zombie Guard Card
+  Name: Carta Zumbi da Guarda
   Script: 'bonus bNoRegen,2;
 
     bonus bSPDrainValue,1;
@@ -12627,7 +12627,7 @@
   Id: 4652
   Locations:
     Armor: true
-  Name: Nightmare Amon Ra Card
+  Name: Carta Amon Ra do Pesadelo
   Script: 'bonus2 bMagicAddRace,RC_Demon,50;
 
     bonus2 bMagicAddRace,RC_Undead,50;
@@ -12647,7 +12647,7 @@
   Id: 4653
   Locations:
     Left_Hand: true
-  Name: Nightmare Arclouse Card
+  Name: Carta Arclouse do Pesadelo
   Script: 'bonus2 bSubRace,RC_Brute,20;
 
     bonus2 bSubRace,RC_Player_Doram,20;
@@ -12665,7 +12665,7 @@
   Id: 4654
   Locations:
     Right_Hand: true
-  Name: Nightmare Mimic Card
+  Name: Carta Mímico do Pesadelo
   Script: 'bonus2 bMagicAddRace,RC_Brute,5;
 
     bonus2 bMagicAddRace,RC_Player_Doram,5;
@@ -12683,7 +12683,7 @@
   Id: 4655
   Locations:
     Right_Hand: true
-  Name: Nightmare Minorous Card
+  Name: Carta Minorous do Pesadelo
   Script: 'bonus2 bAddRace,RC_Brute,10;
 
     bonus2 bAddRace,RC_Player_Doram,10;
@@ -12701,7 +12701,7 @@
   Id: 4656
   Locations:
     Shoes: true
-  Name: Nightmare Mummy Card
+  Name: Carta Múmia do Pesadelo
   Script: '/* Unofficial chance */
 
     bonus3 bAutoSpellWhenHit,"NPC_WIDESLEEP",2,30;
@@ -12717,7 +12717,7 @@
   Id: 4657
   Locations:
     Garment: true
-  Name: Nightmare Ancient Mummy Card
+  Name: Carta Múmia Anciã do Pesadelo
   Script: 'bonus2 bSubEle,Ele_Neutral,15;
 
     bonus2 bMagicAtkEle,Ele_Fire,getrefine()*3;
@@ -12733,7 +12733,7 @@
   Id: 4658
   Locations:
     Shoes: true
-  Name: Nightmare Verit Card
+  Name: Carta Verit do Pesadelo
   Script: "bonus2 bMagicAddClass,Class_All,5;\nif (getrefine()>6) {\n   bonus2 bMagicAddClass,Class_All,3;\n\
     }\nif (getrefine()>8) {\n   bonus2 bMagicAddClass,Class_All,2;\n}\n"
   Type: Card
@@ -12745,7 +12745,7 @@
   Id: 4659
   Locations:
     Armor: true
-  Name: Eggring Card
+  Name: Carta Omeleting
   Script: 'bonus bLuk,2;
 
     bonus bMaxHP,50;
@@ -12760,7 +12760,7 @@
   Id: 4660
   Locations:
     Left_Hand: true
-  Name: Scout Basilisk Card
+  Name: Carta Basilisco Guarda
   Script: 'bonus2 bSubSize,Size_Small,5;
 
     bonus2 bSubSize,Size_Medium,5;
@@ -12779,7 +12779,7 @@
   Id: 4661
   Locations:
     Left_Hand: true
-  Name: Charge Basilisk Card
+  Name: Carta Basilisco Guerreiro
   Script: 'bonus2 bSubSize,Size_Medium,20;
 
     bonus2 bSubSize,Size_Large,20;
@@ -12802,7 +12802,7 @@
   Id: 4662
   Locations:
     Garment: true
-  Name: Big Eggring Card
+  Name: Carta Gemaring
   Script: 'bonus bBaseAtk,25-5*min(readParam(bStr)/10,5);
 
     bonus bMatk,25-5*min(readParam(bInt)/10,5);
@@ -12825,7 +12825,7 @@
   Id: 4663
   Locations:
     Shoes: true
-  Name: Leaf Lunatic Card
+  Name: Carta Lunático Folhado
   Script: 'bonus bMaxSP,5;
 
     '
@@ -12838,7 +12838,7 @@
   Id: 4664
   Locations:
     Armor: true
-  Name: Grass Fabre Card
+  Name: Carta Fabre Gramíneo
   Script: 'bonus bLuk,1;
 
     bonus bMaxHP,100;
@@ -12853,7 +12853,7 @@
   Id: 4665
   Locations:
     Right_Hand: true
-  Name: Wild Hornet Card
+  Name: Carta Zangão Selvagem
   Script: 'bonus bBaseAtk,5;
 
     '
@@ -12866,7 +12866,7 @@
   Id: 4666
   Locations:
     Armor: true
-  Name: Sweet Roda Frog Card
+  Name: Carta Sapo de Rodda Doce
   Script: 'bonus bMaxSP,10;
 
     bonus bMaxHP,300;
@@ -12881,7 +12881,7 @@
   Id: 4667
   Locations:
     Shoes: true
-  Name: Hunter Wolf Card
+  Name: Carta Filhote de Lobo Caçador
   Script: 'bonus bMaxSP,30;
 
     '
@@ -12896,7 +12896,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Trance Spore Card
+  Name: Carta Esporo de Água Doce
   Script: 'bonus bVit,1;
 
     bonus bInt,1;
@@ -12911,7 +12911,7 @@
   Id: 4669
   Locations:
     Right_Hand: true
-  Name: Jungle Mandragora Card
+  Name: Carta Mandrágora da Selva
   Script: '.@r = getrefine();
 
     bonus2 bAddEle,Ele_Wind,((.@r>=9)?7:((.@r>=7)?5:3));
@@ -12926,7 +12926,7 @@
   Id: 4670
   Locations:
     Right_Hand: true
-  Name: Fruit Pom Spider Card
+  Name: Carta Aranha Pomar
   Script: '.@r = getrefine();
 
     bonus2 bAddEle,Ele_Fire,((.@r>=9)?7:((.@r>=7)?5:3));
@@ -12942,7 +12942,7 @@
   Id: 4671
   Locations:
     Garment: true
-  Name: Sorcerer Celia Card
+  Name: Carta Feiticeira Celia
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Sage) {\n   bonus bMaxHPrate,10;\n\
     \   bonus bMatkRate,10;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\nif (getrefine()>9)\n\
     \   bonus bAllStats,10;\n"
@@ -12956,7 +12956,7 @@
   Id: 4672
   Locations:
     Garment: true
-  Name: Sura Chen Card
+  Name: Carta Shura Chen
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Monk) {\n   bonus bMaxHPrate,10;\n\
     \   bonus2 bAddRace,RC_All,10;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\n\
     if (getrefine()>9)\n   bonus bAllStats,10;\n"
@@ -12970,7 +12970,7 @@
   Id: 4673
   Locations:
     Garment: true
-  Name: Minstel Alphoccio Card
+  Name: Carta Trovador Alphoccio
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Bard) {\n   bonus bMaxHPrate,15;\n\
     \   bonus bMaxSPrate,10;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\nif (getrefine()>9)\n\
     \   bonus bAllStats,10;\n"
@@ -12984,7 +12984,7 @@
   Id: 4674
   Locations:
     Garment: true
-  Name: Guillotine Cross Eremes Card
+  Name: Carta Sicário Eremes
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Assassin) {\n   bonus bFlee2,10;\n\
     \   bonus2 bAddRace,RC_All,15;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\n\
     if (getrefine()>9)\n   bonus bAllStats,10;\n"
@@ -12998,7 +12998,7 @@
   Id: 4675
   Locations:
     Garment: true
-  Name: Arch Bishop Magaleta Card
+  Name: Carta Arcebispa Margaretha
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Priest) {\n   bonus bMaxHPrate,10;\n\
     \   bonus bHealPower,15;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\nif (getrefine()>9)\n\
     \   bonus bAllStats,10;\n"
@@ -13012,7 +13012,7 @@
   Id: 4676
   Locations:
     Garment: true
-  Name: Ranger Cecil Card
+  Name: Carta Sentinela Cecil
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Hunter) {\n   bonus bCritical,20;\n\
     \   bonus bLongAtkRate,15;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\nif\
     \ (getrefine()>9)\n   bonus bAllStats,10;\n"
@@ -13026,7 +13026,7 @@
   Id: 4677
   Locations:
     Garment: true
-  Name: Mechanic Howard Card
+  Name: Carta Mecânico Howard
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Blacksmith) {\n   bonus bHit,20;\n\
     \   bonus2 bAddRace,RC_All,15;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\n\
     if (getrefine()>9)\n   bonus bAllStats,10;\n"
@@ -13040,7 +13040,7 @@
   Id: 4678
   Locations:
     Garment: true
-  Name: Warlock Kathryne Card
+  Name: Carta Arcana Kathryne
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Wizard) {\n   bonus bMdef,80;\n\
     \   bonus bMatkRate,15;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\nif (getrefine()>9)\n\
     \   bonus bAllStats,10;\n"
@@ -13054,7 +13054,7 @@
   Id: 4679
   Locations:
     Garment: true
-  Name: Rune Knight Seyren Card
+  Name: Carta Cavaleiro Rúnico Seyren
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Knight) {\n   bonus bAspd,2;\n\
     \   bonus2 bAddRace,RC_All,15;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\n\
     if (getrefine()>9)\n   bonus bAllStats,10;\n"
@@ -13068,7 +13068,7 @@
   Id: 4680
   Locations:
     Garment: true
-  Name: Royal Guard Randel Card
+  Name: Carta Guardião Real Randel
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Crusader) {\n   bonus bDef,350;\n\
     \   bonus2 bAddRace,RC_All,10;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\n\
     if (getrefine()>9)\n   bonus bAllStats,10;\n"
@@ -13082,7 +13082,7 @@
   Id: 4681
   Locations:
     Garment: true
-  Name: Genetic Flamel Card
+  Name: Carta Bioquímico Flamel
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Alchemist) {\n   bonus bFlee,20;\n\
     \   bonus2 bAddRace,RC_All,15;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\n\
     if (getrefine()>9)\n   bonus bAllStats,10;\n"
@@ -13096,7 +13096,7 @@
   Id: 4682
   Locations:
     Garment: true
-  Name: Shadow Chaser Gertie Card
+  Name: Carta Renegada Gertie
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Rogue) {\n   bonus bMatkRate,15;\n\
     \   bonus2 bAddRace,RC_All,5;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\n\
     if (getrefine()>9)\n   bonus bAllStats,10;\n"
@@ -13110,7 +13110,7 @@
   Id: 4683
   Locations:
     Garment: true
-  Name: Wanderer Trentini Card
+  Name: Carta Musa Trentini
   Script: "if (eaclass()&EAJL_THIRD && BaseJob == Job_Dancer) {\n   bonus bMaxHPrate,10;\n\
     \   bonus bMaxSPrate,15;\n}\nif (BaseLevel>174)\n   bonus bAllStats,10;\nif (getrefine()>9)\n\
     \   bonus bAllStats,10;\n"
@@ -13124,7 +13124,7 @@
   Id: 4684
   Locations:
     Right_Hand: true
-  Name: True Eremes Guile Card
+  Name: Carta Alma de Eremes
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"GC_CROSSIMPACT\",20+.@b;\n"
   Type: Card
@@ -13137,7 +13137,7 @@
   Id: 4685
   Locations:
     Right_Hand: true
-  Name: True Margaretha Sorin Card
+  Name: Carta Alma de Margaretha
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"AB_ADORAMUS\",20+.@b;\n"
   Type: Card
@@ -13150,7 +13150,7 @@
   Id: 4686
   Locations:
     Right_Hand: true
-  Name: True Kathryne Keyron Card
+  Name: Carta Alma de Kathryne
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"WL_CRIMSONROCK\",20+.@b;\n"
   Type: Card
@@ -13163,7 +13163,7 @@
   Id: 4687
   Locations:
     Right_Hand: true
-  Name: True Cecil Damon Card
+  Name: Carta Alma de Cecil
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"RA_CLUSTERBOMB\",20+.@b;\n"
   Type: Card
@@ -13176,7 +13176,7 @@
   Id: 4688
   Locations:
     Right_Hand: true
-  Name: True Howard Alt-Eisen Card
+  Name: Carta Alma de Howard
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"NC_AXETORNADO\",20+.@b;\n"
   Type: Card
@@ -13189,7 +13189,7 @@
   Id: 4689
   Locations:
     Right_Hand: true
-  Name: True Seyren Windsor Card
+  Name: Carta Alma de Seyren
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"RK_IGNITIONBREAK\",20+.@b;\n"
   Type: Card
@@ -13202,7 +13202,7 @@
   Id: 4690
   Locations:
     Right_Hand: true
-  Name: True Randel Lawrence Card
+  Name: Carta Alma de Randel
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"LG_EARTHDRIVE\",20+.@b;\n"
   Type: Card
@@ -13215,7 +13215,7 @@
   Id: 4691
   Locations:
     Right_Hand: true
-  Name: True Flamel Emure Card
+  Name: Carta Alma de Flamel
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"GN_CART_TORNADO\",20+.@b;\n"
   Type: Card
@@ -13228,7 +13228,7 @@
   Id: 4692
   Locations:
     Right_Hand: true
-  Name: True Celia Alde Card
+  Name: Carta Alma de Celia
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"SO_VARETYR_SPEAR\",20+.@b;\n"
   Type: Card
@@ -13241,7 +13241,7 @@
   Id: 4693
   Locations:
     Right_Hand: true
-  Name: True Chen Liu Card
+  Name: Carta Alma de Chen
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"SR_RAMPAGEBLASTER\",20+.@b;\n"
   Type: Card
@@ -13254,7 +13254,7 @@
   Id: 4694
   Locations:
     Right_Hand: true
-  Name: True Gertie Card
+  Name: Carta Alma de Gertie
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"SC_FEINTBOMB\",20+.@b;\n"
   Type: Card
@@ -13267,7 +13267,7 @@
   Id: 4695
   Locations:
     Right_Hand: true
-  Name: True Trentini Card
+  Name: Carta Alma de Trentini
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"WM_SEVERE_RAINSTORM\",20+.@b;\n"
   Type: Card
@@ -13280,7 +13280,7 @@
   Id: 4696
   Locations:
     Right_Hand: true
-  Name: True Alphoccio Card
+  Name: Carta Alma de Alphoccio
   Script: "if (getrefine() > 9)\n   .@b += 20;\nif (getequipweaponlv() == 4)\n   .@b\
     \ += 20;\nbonus2 bSkillAtk,\"WM_REVERBERATION\",20+.@b;\n"
   Type: Card
@@ -13292,7 +13292,7 @@
   Id: 4697
   Locations:
     Right_Hand: true
-  Name: Charleston3 Card
+  Name: Carta Charleston 03
   Script: 'bonus bBreakArmorRate,5000;
 
     bonus bMaxSP,-300;
@@ -13307,7 +13307,7 @@
   Id: 4698
   Locations:
     Right_Hand: true
-  Name: Step Card
+  Name: Carta Roboring
   Script: 'bonus2 bSkillAtk,"NC_AXEBOOMERANG",30+((getrefine() >= 10)*30);
 
     '
@@ -13320,7 +13320,7 @@
   Id: 4699
   Locations:
     Right_Hand: true
-  Name: Rock Step Card
+  Name: Carta Mecha v2.0
   Script: 'bonus2 bSkillAtk,"NC_ARMSCANNON",20+((getrefine()>=10)*20);
 
     '
@@ -13946,133 +13946,133 @@
 - AegisName: Str1_J
   Buy: 20
   Id: 4768
-  Name: STR+1
+  Name: Str + 1
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Str2_J
   Buy: 20
   Id: 4769
-  Name: STR+2
+  Name: Str + 2
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Str3_J
   Buy: 20
   Id: 4770
-  Name: STR+3
+  Name: Str + 3
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Int1_J
   Buy: 20
   Id: 4771
-  Name: INT+1
+  Name: Int + 1
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Int2_J
   Buy: 20
   Id: 4772
-  Name: INT+2
+  Name: Int + 2
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Int3_J
   Buy: 20
   Id: 4773
-  Name: INT+3
+  Name: Int + 3
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Vit1_J
   Buy: 20
   Id: 4774
-  Name: VIT+1
+  Name: Vit + 1
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Vit2_J
   Buy: 20
   Id: 4775
-  Name: VIT+2
+  Name: Vit + 2
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Vit3_J
   Buy: 20
   Id: 4776
-  Name: VIT+3
+  Name: Vit + 3
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Agi1_J
   Buy: 20
   Id: 4777
-  Name: AGI+1
+  Name: Agi + 1
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Agi2_J
   Buy: 20
   Id: 4778
-  Name: AGI+2
+  Name: Agi + 2
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Agi3_J
   Buy: 20
   Id: 4779
-  Name: AGI+3
+  Name: Agi + 3
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Dex1_J
   Buy: 20
   Id: 4780
-  Name: DEX+1
+  Name: Dex + 1
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Dex2_J
   Buy: 20
   Id: 4781
-  Name: DEX+2
+  Name: Dex + 2
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Dex3_J
   Buy: 20
   Id: 4782
-  Name: DEX+3
+  Name: Dex + 3
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Luk1_J
   Buy: 20
   Id: 4783
-  Name: LUK+1
+  Name: Luk + 1
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Luk2_J
   Buy: 20
   Id: 4784
-  Name: LUK+2
+  Name: Luk + 2
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Luk3_J
   Buy: 20
   Id: 4785
-  Name: LUK+3
+  Name: Luk + 3
   SubType: Enchant
   Type: Card
   Weight: 10
 - AegisName: Mdef2
   Buy: 20
   Id: 4786
-  Name: MDEF+2
+  Name: DEFM +2
   Script: 'bonus bMdef,2;
 
     '
@@ -14081,7 +14081,7 @@
 - AegisName: Mdef4
   Buy: 20
   Id: 4787
-  Name: MDEF+4
+  Name: DEFM +4
   Script: 'bonus bMdef,4;
 
     '
@@ -14090,7 +14090,7 @@
 - AegisName: Mdef6
   Buy: 20
   Id: 4788
-  Name: MDEF+6
+  Name: DEFM +6
   Script: 'bonus bMdef,6;
 
     '
@@ -14099,7 +14099,7 @@
 - AegisName: Mdef8
   Buy: 20
   Id: 4789
-  Name: MDEF+8
+  Name: DEFM +8
   Script: 'bonus bMdef,8;
 
     '
@@ -14108,7 +14108,7 @@
 - AegisName: Mdef10
   Buy: 20
   Id: 4790
-  Name: MDEF+10
+  Name: DEFM + 10
   Script: 'bonus bMdef,10;
 
     '
@@ -14117,7 +14117,7 @@
 - AegisName: Def3
   Buy: 20
   Id: 4791
-  Name: DEF+3
+  Name: DEF +3
   Script: 'bonus bDef,3;
 
     '
@@ -14126,7 +14126,7 @@
 - AegisName: Def6
   Buy: 20
   Id: 4792
-  Name: DEF+6
+  Name: DEF +6
   Script: 'bonus bDef,6;
 
     '
@@ -14135,7 +14135,7 @@
 - AegisName: Def9
   Buy: 20
   Id: 4793
-  Name: DEF+9
+  Name: DEF +9
   Script: 'bonus bDef,9;
 
     '
@@ -14144,7 +14144,7 @@
 - AegisName: Def12
   Buy: 20
   Id: 4794
-  Name: DEF+12
+  Name: DEF + 12
   Script: 'bonus bDef,12;
 
     '
@@ -14153,7 +14153,7 @@
 - AegisName: HP100
   Buy: 20
   Id: 4795
-  Name: HP+100
+  Name: HP + 100
   Script: 'bonus bMaxHP,100;
 
     '
@@ -14162,7 +14162,7 @@
 - AegisName: HP200
   Buy: 20
   Id: 4796
-  Name: HP+200
+  Name: HP + 200
   Script: 'bonus bMaxHP,200;
 
     '
@@ -14171,7 +14171,7 @@
 - AegisName: HP300
   Buy: 20
   Id: 4797
-  Name: HP+300
+  Name: HP + 300
   Script: 'bonus bMaxHP,300;
 
     '
@@ -14180,7 +14180,7 @@
 - AegisName: HP400
   Buy: 20
   Id: 4798
-  Name: HP+400
+  Name: HP + 400
   Script: 'bonus bMaxHP,400;
 
     '
@@ -14189,7 +14189,7 @@
 - AegisName: HP500
   Buy: 20
   Id: 4799
-  Name: HP+500
+  Name: HP + 500
   Script: 'bonus bMaxHP,500;
 
     '
@@ -14198,7 +14198,7 @@
 - AegisName: SP50
   Buy: 20
   Id: 4800
-  Name: SP+50
+  Name: SP +50
   Script: 'bonus bMaxSP,50;
 
     '
@@ -14207,7 +14207,7 @@
 - AegisName: SP100
   Buy: 20
   Id: 4801
-  Name: SP+100
+  Name: SP +100
   Script: 'bonus bMaxSP,100;
 
     '
@@ -14216,7 +14216,7 @@
 - AegisName: SP150
   Buy: 20
   Id: 4802
-  Name: SP+150
+  Name: SP + 150
   Script: 'bonus bMaxSP,150;
 
     '
@@ -14225,7 +14225,7 @@
 - AegisName: Highness_Heal_3sec
   Buy: 20
   Id: 4803
-  Name: Cure1Lv.
+  Name: Cura 1
   Script: 'bonus2 bSkillCooldown,"AB_HIGHNESSHEAL",-3000;
 
     '
@@ -14234,7 +14234,7 @@
 - AegisName: Coluceo_Heal30
   Buy: 20
   Id: 4804
-  Name: Catholic1Lv.
+  Name: Catolicismo 1
   Script: 'bonus2 bSkillUseSP,"AB_CHEAL",30;
 
     '
@@ -14243,7 +14243,7 @@
 - AegisName: Heal_Amount2
   Buy: 20
   Id: 4805
-  Name: Archbishop1Lv
+  Name: Arcebispo 1
   Script: 'bonus bHealPower,3;
 
     '
@@ -14252,7 +14252,7 @@
 - AegisName: Matk3
   Buy: 20
   Id: 4806
-  Name: MATK+3%
+  Name: ATQM +3%
   Script: 'bonus bMatkRate,3;
 
     bonus bFixedCastrate,-1;
@@ -14263,7 +14263,7 @@
 - AegisName: Atk_Speed1
   Buy: 20
   Id: 4807
-  Name: Atk Speed1
+  Name: Vel. Ataque 1
   Script: 'bonus bAspd,1;
 
     '
@@ -14272,7 +14272,7 @@
 - AegisName: Fighting_Spirit4
   Buy: 20
   Id: 4808
-  Name: Fighting Spirit4
+  Name: Espírito do Lutador 4
   Script: 'bonus bBaseAtk,15;
 
     bonus bHit,5;
@@ -14283,7 +14283,7 @@
 - AegisName: Fighting_Spirit3
   Buy: 20
   Id: 4809
-  Name: Fighting Spirit3
+  Name: Espírito do Lutador 3
   Script: 'bonus bBaseAtk,12;
 
     bonus bHit,4;
@@ -14294,7 +14294,7 @@
 - AegisName: Fighting_Spirit2
   Buy: 20
   Id: 4810
-  Name: Fighting Spirit2
+  Name: Espírito do Lutador 2
   Script: 'bonus bBaseAtk,9;
 
     bonus bHit,3;
@@ -14305,7 +14305,7 @@
 - AegisName: Fighting_Spirit1
   Buy: 20
   Id: 4811
-  Name: Fighting Spirit1
+  Name: Espírito do Lutador 1
   Script: 'bonus bBaseAtk,6;
 
     bonus bHit,2;
@@ -14316,7 +14316,7 @@
 - AegisName: Spell4
   Buy: 20
   Id: 4812
-  Name: Spell4
+  Name: Pedra de Encantamento 4
   Script: 'bonus bMatk,15;
 
     bonus bVariableCastrate,-10;
@@ -14327,7 +14327,7 @@
 - AegisName: Spell3
   Buy: 20
   Id: 4813
-  Name: Spell3
+  Name: Pedra de Encantamento 3
   Script: 'bonus bMatk,12;
 
     bonus bVariableCastrate,-8;
@@ -14338,7 +14338,7 @@
 - AegisName: Spell2
   Buy: 20
   Id: 4814
-  Name: Spell2
+  Name: Pedra de Encantamento 2
   Script: 'bonus bMatk,9;
 
     bonus bVariableCastrate,-6;
@@ -14349,7 +14349,7 @@
 - AegisName: Spell1
   Buy: 20
   Id: 4815
-  Name: Spell1
+  Name: Pedra de Encantamento 1
   Script: 'bonus bMatk,6;
 
     bonus bVariableCastrate,-4;
@@ -14360,7 +14360,7 @@
 - AegisName: Sharp3
   Buy: 20
   Id: 4816
-  Name: Sharp3
+  Name: Pedra de Crítico 3
   Script: 'bonus bCritical,12;
 
     bonus bHit,4;
@@ -14371,7 +14371,7 @@
 - AegisName: Sharp2
   Buy: 20
   Id: 4817
-  Name: Sharp2
+  Name: Pedra de Crítico 2
   Script: 'bonus bCritical,9;
 
     bonus bHit,3;
@@ -14382,7 +14382,7 @@
 - AegisName: Sharp1
   Buy: 20
   Id: 4818
-  Name: Sharp1
+  Name: Pedra de Crítico 1
   Script: 'bonus bCritical,6;
 
     bonus bHit,2;
@@ -14393,7 +14393,7 @@
 - AegisName: Atk1
   Buy: 20
   Id: 4819
-  Name: Atk1
+  Name: ATQ +1%
   Script: 'bonus2 bAddClass,Class_All,1;
 
     '
@@ -14402,7 +14402,7 @@
 - AegisName: Fighting_Spirit5
   Buy: 20
   Id: 4820
-  Name: Fighting Spirit5
+  Name: Espírito do Lutador 5
   Script: 'bonus bBaseAtk,18;
 
     bonus bHit,5;
@@ -14413,7 +14413,7 @@
 - AegisName: Fighting_Spirit6
   Buy: 20
   Id: 4821
-  Name: Fighting Spirit6
+  Name: Espírito do Lutador 6
   Script: 'bonus bBaseAtk,21;
 
     bonus bHit,5;
@@ -14424,7 +14424,7 @@
 - AegisName: Fighting_Spirit7
   Buy: 20
   Id: 4822
-  Name: Fighting Spirit7
+  Name: Espírito do Lutador 7
   Script: 'bonus bBaseAtk,24;
 
     bonus bHit,5;
@@ -14435,7 +14435,7 @@
 - AegisName: Fighting_Spirit8
   Buy: 20
   Id: 4823
-  Name: Fighting Spirit8
+  Name: Espírito do Lutador 8
   Script: 'bonus bBaseAtk,27;
 
     bonus bHit,5;
@@ -14446,7 +14446,7 @@
 - AegisName: Fighting_Spirit9
   Buy: 20
   Id: 4824
-  Name: Fighting Spirit9
+  Name: Espírito do Lutador 9
   Script: 'bonus bBaseAtk,30;
 
     bonus bHit,5;
@@ -14457,7 +14457,7 @@
 - AegisName: Fighting_Spirit10
   Buy: 20
   Id: 4825
-  Name: Fighting Spirit10
+  Name: Espírito do Lutador 10
   Script: 'bonus bBaseAtk,50;
 
     bonus bHit,15;
@@ -14468,7 +14468,7 @@
 - AegisName: Spell5
   Buy: 20
   Id: 4826
-  Name: Spell5
+  Name: Pedra de Encantamento 5
   Script: 'bonus bMatk,18;
 
     bonus bVariableCastrate,-10;
@@ -14479,7 +14479,7 @@
 - AegisName: Spell6
   Buy: 20
   Id: 4827
-  Name: Spell6
+  Name: Pedra de Encantamento 6
   Script: 'bonus bMatk,21;
 
     bonus bVariableCastrate,-10;
@@ -14490,7 +14490,7 @@
 - AegisName: Spell7
   Buy: 20
   Id: 4828
-  Name: Spell7
+  Name: Pedra de Encantamento 7
   Script: 'bonus bMatk,24;
 
     bonus bVariableCastrate,-10;
@@ -14501,7 +14501,7 @@
 - AegisName: Spell8
   Buy: 20
   Id: 4829
-  Name: Spell8
+  Name: Pedra de Encantamento 8
   Script: 'bonus bMatk,27;
 
     bonus bVariableCastrate,-10;
@@ -14512,7 +14512,7 @@
 - AegisName: Spell9
   Buy: 20
   Id: 4830
-  Name: Spell9
+  Name: Pedra de Encantamento 9
   Script: 'bonus bMatk,30;
 
     bonus bVariableCastrate,-10;
@@ -14523,7 +14523,7 @@
 - AegisName: Spell10
   Buy: 20
   Id: 4831
-  Name: Spell10
+  Name: Pedra de Encantamento 10
   Script: 'bonus bMatk,50;
 
     bonus bVariableCastrate,-20;
@@ -14534,7 +14534,7 @@
 - AegisName: Expert_Archer1
   Buy: 20
   Id: 4832
-  Name: Expert Archer1
+  Name: Pedra da Mira Apurada 1
   Script: 'bonus bLongAtkRate,2;
 
     '
@@ -14543,7 +14543,7 @@
 - AegisName: Expert_Archer2
   Buy: 20
   Id: 4833
-  Name: Expert Archer2
+  Name: Pedra da Mira Apurada 2
   Script: 'bonus bLongAtkRate,4;
 
     '
@@ -14552,7 +14552,7 @@
 - AegisName: Expert_Archer3
   Buy: 20
   Id: 4834
-  Name: Expert Archer3
+  Name: Pedra da Mira Apurada 3
   Script: 'bonus bLongAtkRate,6;
 
     '
@@ -14561,7 +14561,7 @@
 - AegisName: Expert_Archer4
   Buy: 20
   Id: 4835
-  Name: Expert Archer4
+  Name: Pedra da Mira Apurada 4
   Script: 'bonus bLongAtkRate,8;
 
     '
@@ -14570,7 +14570,7 @@
 - AegisName: Expert_Archer5
   Buy: 20
   Id: 4836
-  Name: Expert Archer5
+  Name: Pedra da Mira Apurada 5
   Script: 'bonus bLongAtkRate,10;
 
     '
@@ -14579,7 +14579,7 @@
 - AegisName: Expert_Archer6
   Buy: 20
   Id: 4837
-  Name: Expert Archer6
+  Name: Pedra da Mira Apurada 6
   Script: 'bonus bLongAtkRate,12;
 
     '
@@ -14588,7 +14588,7 @@
 - AegisName: Expert_Archer7
   Buy: 20
   Id: 4838
-  Name: Expert Archer7
+  Name: Pedra da Mira Apurada 7
   Script: 'bonus bLongAtkRate,14;
 
     '
@@ -14597,7 +14597,7 @@
 - AegisName: Expert_Archer8
   Buy: 20
   Id: 4839
-  Name: Expert Archer8
+  Name: Pedra da Mira Apurada 8
   Script: 'bonus bLongAtkRate,16;
 
     '
@@ -14606,7 +14606,7 @@
 - AegisName: Expert_Archer9
   Buy: 20
   Id: 4840
-  Name: Expert Archer9
+  Name: Pedra da Mira Apurada 9
   Script: 'bonus bLongAtkRate,18;
 
     '
@@ -14615,7 +14615,7 @@
 - AegisName: Expert_Archer10
   Buy: 20
   Id: 4841
-  Name: Expert Archer10
+  Name: Pedra da Mira Apurada 10
   Script: 'bonus bLongAtkRate,20;
 
     bonus bAspd,1;
@@ -14626,7 +14626,7 @@
 - AegisName: Atk_Speed2
   Buy: 20
   Id: 4842
-  Name: Atk Speed2
+  Name: Vel. Ataque 2
   Script: 'bonus bAspd,2;
 
     '
@@ -14635,7 +14635,7 @@
 - AegisName: Sharp4
   Buy: 20
   Id: 4843
-  Name: Sharp4
+  Name: Pedra de Crítico 4
   Script: 'bonus bCritical,14;
 
     bonus bHit,5;
@@ -14646,7 +14646,7 @@
 - AegisName: Sharp5
   Buy: 20
   Id: 4844
-  Name: Sharp5
+  Name: Pedra de Crítico 5
   Script: 'bonus bCritical,15;
 
     bonus bHit,6;
@@ -14662,7 +14662,7 @@
 - AegisName: 2011Valentin_Angel
   Buy: 20
   Id: 4846
-  Name: Fully Loved Stone
+  Name: Pedra do Amor Completo
   Script: 'bonus bBaseAtk,10;
 
     bonus bMatk,10;
@@ -14674,7 +14674,7 @@
 - AegisName: 2011Valentin_Devil
   Buy: 20
   Id: 4847
-  Name: Spelled Stone
+  Name: Pedra Enfeitiçada
   Script: 'bonus bBaseAtk,10;
 
     bonus bMatk,10;
@@ -14686,7 +14686,7 @@
 - AegisName: Immuned1
   Buy: 20
   Id: 4848
-  Name: Immune Level 1
+  Name: Redução Neutra1
   Script: 'bonus2 bSubEle,Ele_Neutral,5;
 
     '
@@ -14695,7 +14695,7 @@
 - AegisName: Cranial1
   Buy: 20
   Id: 4849
-  Name: Cranial Level 1
+  Name: Redução Humanoide 1
   Script: 'bonus2 bSubRace,RC_DemiHuman,5;
 
     bonus2 bSubRace,RC_Player_Human,5;
@@ -14706,7 +14706,7 @@
 - AegisName: Heal_Amount3
   Buy: 20
   Id: 4850
-  Name: Archbishop2Lv
+  Name: Arcebispo 2
   Script: 'bonus bHealPower,6;
 
     bonus bUseSPrate,5;
@@ -14717,7 +14717,7 @@
 - AegisName: Heal_Amount4
   Buy: 20
   Id: 4851
-  Name: Archbishop3Lv
+  Name: Arcebispo 3
   Script: 'bonus bHealPower,12;
 
     bonus bUseSPrate,10;
@@ -14728,7 +14728,7 @@
 - AegisName: Heal_Amount5
   Buy: 20
   Id: 4852
-  Name: Archbishop4Lv
+  Name: Arcebispo 4
   Script: 'bonus bHealPower,20;
 
     bonus bUseSPrate,15;
@@ -14739,7 +14739,7 @@
 - AegisName: S_Str
   Buy: 20
   Id: 4853
-  Name: Special Str
+  Name: Super Força
   Script: ".@r = getrefine();\nbonus bStr,1;\nif (.@r>=8) {\n   bonus bStr,3;\n  \
     \ if (.@r>=9) {\n      bonus2 bAddClass,Class_All,1;\n      if (.@r>=12) {\n \
     \        bonus bFixedCastrate,-7;\n         bonus bAspd,1;\n      }\n   }\n}\n"
@@ -14748,7 +14748,7 @@
 - AegisName: S_Agi
   Buy: 20
   Id: 4854
-  Name: Special Agi
+  Name: Super Agilidade
   Script: ".@r = getrefine();\nbonus bAgi,1;\nif (.@r>=8) {\n   bonus bAgi,3;\n  \
     \ if (.@r>=9) {\n      bonus2 bAddClass,Class_All,1;\n      if (.@r>=12) {\n \
     \        bonus bFixedCastrate,-7;\n         bonus bAspd,1;\n      }\n   }\n}\n"
@@ -14757,7 +14757,7 @@
 - AegisName: S_Vital
   Buy: 20
   Id: 4855
-  Name: Special Vit
+  Name: Super Vitalidade
   Script: ".@r = getrefine();\nbonus bVit,1;\nif (.@r>=8) {\n   bonus bVit,3;\n  \
     \ if (.@r>=9) {\n      bonus bMaxSP,1;\n      if (.@r>=12) {\n         bonus bFixedCastrate,-7;\n\
     \         bonus bAspd,1;\n      }\n   }\n}\n"
@@ -14766,7 +14766,7 @@
 - AegisName: S_Int
   Buy: 20
   Id: 4856
-  Name: Special Int
+  Name: Super Inteligência
   Script: ".@r = getrefine();\nbonus bInt,1;\nif (.@r>=8) {\n   bonus bInt,3;\n  \
     \ if (.@r>=9) {\n      bonus bMatkRate,1;\n      if (.@r>=12) {\n         bonus\
     \ bFixedCastrate,-7;\n         bonus bAspd,1;\n      }\n   }\n}\n"
@@ -14775,7 +14775,7 @@
 - AegisName: S_Dex
   Buy: 20
   Id: 4857
-  Name: Special Dex
+  Name: Super Destreza
   Script: ".@r = getrefine();\nbonus bDex,1;\nif (.@r>=8) {\n   bonus bDex,3;\n  \
     \ if (.@r>=9) {\n      bonus bMatkRate,1;\n      if (.@r>=12) {\n         bonus\
     \ bFixedCastrate,-7;\n         bonus bAspd,1;\n      }\n   }\n}\n"
@@ -14784,7 +14784,7 @@
 - AegisName: S_Luck
   Buy: 20
   Id: 4858
-  Name: Special Luk
+  Name: Super Sorte
   Script: ".@r = getrefine();\nbonus bLuk,1;\nif (.@r>=8) {\n   bonus bLuk,3;\n  \
     \ if (.@r>=9) {\n      bonus bMaxHPrate,1;\n      if (.@r>=12) {\n         bonus\
     \ bFixedCastrate,-7;\n         bonus bAspd,1;\n      }\n   }\n}\n"
@@ -14793,7 +14793,7 @@
 - AegisName: Evasion1
   Buy: 20
   Id: 4859
-  Name: Evasion1
+  Name: Esquiva +1
   Script: 'bonus bFlee,1;
 
     '
@@ -14802,7 +14802,7 @@
 - AegisName: Evasion3
   Buy: 20
   Id: 4860
-  Name: Evasion3
+  Name: Esquiva +3
   Script: 'bonus bFlee,3;
 
     '
@@ -14811,7 +14811,7 @@
 - AegisName: MHP1
   Buy: 20
   Id: 4861
-  Name: MHP+1%
+  Name: HP +1%
   Script: 'bonus bMaxHPrate,1;
 
     '
@@ -14820,7 +14820,7 @@
 - AegisName: MHP2
   Buy: 20
   Id: 4862
-  Name: MHP+2%
+  Name: HP +2%
   Script: 'bonus bMaxHPrate,2;
 
     '
@@ -14829,7 +14829,7 @@
 - AegisName: Fatal1
   Buy: 10
   Id: 4863
-  Name: Fatal1Lv
+  Name: Fatal 1
   Script: 'bonus bCritAtkRate,4;
 
     bonus bCritical,1;
@@ -14840,7 +14840,7 @@
 - AegisName: Fatal2
   Buy: 10
   Id: 4864
-  Name: Fatal2Lv
+  Name: Fatal 2
   Script: 'bonus bCritAtkRate,6;
 
     bonus bCritical,2;
@@ -14851,7 +14851,7 @@
 - AegisName: Fatal3
   Buy: 10
   Id: 4865
-  Name: Fatal3Lv
+  Name: Fatal 3
   Script: 'bonus bCritAtkRate,8;
 
     bonus bCritical,3;
@@ -14862,7 +14862,7 @@
 - AegisName: Fatal4
   Buy: 10
   Id: 4866
-  Name: Fatal4Lv
+  Name: Fatal 4
   Script: 'bonus bCritAtkRate,10;
 
     bonus bCritical,4;
@@ -14873,7 +14873,7 @@
 - AegisName: MHP3
   Buy: 20
   Id: 4867
-  Name: MHP+3%
+  Name: HP +3%
   Script: 'bonus bMaxHPrate,3;
 
     '
@@ -14882,7 +14882,7 @@
 - AegisName: MHP4
   Buy: 20
   Id: 4868
-  Name: MHP+4%
+  Name: HP +4%
   Script: 'bonus bMaxHPrate,4;
 
     '
@@ -14891,7 +14891,7 @@
 - AegisName: Attack_Delay_1
   Buy: 10
   Id: 4869
-  Name: DelayafterAttack1Lv
+  Name: Anti-Atraso 1
   Script: 'bonus bAspdRate,4;
 
     '
@@ -14900,7 +14900,7 @@
 - AegisName: SP25
   Buy: 20
   Id: 4870
-  Name: SP+25
+  Name: SP +25
   Script: 'bonus bMaxSP,25;
 
     '
@@ -14909,7 +14909,7 @@
 - AegisName: SP75
   Buy: 20
   Id: 4871
-  Name: SP+75
+  Name: SP +75
   Script: 'bonus bMaxSP,75;
 
     '
@@ -14918,7 +14918,7 @@
 - AegisName: Attack_Delay_2
   Buy: 10
   Id: 4872
-  Name: DelayafterAttack2Lv
+  Name: Anti-Atraso 2
   Script: 'bonus bAspdRate,6;
 
     '
@@ -14927,7 +14927,7 @@
 - AegisName: Attack_Delay_3
   Buy: 10
   Id: 4873
-  Name: DelayafterAttack3Lv
+  Name: Anti-Atraso 3
   Script: 'bonus bAspdRate,8;
 
     '
@@ -14953,7 +14953,7 @@
     '
 - AegisName: Runaway_Magic
   Id: 4876
-  Name: Runaway Magic
+  Name: Epifania
   Script: 'autobonus "{ bonus bInt,200; bonus2 bSPLossRate,200,1000; }",15,10000,BF_MAGIC,"{
     specialeffect2 EF_LAMADAN; }";
 
@@ -14965,7 +14965,7 @@
     '
 - AegisName: Speed_Of_Light
   Id: 4877
-  Name: Speed of Light
+  Name: Ânimo
   Script: 'autobonus "{ bonus bAspdRate,100; bonus bFlee,100; bonus2 bSPLossRate,50,1000;
     }",10,5000,BF_WEAPON,"{ specialeffect2 EF_FLASHER; }";
 
@@ -14977,7 +14977,7 @@
     '
 - AegisName: Muscle_Fool
   Id: 4878
-  Name: Muscle Fool
+  Name: Histeria
   Script: 'autobonus2 "{ bonus bDef,1000; bonus2 bSPLossRate,50,1000; }",20,5000,BF_WEAPON,"{
     specialeffect2 EF_MAGNUMBREAK; }";
 
@@ -14989,7 +14989,7 @@
     '
 - AegisName: Hawkeye
   Id: 4879
-  Name: Hawkeye
+  Name: Instinto
   Script: 'autobonus "{ bonus bDex,200; bonus2 bSPLossRate,50,1000; }",30,5000,BF_WEAPON,"{
     specialeffect2 EF_FLASHER; }";
 
@@ -15001,7 +15001,7 @@
     '
 - AegisName: Lucky_Day
   Id: 4880
-  Name: Lucky Day
+  Name: Euforia
   Script: 'autobonus "{ bonus bLuk,200; bonus2 bAddMonsterDropItem,7444,10; }",15,5000,BF_WEAPON|BF_MAGIC,"{
     specialeffect2 EF_MVP; showscript \"LUCKY MAX !!\"; }";
 
@@ -15017,7 +15017,7 @@
 - AegisName: Attack_Delay_4
   Buy: 10
   Id: 4881
-  Name: Attack Delay 4
+  Name: Anti-Atraso 4
   Script: 'bonus bAspdRate,10;
 
     '
@@ -15026,7 +15026,7 @@
 - AegisName: Atk1p
   Buy: 10
   Id: 4882
-  Name: ATK + 1%
+  Name: ATQ +1%
   Script: 'bonus2 bAddClass,Class_All,1;
 
     '
@@ -15035,7 +15035,7 @@
 - AegisName: Matk1p
   Buy: 10
   Id: 4883
-  Name: MATK + 1%
+  Name: ATQM 1
   Script: 'bonus bMatkRate,1;
 
     '
@@ -15053,7 +15053,7 @@
 - AegisName: Conjure1
   Buy: 10
   Id: 4885
-  Name: Spell 1
+  Name: Pedra de Feitiço 1
   Script: 'bonus bMatk,5;
 
     bonus bVariableCastrate,-3;
@@ -15064,7 +15064,7 @@
 - AegisName: Conjure2
   Buy: 10
   Id: 4886
-  Name: Spell 2
+  Name: Pedra de Feitiço 2
   Script: 'bonus bMatk,10;
 
     bonus bVariableCastrate,-3;
@@ -15075,7 +15075,7 @@
 - AegisName: Conjure3
   Buy: 10
   Id: 4887
-  Name: Spell 3
+  Name: Pedra de Feitiço 3
   Script: 'bonus bMatk,15;
 
     bonus bVariableCastrate,-3;
@@ -15086,7 +15086,7 @@
 - AegisName: Conjure4
   Buy: 10
   Id: 4888
-  Name: Spell 4
+  Name: Pedra de Feitiço 4
   Script: 'bonus bMatk,20;
 
     bonus bVariableCastrate,-3;
@@ -15097,7 +15097,7 @@
 - AegisName: Conjure5
   Buy: 10
   Id: 4889
-  Name: Spell 5
+  Name: Pedra de Feitiço 5
   Script: 'bonus bMatk,30;
 
     bonus bVariableCastrate,-5;
@@ -15108,7 +15108,7 @@
 - AegisName: Mdef1
   Buy: 10
   Id: 4890
-  Name: MDEF+1
+  Name: DEFM +1
   Script: 'bonus bMdef,1;
 
     '
@@ -15117,7 +15117,7 @@
 - AegisName: Mdef3
   Buy: 10
   Id: 4891
-  Name: MDEF+3
+  Name: DEFM +3
   Script: 'bonus bMdef,3;
 
     '
@@ -15126,7 +15126,7 @@
 - AegisName: Mdef5
   Buy: 10
   Id: 4892
-  Name: MDEF+5
+  Name: DEFM +5
   Script: 'bonus bMdef,5;
 
     '
@@ -15135,7 +15135,7 @@
 - AegisName: Def15
   Buy: 10
   Id: 4893
-  Name: DEF+15
+  Name: DEF +15
   Script: 'bonus bDef,15;
 
     '
@@ -15144,7 +15144,7 @@
 - AegisName: Atk4p
   Buy: 10
   Id: 4894
-  Name: ATK + 4%
+  Name: ATQ +4%
   Script: 'bonus2 bAddClass,Class_All,4;
 
     '
@@ -15153,7 +15153,7 @@
 - AegisName: Atk5p
   Buy: 10
   Id: 4895
-  Name: ATK + 5%
+  Name: ATQ +5%
   Script: 'bonus2 bAddClass,Class_All,5;
 
     '
@@ -15162,7 +15162,7 @@
 - AegisName: Matk2p
   Buy: 10
   Id: 4896
-  Name: MATK + 2%
+  Name: ATQM 2
   Script: 'bonus bMatkRate,2;
 
     '
@@ -15171,7 +15171,7 @@
 - AegisName: Matk3p
   Buy: 10
   Id: 4897
-  Name: MATK + 3%
+  Name: ATQM 3
   Script: 'bonus bMatkRate,3;
 
     '
@@ -15180,7 +15180,7 @@
 - AegisName: Matk4p
   Buy: 10
   Id: 4898
-  Name: MATK + 4%
+  Name: ATQM 4
   Script: 'bonus bMatkRate,4;
 
     '
@@ -15189,7 +15189,7 @@
 - AegisName: Matk5p
   Buy: 10
   Id: 4899
-  Name: MATK + 5%
+  Name: ATQM 5
   Script: 'bonus bMatkRate,5;
 
     '
@@ -15198,7 +15198,7 @@
 - AegisName: MHP5
   Buy: 10
   Id: 4900
-  Name: MHP+5%
+  Name: HP +5%
   Script: 'bonus bMaxHPrate,5;
 
     '
@@ -15207,7 +15207,7 @@
 - AegisName: Def18
   Buy: 10
   Id: 4902
-  Name: DEF+18
+  Name: DEF +18
   Script: 'bonus bDef,18;
 
     '
@@ -15216,7 +15216,7 @@
 - AegisName: Def21
   Buy: 10
   Id: 4903
-  Name: DEF+21
+  Name: DEF +21
   Script: 'bonus bDef,21;
 
     '
@@ -15225,7 +15225,7 @@
 - AegisName: Atk6p
   Buy: 10
   Id: 4904
-  Name: ATK + 6%
+  Name: ATQ +6%
   Script: 'bonus2 bAddClass,Class_All,6;
 
     '
@@ -15234,7 +15234,7 @@
 - AegisName: Atk7p
   Buy: 10
   Id: 4905
-  Name: ATK + 7%
+  Name: ATQ +7%
   Script: 'bonus2 bAddClass,Class_All,7;
 
     '
@@ -15243,7 +15243,7 @@
 - AegisName: Matk6p
   Buy: 10
   Id: 4906
-  Name: MATK + 6
+  Name: ATQM 6
   Script: 'bonus bMatkRate,6;
 
     '
@@ -15252,7 +15252,7 @@
 - AegisName: Matk7p
   Buy: 10
   Id: 4907
-  Name: MATK + 7%
+  Name: ATQM 7
   Script: 'bonus bMatkRate,7;
 
     '
@@ -15270,7 +15270,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Force1
+  Name: Essência de Morroc FOR1
   Script: 'bonus bStr,1;
 
     bonus bBaseAtk,3;
@@ -15293,7 +15293,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Force2
+  Name: Essência de Morroc FOR2
   Script: 'bonus bStr,2;
 
     bonus bBaseAtk,6;
@@ -15316,7 +15316,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Force3
+  Name: Essência de Morroc FOR3
   Script: 'bonus bStr,4;
 
     bonus bBaseAtk,12;
@@ -15339,7 +15339,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Intelligence1
+  Name: Essência de Morroc INT1
   Script: 'bonus bInt,1;
 
     bonus bMatk,3;
@@ -15362,7 +15362,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Intelligence2
+  Name: Essência de Morroc INT2
   Script: 'bonus bInt,2;
 
     bonus bMatk,6;
@@ -15385,7 +15385,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Intelligence3
+  Name: Essência de Morroc INT3
   Script: 'bonus bInt,4;
 
     bonus bMatk,12;
@@ -15408,7 +15408,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Speed1
+  Name: Essência de Morroc AGI1
   Script: 'bonus bAgi,1;
 
     bonus bFlee,2;
@@ -15431,7 +15431,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Speed2
+  Name: Essência de Morroc AGI2
   Script: 'bonus bAgi,2;
 
     bonus bFlee,4;
@@ -15454,7 +15454,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Speed3
+  Name: Essência de Morroc AGI3
   Script: 'bonus bAgi,4;
 
     bonus bFlee,8;
@@ -15477,7 +15477,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Vitality1
+  Name: Essência de Morroc VIT1
   Script: 'bonus bVit,1;
 
     bonus bDef,3;
@@ -15502,7 +15502,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Vitality2
+  Name: Essência de Morroc VIT2
   Script: 'bonus bVit,2;
 
     bonus bDef,6;
@@ -15527,7 +15527,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Vitality3
+  Name: Essência de Morroc VIT3
   Script: 'bonus bVit,4;
 
     bonus bDef,12;
@@ -15552,7 +15552,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Concentration1
+  Name: Essência de Morroc DES1
   Script: 'bonus bDex,1;
 
     bonus bHit,2;
@@ -15575,7 +15575,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Concentration2
+  Name: Essência de Morroc DES2
   Script: 'bonus bDex,2;
 
     bonus bHit,4;
@@ -15598,7 +15598,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Concentration3
+  Name: Essência de Morroc DES3
   Script: 'bonus bDex,4;
 
     bonus bHit,8;
@@ -15621,7 +15621,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Luck1
+  Name: Essência de Morroc SOR1
   Script: 'bonus bLuk,1;
 
     bonus bCritical,1;
@@ -15644,7 +15644,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Luck2
+  Name: Essência de Morroc SOR2
   Script: 'bonus bLuk,2;
 
     bonus bCritical,2;
@@ -15667,7 +15667,7 @@
     Head_Mid: true
     Head_Top: true
     Shoes: true
-  Name: Darklord Essence Luck3
+  Name: Essência de Morroc SOR3
   Script: 'bonus bLuk,4;
 
     bonus bCritical,4;
@@ -15748,7 +15748,7 @@
 - AegisName: Tolerance_Not1
   Buy: 10
   Id: 4933
-  Name: Neutral Resistance Lv1
+  Name: Neutralidade 1
   Script: 'bonus2 bSubEle,Ele_Neutral,1;
 
     '
@@ -15757,7 +15757,7 @@
 - AegisName: Tolerance_Not2
   Buy: 10
   Id: 4934
-  Name: Neutral Resistance Lv2
+  Name: Neutralidade 2
   Script: 'bonus2 bSubEle,Ele_Neutral,2;
 
     '
@@ -15766,7 +15766,7 @@
 - AegisName: Tolerance_Not3
   Buy: 10
   Id: 4935
-  Name: Neutral Resistance Lv3
+  Name: Neutralidade 3
   Script: 'bonus2 bSubEle,Ele_Neutral,3;
 
     '
@@ -16085,7 +16085,7 @@
   Type: Card
 - AegisName: Reactor_P_FIRE
   Id: 4970
-  Name: Fire Property Reactor
+  Name: E-Fogo
   Script: 'bonus bDefEle,Ele_Fire;
 
     '
@@ -16093,7 +16093,7 @@
   Type: Card
 - AegisName: Reactor_P_WATER
   Id: 4971
-  Name: Water Property Reactor
+  Name: E-Água
   Script: 'bonus bDefEle,Ele_Water;
 
     '
@@ -16101,7 +16101,7 @@
   Type: Card
 - AegisName: Reactor_P_GROUND
   Id: 4972
-  Name: Earth Property Reactor
+  Name: E-Terra
   Script: 'bonus bDefEle,Ele_Earth;
 
     '
@@ -16109,7 +16109,7 @@
   Type: Card
 - AegisName: Reactor_P_WIND
   Id: 4973
-  Name: Wind Property Reactor
+  Name: E-Vento
   Script: 'bonus bDefEle,Ele_Wind;
 
     '
@@ -16117,7 +16117,7 @@
   Type: Card
 - AegisName: Reactor_T_FIRE
   Id: 4974
-  Name: Fire Resistance Reactor
+  Name: R-Fogo
   Script: 'bonus2 bSubEle,Ele_Fire,25;
 
     bonus2 bSubEle,Ele_Water,-25;
@@ -16127,7 +16127,7 @@
   Type: Card
 - AegisName: Reactor_T_WATER
   Id: 4975
-  Name: Water Resistance Reactor
+  Name: R-Água
   Script: 'bonus2 bSubEle,Ele_Water,25;
 
     bonus2 bSubEle,Ele_Wind,-25;
@@ -16137,7 +16137,7 @@
   Type: Card
 - AegisName: Reactor_T_GROUND
   Id: 4976
-  Name: Earth Resistance Reactor
+  Name: R-Terra
   Script: 'bonus2 bSubEle,Ele_Earth,25;
 
     bonus2 bSubEle,Ele_Fire,-25;
@@ -16147,7 +16147,7 @@
   Type: Card
 - AegisName: Reactor_T_WIND
   Id: 4977
-  Name: Wind Resistance Reactor
+  Name: R-Vento
   Script: 'bonus2 bSubEle,Ele_Wind,25;
 
     bonus2 bSubEle,Ele_Earth,-25;
@@ -16157,44 +16157,44 @@
   Type: Card
 - AegisName: Reactor_Cure_101
   Id: 4978
-  Name: Recovery Reactor 101
+  Name: C-Corpo
   Script: "if (getrefine()>=7)\n   bonus2 bHPRegenRate,100,5000;\nelse\n   bonus2\
     \ bHPRegenRate,50,5000;\n"
   SubType: Enchant
   Type: Card
 - AegisName: Reactor_Cure_102
   Id: 4979
-  Name: Recovery Reactor 102
+  Name: C-Alma
   Script: "if (getrefine()>=7)\n   bonus2 bSPRegenRate,5,5000;\nelse\n   bonus2 bSPRegenRate,3,5000;\n"
   SubType: Enchant
   Type: Card
 - AegisName: Reactor_Cure_201
   Id: 4980
-  Name: Recovery Reactor 201
+  Name: C-Físico
   Script: "if (getrefine()>=7)\n   bonus bHPrecovRate,100;\nelse\n   bonus bHPrecovRate,50;\n"
   SubType: Enchant
   Type: Card
 - AegisName: Reactor_Cure_202
   Id: 4981
-  Name: Recovery Reactor 202
+  Name: C-Mental
   Script: "if (getrefine()>=7)\n   bonus bSPrecovRate,100;\nelse\n   bonus bSPrecovRate,50;\n"
   SubType: Enchant
   Type: Card
 - AegisName: Reactor_A_STR
   Id: 4982
-  Name: STR Supplement Reactor
+  Name: A-FOR
   Script: "if (getrefine()>=7) {\n   .@bonus = 10;\n}\nbonus bBaseAtk,.@bonus + 5*(readparam(bStr)/10);\n"
   SubType: Enchant
   Type: Card
 - AegisName: Reactor_A_INT
   Id: 4983
-  Name: INT Supplement Reactor
+  Name: A-INT
   Script: "if (getrefine()>=7) {\n   .@bonus = 10;\n}\nbonus bMatk,.@bonus + 5*(readparam(bInt)/10);\n"
   SubType: Enchant
   Type: Card
 - AegisName: Reactor_A_DEF
   Id: 4984
-  Name: DEF SupplementReactor
+  Name: A-DEF
   Script: 'bonus bDef,100;
 
     '
@@ -16202,7 +16202,7 @@
   Type: Card
 - AegisName: Reactor_A_AVOI
   Id: 4985
-  Name: PD Supplement Reactor
+  Name: A-ESQV
   Script: 'bonus bFlee2,3;
 
     '
@@ -16210,7 +16210,7 @@
   Type: Card
 - AegisName: Reactor_A_ATK
   Id: 4986
-  Name: Attack Supplement Reactor
+  Name: A-ATQ
   Script: 'bonus bBaseAtk,20;
 
     '
@@ -16218,7 +16218,7 @@
   Type: Card
 - AegisName: Reactor_A_MATK
   Id: 4987
-  Name: Magic Supplement Reactor
+  Name: A-ATQM
   Script: 'bonus bMatk,20;
 
     '
@@ -16226,7 +16226,7 @@
   Type: Card
 - AegisName: Reactor_A_MHP
   Id: 4988
-  Name: HP Supplement Reactor
+  Name: A-HP
   Script: 'bonus bMaxHPrate,5;
 
     '
@@ -16234,7 +16234,7 @@
   Type: Card
 - AegisName: Reactor_A_MSP
   Id: 4989
-  Name: SP Supplement Reactor
+  Name: A-SP
   Script: 'bonus bMaxSPrate,3;
 
     '
@@ -16242,7 +16242,7 @@
   Type: Card
 - AegisName: Reactor_A_FROZ
   Id: 4990
-  Name: Frozen Supplement Reactor
+  Name: I-Gelo
   Script: 'bonus2 bResEff,Eff_Freeze,10000;
 
     '
@@ -16250,7 +16250,7 @@
   Type: Card
 - AegisName: Reactor_A_ASPD
   Id: 4991
-  Name: ASPD Supplement Reactor
+  Name: A-VdA
   Script: 'bonus bAspd,1;
 
     '
@@ -16275,7 +16275,7 @@
 - AegisName: Neev_STR_1
   Buy: 20
   Id: 4994
-  Name: Rune of Strength Lv 1
+  Name: Runa do Poder 1
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bStr,5;\n}\nif (.@r>9) {\n\
     \   bonus2 bAddRace,RC_All,5;\n}\n"
   SubType: Enchant
@@ -16283,7 +16283,7 @@
 - AegisName: Neev_STR_2
   Buy: 20
   Id: 4995
-  Name: Rune of Strength Lv 2
+  Name: Runa do Poder 2
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bStr,6;\n   if (.@r>=11) {\n\
     \      bonus2 bAddRace,RC_All,7;\n      bonus bStr,1;\n   }\n}\n"
   SubType: Enchant
@@ -16291,7 +16291,7 @@
 - AegisName: Neev_STR_3
   Buy: 20
   Id: 4996
-  Name: Rune of Strength_Lv 3
+  Name: Runa do Poder 3
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bStr,7;\n   if (.@r>=12) {\n\
     \      bonus2 bAddRace,RC_All,8;\n      bonus bStr,1;\n      if (.@r>=13) {\n\
     \         bonus2 bAddRace,RC_All,2;\n         bonus bStr,1;\n      }\n   }\n}\n"
@@ -16300,7 +16300,7 @@
 - AegisName: Neev_AGI_1
   Buy: 20
   Id: 4997
-  Name: Rune of Agility Lv 1
+  Name: Runa da Lábia 1
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bAgi,5;\n   if (.@r>=10) {\n\
     \      bonus bFlee2,5;\n   }\n}\n"
   SubType: Enchant
@@ -16308,7 +16308,7 @@
 - AegisName: Neev_AGI_2
   Buy: 20
   Id: 4998
-  Name: Rune of Agility Lv 2
+  Name: Runa da Lábia 2
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bAgi,6;\n   if (.@r>=11) {\n\
     \      bonus bFlee2,7;\n      bonus bAgi,1;\n   }\n}\n"
   SubType: Enchant
@@ -16316,7 +16316,7 @@
 - AegisName: Neev_AGI_3
   Buy: 20
   Id: 4999
-  Name: Rune of Agility Lv 3
+  Name: Runa da Lábia 3
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bAgi,7;\n}\nif (.@r>=12) {\n\
     \   bonus bAgi,1;\n   bonus bFlee2,5;\n}\nif (.@r>=13) {\n   bonus bAgi,1;\n \
     \  bonus bFlee2,5;\n}\n"
@@ -16536,7 +16536,7 @@
   Weight: 10
 - AegisName: Crystal_Of_Feardoom
   Id: 6027
-  Name: Crystal Of Feardom
+  Name: Cristal Sangrento da Escuridão
   Trade:
     NoAuction: true
     NoCart: true
@@ -16550,7 +16550,7 @@
   Type: Etc
 - AegisName: Seal_Scroll
   Id: 6028
-  Name: Sealed Scroll
+  Name: Pergaminho Selado
   Trade:
     NoAuction: true
     NoCart: true
@@ -16564,7 +16564,7 @@
   Type: Etc
 - AegisName: Morocc_Tracing_Log
   Id: 6029
-  Name: Morocc Tracing Log
+  Name: Registro da Perseguição
   Trade:
     NoAuction: true
     NoCart: true
@@ -16604,7 +16604,7 @@
   Weight: 10
 - AegisName: Weird_Part
   Id: 6034
-  Name: Weird Part
+  Name: Peça Estranha
   Trade:
     NoAuction: true
     NoCart: true
@@ -16618,7 +16618,7 @@
   Type: Etc
 - AegisName: Decaying_Stem
   Id: 6035
-  Name: Decaying Stem
+  Name: Caule Murcho
   Trade:
     NoAuction: true
     NoCart: true
@@ -16646,7 +16646,7 @@
   Weight: 10
 - AegisName: Rough_File
   Id: 6037
-  Name: Messy File
+  Name: Arquivo Estragado
   Trade:
     NoAuction: true
     NoCart: true
@@ -16688,7 +16688,7 @@
   Weight: 10
 - AegisName: Some_Of_Report
   Id: 6040
-  Name: Part of a Report
+  Name: Parte de Relatório
   Trade:
     NoAuction: true
     NoCart: true
@@ -16749,7 +16749,7 @@
   Weight: 10
 - AegisName: Supply_Box
   Id: 6045
-  Name: Supply Box
+  Name: Caixa de Suprimentos
   Trade:
     NoAuction: true
     NoCart: true
@@ -19220,7 +19220,7 @@
   Weight: 10
 - AegisName: F_Clothing_Dye_Coupon
   Id: 6287
-  Name: F Clothing Dye Coupon
+  Name: Omni Clothing Dye
   Type: Etc
 - AegisName: F_Happy_Box
   Buy: 10
@@ -19338,7 +19338,7 @@
   Type: Etc
 - AegisName: Sapa_Feat_Cert
   Id: 6304
-  Name: Proof Of Sapha's Honor
+  Name: Certificado do Explorador
   Trade:
     NoAuction: true
     NoCart: true
@@ -19351,7 +19351,7 @@
   Type: Etc
 - AegisName: Frozen_Skin_Piece
   Id: 6305
-  Name: Frozen Piece Of Skin
+  Name: Pedaço de Pele Congelada
   Trade:
     NoAuction: true
     NoCart: true
@@ -19365,7 +19365,7 @@
   Type: Etc
 - AegisName: Solid_Bloodstain
   Id: 6306
-  Name: Hard Bloodstain
+  Name: Sangue Pisado
   Trade:
     NoAuction: true
     NoCart: true
@@ -19379,7 +19379,7 @@
   Type: Etc
 - AegisName: Suspicious_Magic_Stone
   Id: 6307
-  Name: Cursed Magical Stone
+  Name: Estranha Pedra Mágica
   Trade:
     NoAuction: true
     NoCart: true
@@ -19393,7 +19393,7 @@
   Type: Etc
 - AegisName: Unidentified_Relic
   Id: 6308
-  Name: Unidentified Relic
+  Name: Relíquia Desconhecida
   Trade:
     NoAuction: true
     NoCart: true
@@ -19945,7 +19945,7 @@
 - AegisName: Card_Coin
   Buy: 20
   Id: 6379
-  Name: Card Coin
+  Name: Moeda de Carta
   Type: Etc
   Weight: 10
 - AegisName: Mora_Coin
@@ -19994,7 +19994,7 @@
   Weight: 10
 - AegisName: Ring_Of_Lope
   Id: 6384
-  Name: Lope's Ring
+  Name: Anel de Lope
   Trade:
     NoAuction: true
     NoCart: true
@@ -20008,7 +20008,7 @@
   Type: Etc
 - AegisName: Research_Tool_Bag
   Id: 6385
-  Name: Research Tool Bag
+  Name: Bolsa de Ferramentas de Pesquisa
   Trade:
     NoAuction: true
     NoCart: true
@@ -20216,7 +20216,7 @@
   Type: Etc
 - AegisName: Palm_O
   Id: 6401
-  Name: Palm Oil
+  Name: Óleo de Palmeira
   Trade:
     NoAuction: true
     NoCart: true
@@ -20231,7 +20231,7 @@
   Weight: 500
 - AegisName: Oil_Palm_F
   Id: 6402
-  Name: Palm Oil Fruit
+  Name: Fruto da palmeira
   Trade:
     NoAuction: true
     NoCart: true
@@ -20248,14 +20248,14 @@
   Flags:
     BuyingStore: true
   Id: 6403
-  Name: Comodo Leather
+  Name: Couro de Comodo
   Type: Etc
   Weight: 10
 - AegisName: Caress_H
   Flags:
     BuyingStore: true
   Id: 6404
-  Name: Keris Hilt
+  Name: Punho do Afago
   Type: Etc
   Weight: 100
 - AegisName: Cendrawasih_F
@@ -20263,13 +20263,13 @@
   Flags:
     BuyingStore: true
   Id: 6405
-  Name: Cendrawasih Feather
+  Name: Pena de Cendrawish
   Type: Etc
   Weight: 10
 - AegisName: Cendrawasih_SF
   Buy: 10
   Id: 6406
-  Name: Shining Cendrawasih Feather
+  Name: Pena Reluzente de Cendrawasih
   Type: Etc
   Weight: 100
 - AegisName: Sang_Stone_Fragment
@@ -20328,7 +20328,7 @@
 - AegisName: New_Insurance
   Buy: 2
   Id: 6413
-  Name: New Insurance
+  Name: Seguro Estendido
   Trade:
     NoAuction: true
     NoCart: true
@@ -20348,7 +20348,7 @@
   Weight: 10
 - AegisName: Strange_Embryo
   Id: 6415
-  Name: Strange Embryo
+  Name: Embrião Estranho
   Trade:
     NoAuction: true
     NoCart: true
@@ -20376,7 +20376,7 @@
 - AegisName: Silvervine
   Buy: 20
   Id: 6417
-  Name: Silvervine Fruit
+  Name: Fruta dos Gatos
   Trade:
     NoAuction: true
     NoCart: true
@@ -20390,39 +20390,39 @@
 - AegisName: Agrade_Coin
   Buy: 20
   Id: 6418
-  Name: A Grade Coin
+  Name: Moeda Classe A
   Type: Etc
 - AegisName: Bgrade_Coin
   Buy: 20
   Id: 6419
-  Name: B Grade Coin
+  Name: Moeda Classe B
   Type: Etc
 - AegisName: Cgrade_Coin
   Buy: 20
   Id: 6420
-  Name: C Grade Coin
+  Name: Moeda Classe C
   Type: Etc
 - AegisName: Dgrade_Coin
   Buy: 20
   Id: 6421
-  Name: D Grade Coin
+  Name: Moeda Classe D
   Type: Etc
 - AegisName: Egrade_Coin
   Buy: 20
   Id: 6422
-  Name: E Grade Coin
+  Name: Moeda Classe E
   Type: Etc
 - AegisName: Anger_Seagod
   Buy: 20
   Flags:
     BuyingStore: true
   Id: 6423
-  Name: Sea God's Wrath
+  Name: Ira do Deus do Mar
   Type: Etc
 - AegisName: Halloween_Fragment
   Buy: 20
   Id: 6424
-  Name: Spirit Piece
+  Name: Cristal Espiritual
   Trade:
     NoAuction: true
     NoCart: true
@@ -20436,7 +20436,7 @@
 - AegisName: Halloween_Certificate
   Buy: 20
   Id: 6425
-  Name: Halloween Certificate
+  Name: Certificado Espiritual
   Trade:
     NoAuction: true
     NoCart: true
@@ -20450,7 +20450,7 @@
 - AegisName: Bad_Can
   Buy: 20
   Id: 6426
-  Name: Bad Canned Food
+  Name: Lata Vencida
   Trade:
     NoAuction: true
     NoCart: true
@@ -20464,7 +20464,7 @@
   Weight: 10
 - AegisName: Bad_Can_Sack
   Id: 6427
-  Name: Bad Canned Food Sack
+  Name: Pilha de Latas Vencidas
   Trade:
     NoAuction: true
     NoCart: true
@@ -20478,7 +20478,7 @@
   Type: Etc
 - AegisName: Bravery_Card_A
   Id: 6428
-  Name: Adventure Card A
+  Name: Cartão da Aventura A
   Trade:
     NoAuction: true
     NoCart: true
@@ -20492,7 +20492,7 @@
   Type: Etc
 - AegisName: Bravery_Card_B
   Id: 6429
-  Name: Adventure Card B
+  Name: Cartão da Aventura B
   Trade:
     NoAuction: true
     NoCart: true
@@ -20506,7 +20506,7 @@
   Type: Etc
 - AegisName: Picture_Piece
   Id: 6430
-  Name: Picture Fragment
+  Name: Pedaço de Pintura
   Trade:
     NoAuction: true
     NoCart: true
@@ -20519,7 +20519,7 @@
   Type: Etc
 - AegisName: Bucket
   Id: 6431
-  Name: Pail
+  Name: Balde
   Trade:
     NoAuction: true
     NoCart: true
@@ -20533,7 +20533,7 @@
   Weight: 100
 - AegisName: Full_Bucket
   Id: 6432
-  Name: Full Pail
+  Name: Balde Cheio
   Trade:
     NoAuction: true
     NoCart: true
@@ -20547,7 +20547,7 @@
   Weight: 3000
 - AegisName: Clean_Brush
   Id: 6433
-  Name: Cleaning Brush
+  Name: Apagador
   Trade:
     NoAuction: true
     NoCart: true
@@ -20561,7 +20561,7 @@
   Weight: 300
 - AegisName: Fix_Kit
   Id: 6434
-  Name: Fix Kit
+  Name: Kit de Reparo
   Trade:
     NoAuction: true
     NoCart: true
@@ -20575,7 +20575,7 @@
   Weight: 1000
 - AegisName: Fresh_Fruit
   Id: 6435
-  Name: Fresh Fruit
+  Name: Fruto de Yggdrasil Fresco
   Trade:
     NoAuction: true
     NoCart: true
@@ -20590,7 +20590,7 @@
 - AegisName: Ptotection_Seagod
   Buy: 20
   Id: 6436
-  Name: Sea God's Call
+  Name: Proteção do Deus do Mar
   Trade:
     NoAuction: true
     NoCart: true
@@ -20608,18 +20608,18 @@
   Type: Etc
 - AegisName: Unbreakable_Weap
   Id: 6438
-  Name: Unbreakable Weapon
+  Name: Omni-Oridecon
   Type: Etc
   Weight: 10
 - AegisName: Unbreakable_Def
   Id: 6439
-  Name: Unbreakable Armor
+  Name: Mega-Elunium
   Type: Etc
   Weight: 10
 - AegisName: General_Lubricant
   Buy: 20
   Id: 6440
-  Name: General Lubrication
+  Name: Lubrificante Comum
   Trade:
     NoAuction: true
     NoCart: true
@@ -20633,7 +20633,7 @@
 - AegisName: High_RankLubricant
   Buy: 20
   Id: 6441
-  Name: Advanced Lubrication
+  Name: Lubrificante Sofisticado
   Trade:
     NoAuction: true
     NoCart: true
@@ -20646,7 +20646,7 @@
   Type: Etc
 - AegisName: Octopus_Hunt_Stick
   Id: 6442
-  Name: Octopus Hunting Skewer
+  Name: Arpão de Caçar Polvos
   Trade:
     NoAuction: true
     NoCart: true
@@ -20661,7 +20661,7 @@
 - AegisName: Sillit_Pong_Bottle
   Buy: 20
   Id: 6443
-  Name: Sillit Pong Bottle
+  Name: Óleo Removedor Especial
   Trade:
     NoAuction: true
     NoCart: true
@@ -20694,7 +20694,7 @@
   Weight: 10
 - AegisName: Green_Paper
   Id: 6446
-  Name: Green Paper
+  Name: Papel de Presente Verde
   Trade:
     NoAuction: true
     NoCart: true
@@ -20708,7 +20708,7 @@
   Type: Etc
 - AegisName: Red_Paper
   Id: 6447
-  Name: Red Paper
+  Name: Papel de Presente Vermelho
   Trade:
     NoAuction: true
     NoCart: true
@@ -20722,7 +20722,7 @@
   Type: Etc
 - AegisName: White_Paper
   Id: 6448
-  Name: White Paper
+  Name: Papel de Presente Branco
   Trade:
     NoAuction: true
     NoCart: true
@@ -20736,7 +20736,7 @@
   Type: Etc
 - AegisName: Casual_Diary
   Id: 6449
-  Name: Casual Diary
+  Name: Diário Casual
   Trade:
     NoAuction: true
     NoCart: true
@@ -20750,7 +20750,7 @@
   Type: Etc
 - AegisName: Honest_Diary
   Id: 6450
-  Name: Honest Diary
+  Name: Diário Sincero
   Trade:
     NoAuction: true
     NoCart: true
@@ -20765,7 +20765,7 @@
 - AegisName: Unknown_Fish
   Buy: 20
   Id: 6451
-  Name: Unknown Fish
+  Name: Peixe Desconhecido
   Trade:
     NoAuction: true
     NoCart: true
@@ -20855,7 +20855,7 @@
   Type: Etc
 - AegisName: Hate_Bundle
   Id: 6464
-  Name: Hate Crate
+  Name: Ódio Demais
   Trade:
     NoAuction: true
     NoCart: true
@@ -20868,7 +20868,7 @@
   Type: Etc
 - AegisName: Guard_Coin
   Id: 6465
-  Name: Guard Coin
+  Name: Medalha do Guardião
   Trade:
     NoAuction: true
     NoCart: true
@@ -20902,7 +20902,7 @@
   Flags:
     BuyingStore: true
   Id: 6469
-  Name: Warrior's Will
+  Name: Vontade do Guerreiro
   Type: Etc
   Weight: 10
 - AegisName: Blood_Thirst
@@ -20910,7 +20910,7 @@
   Flags:
     BuyingStore: true
   Id: 6470
-  Name: Blood Thirst
+  Name: Sede de Sangue
   Type: Etc
   Weight: 10
 - AegisName: Goast_Chill
@@ -20918,7 +20918,7 @@
   Flags:
     BuyingStore: true
   Id: 6471
-  Name: Chills Of Death
+  Name: Frio dos Mortos
   Type: Etc
   Weight: 10
 - AegisName: Holy_Mom_Blaze
@@ -20955,7 +20955,7 @@
   Type: Etc
 - AegisName: Event_coin
   Id: 6480
-  Name: Poring Coin
+  Name: Moeda do Rei Poring
   Trade:
     NoAuction: true
     NoCart: true
@@ -20981,7 +20981,7 @@
   Type: Etc
 - AegisName: Enchant_Book
   Id: 6484
-  Name: Enchant Book
+  Name: Livro de Encantamentos
   Trade:
     NoAuction: true
     NoCart: true
@@ -20995,22 +20995,22 @@
   Weight: 10
 - AegisName: BlueCard_2
   Id: 6485
-  Name: Blue 2 Card
+  Name: Carta Azul 2
   Type: Etc
   Weight: 10
 - AegisName: BlueCard_0
   Id: 6486
-  Name: Blue 0 Card
+  Name: Carta Azul 0
   Type: Etc
   Weight: 10
 - AegisName: BlueCard_1
   Id: 6487
-  Name: Blue 1 Card
+  Name: Carta Azul 1
   Type: Etc
   Weight: 10
 - AegisName: Thanks_Invest_Ticket
   Id: 6488
-  Name: Thanks Invest Ticket
+  Name: Bilhete de Agradecimento por Investimento
   Trade:
     NoAuction: true
     NoCart: true
@@ -21023,7 +21023,7 @@
   Weight: 10
 - AegisName: Cats_Invest_Certif
   Id: 6489
-  Name: Cats Invest Certificate
+  Name: Certificado de Investimento dos Gatos
   Trade:
     NoAuction: true
     NoCart: true
@@ -21070,7 +21070,7 @@
   Flags:
     BuyingStore: true
   Id: 6496
-  Name: Tikbalang's Thick Spine
+  Name: Espinha Grossa de Tikbalang
   Type: Etc
   Weight: 10
 - AegisName: Lesser_Agimat
@@ -21078,7 +21078,7 @@
   Flags:
     BuyingStore: true
   Id: 6497
-  Name: Lesser Agimat
+  Name: Amuleto Menor
   Type: Etc
   Weight: 50
 - AegisName: Jejellopy
@@ -21099,7 +21099,7 @@
   Weight: 10
 - AegisName: Sharp_Bamboo
   Id: 6500
-  Name: Sharpened Bamboo
+  Name: Bambu Afiado
   Trade:
     NoAuction: true
     NoCart: true
@@ -21112,7 +21112,7 @@
   Type: Etc
 - AegisName: Salt_Bag
   Id: 6501
-  Name: Salt Bag
+  Name: Sacola de Sal
   Trade:
     NoAuction: true
     NoCart: true
@@ -21125,7 +21125,7 @@
   Type: Etc
 - AegisName: Silver_Cross
   Id: 6502
-  Name: The Cross
+  Name: Cruz de Prata
   Trade:
     NoAuction: true
     NoCart: true
@@ -21138,7 +21138,7 @@
   Type: Etc
 - AegisName: Soul_Protection
   Id: 6503
-  Name: Spiritual Protection
+  Name: Proteção Espiritual
   Trade:
     NoAuction: true
     NoCart: true
@@ -21150,7 +21150,7 @@
   Type: Etc
 - AegisName: Cast_Iron_Caldron
   Id: 6504
-  Name: Cast-Iron Caldron
+  Name: Caldeirão de Ferro Fundido
   Trade:
     NoAuction: true
     NoCart: true
@@ -21163,7 +21163,7 @@
   Type: Etc
 - AegisName: Purified_Bone
   Id: 6505
-  Name: Purified Spirit Bone
+  Name: Osso Purificado de Espírito
   Trade:
     NoAuction: true
     NoCart: true
@@ -21189,7 +21189,7 @@
   Type: Etc
 - AegisName: Evil_Bone
   Id: 6507
-  Name: Evil Spirit Bone
+  Name: Osso Maligno de Espírito
   Trade:
     NoAuction: true
     NoCart: true
@@ -21205,7 +21205,7 @@
   Flags:
     BuyingStore: true
   Id: 6508
-  Name: Silver Bracelet
+  Name: Bracelete de Prata
   Type: Etc
   Weight: 10
 - AegisName: Mysterious_Flower
@@ -21213,7 +21213,7 @@
   Flags:
     BuyingStore: true
   Id: 6509
-  Name: Mysterious Flower
+  Name: Flor Misteriosa
   Type: Etc
   Weight: 10
 - AegisName: Elegant_Flower
@@ -21221,7 +21221,7 @@
   Flags:
     BuyingStore: true
   Id: 6510
-  Name: Elegant Flower
+  Name: Flor Elegante
   Type: Etc
   Weight: 10
 - AegisName: Beautiful_Flower
@@ -21229,7 +21229,7 @@
   Flags:
     BuyingStore: true
   Id: 6511
-  Name: Beautiful Flower
+  Name: Flor Bonita
   Type: Etc
   Weight: 10
 - AegisName: Charm_Fire
@@ -21269,7 +21269,7 @@
   Flags:
     BuyingStore: true
   Id: 6516
-  Name: Bakonawa Doll
+  Name: Boneco de Bakonawa
   Type: Etc
   Weight: 10
 - AegisName: Bangungot_Doll
@@ -21277,7 +21277,7 @@
   Flags:
     BuyingStore: true
   Id: 6517
-  Name: Bangungot Doll
+  Name: Boneco de Bangungot
   Type: Etc
   Weight: 10
 - AegisName: Buwaya_Doll
@@ -21285,7 +21285,7 @@
   Flags:
     BuyingStore: true
   Id: 6518
-  Name: Buwaya Doll
+  Name: Boneco de Buwaya
   Type: Etc
   Weight: 10
 - AegisName: Collected_Samples
@@ -21302,7 +21302,7 @@
   Type: Etc
 - AegisName: Lost_Belongings
   Id: 6520
-  Name: Lost Belongings
+  Name: Pertences Perdidos
   Trade:
     NoAuction: true
     NoCart: true
@@ -21329,7 +21329,7 @@
   Flags:
     BuyingStore: true
   Id: 6523
-  Name: Piece of Bakonawa's Spirit
+  Name: Peça de Espírito de Bakonawa
   Type: Etc
   Weight: 10
 - AegisName: Bangungot_Spirit_Piece
@@ -21337,7 +21337,7 @@
   Flags:
     BuyingStore: true
   Id: 6524
-  Name: Piece of Bangungot's Spirit
+  Name: Peça de Espírito de Bangungot
   Type: Etc
   Weight: 10
 - AegisName: Buwaya_Spirit_Piece
@@ -21345,7 +21345,7 @@
   Flags:
     BuyingStore: true
   Id: 6525
-  Name: Piece of Buwaya's Spirit
+  Name: Peça de Espírito de Buwaya
   Type: Etc
   Weight: 10
 - AegisName: BlueCard_Happy
@@ -21398,12 +21398,12 @@
   Weight: 50
 - AegisName: Red_Cloth
   Id: 6535
-  Name: Red Cloth
+  Name: Pedaço de Tecido Vermelho
   Type: Etc
   Weight: 10
 - AegisName: Star_Decor
   Id: 6536
-  Name: Star Decor
+  Name: Pedaço da Estrela Decorativa
   Trade:
     NoAuction: true
     NoCart: true
@@ -21427,7 +21427,7 @@
   Type: Etc
 - AegisName: Old_Left_Lapine
   Id: 6539
-  Name: Old Left Lapine
+  Name: Antiga Jóia dos Esplêndidos
   Trade:
     NoAuction: true
     NoCart: true
@@ -21440,7 +21440,7 @@
   Type: Etc
 - AegisName: Golden_Leaf
   Id: 6540
-  Name: Golden Leaf
+  Name: Folha Dourada
   Trade:
     NoAuction: true
     NoCart: true
@@ -21453,7 +21453,7 @@
   Type: Etc
 - AegisName: Avant_Research_Data
   Id: 6541
-  Name: Avant Research Data
+  Name: Pesquisa de Avant
   Trade:
     NoAuction: true
     NoCart: true
@@ -21467,7 +21467,7 @@
 - AegisName: Star_Shape_Mushroom
   Buy: 20
   Id: 6542
-  Name: Star Shape Mushroom
+  Name: Cogumelo Estrela
   Trade:
     NoAuction: true
     NoCart: true
@@ -21480,7 +21480,7 @@
   Weight: 100
 - AegisName: Lv110_Achieved_Coin
   Id: 6543
-  Name: Lv110 Achieved Coin
+  Name: Moeda de MVP
   Trade:
     NoAuction: true
     NoCart: true
@@ -21506,7 +21506,7 @@
   Type: Etc
 - AegisName: Firm_Hair
   Id: 6545
-  Name: Firm Hair
+  Name: Cabelo Seco
   Trade:
     NoAuction: true
     NoCart: true
@@ -21519,7 +21519,7 @@
   Type: Etc
 - AegisName: Younger_Bro_Letter
   Id: 6546
-  Name: Younger Bro Letter
+  Name: Carta do Irmão
   Trade:
     NoAuction: true
     NoCart: true
@@ -21532,7 +21532,7 @@
   Type: Etc
 - AegisName: Stained_Research_Book
   Id: 6547
-  Name: Stained Research Book
+  Name: Livro Manchado de Pesquisas
   Trade:
     NoAuction: true
     NoCart: true
@@ -21545,7 +21545,7 @@
   Type: Etc
 - AegisName: Piece_Of_Lapine_Wing
   Id: 6548
-  Name: Piece Of Lapine Wing
+  Name: Pedaço de Asa dos Esplêndidos
   Trade:
     NoAuction: true
     NoCart: true
@@ -21581,7 +21581,7 @@
   Weight: 10
 - AegisName: Mail_Package
   Id: 6552
-  Name: Mail Package
+  Name: Pacote de Correio
   Trade:
     NoAuction: true
     NoCart: true
@@ -21595,7 +21595,7 @@
   Type: Etc
 - AegisName: Leaf_Made_Wood
   Id: 6553
-  Name: Leaf Made Wood
+  Name: Pedaço da Ponte de Folhas
   Trade:
     NoAuction: true
     NoCart: true
@@ -21609,7 +21609,7 @@
   Type: Etc
 - AegisName: Seed_Box
   Id: 6554
-  Name: Seed Box
+  Name: Caixa de Sementes
   Trade:
     NoAuction: true
     NoCart: true
@@ -21623,7 +21623,7 @@
   Type: Etc
 - AegisName: Birthday_Candle
   Id: 6555
-  Name: Birthday Candle
+  Name: Vela de Aniversário
   Trade:
     NoAuction: true
     NoCart: true
@@ -21654,7 +21654,7 @@
   Flags:
     BuyingStore: true
   Id: 6557
-  Name: Fancy Fairy Wing
+  Name: Bela Asa de Fada
   Type: Etc
   Weight: 10
 - AegisName: Pile_Of_Acorn
@@ -21662,7 +21662,7 @@
   Flags:
     BuyingStore: true
   Id: 6558
-  Name: Pile Of Acorn
+  Name: Pilha de Avelãs
   Type: Etc
   Weight: 10
 - AegisName: Eye_Drops
@@ -21670,7 +21670,7 @@
   Flags:
     BuyingStore: true
   Id: 6559
-  Name: Eye Drops
+  Name: Colírio
   Type: Etc
   Weight: 10
 - AegisName: Leaf_Bookmark
@@ -21678,7 +21678,7 @@
   Flags:
     BuyingStore: true
   Id: 6560
-  Name: Leaf Bookmark
+  Name: Trevo Marca Páginas
   Type: Etc
   Weight: 10
 - AegisName: Dustball
@@ -21686,12 +21686,12 @@
   Flags:
     BuyingStore: true
   Id: 6561
-  Name: Dustball
+  Name: Bola de Poeira
   Type: Etc
   Weight: 10
 - AegisName: Tiny_Mouse_Tail
   Id: 6562
-  Name: Tiny Mouse Tail
+  Name: Cauda de Camundongo
   Trade:
     NoAuction: true
     NoCart: true
@@ -21705,7 +21705,7 @@
   Type: Etc
 - AegisName: Weeds
   Id: 6563
-  Name: Weeds
+  Name: Ervas
   Trade:
     NoAuction: true
     NoCart: true
@@ -21719,7 +21719,7 @@
   Type: Etc
 - AegisName: Captive_Hatchling
   Id: 6564
-  Name: Captive Hatchling
+  Name: Filhote Aprisionado
   Type: Etc
   Weight: 10
 - AegisName: Racy_Spice
@@ -21766,7 +21766,7 @@
   Type: Etc
 - AegisName: Guarantee_Weapon_12Up
   Id: 6584
-  Name: +12 Weapon Certificate
+  Name: Pergaminho de Arma +12
   Trade:
     NoAuction: true
     NoCart: true
@@ -21779,7 +21779,7 @@
   Type: Etc
 - AegisName: Guarantee_Armor_12Up
   Id: 6585
-  Name: +12 Armor Certificate
+  Name: Pergaminho de Armadura +12
   Trade:
     NoAuction: true
     NoCart: true
@@ -21794,7 +21794,7 @@
   Flags:
     BuyingStore: true
   Id: 6592
-  Name: Small Wooden Chest
+  Name: Caixote
   Type: Etc
   Weight: 10
 - AegisName: Cryptura_Hair_Coupon
@@ -21814,70 +21814,70 @@
   Flags:
     BuyingStore: true
   Id: 6594
-  Name: Magic Bronze Bullion
+  Name: Barra de Bronze Mágica
   Type: Etc
   Weight: 1000
 - AegisName: Hammer_Of_Velund
   Flags:
     BuyingStore: true
   Id: 6595
-  Name: Hammer Of Velund
+  Name: Martelo de Velund
   Type: Etc
   Weight: 500
 - AegisName: Anvil_Of_Velund
   Flags:
     BuyingStore: true
   Id: 6596
-  Name: Anvil Of Velund
+  Name: Bigorna de Velund
   Type: Etc
   Weight: 2000
 - AegisName: Bracelet_Of_Velund
   Flags:
     BuyingStore: true
   Id: 6597
-  Name: Bracelet Of Velund
+  Name: Bracelete de Velund
   Type: Etc
   Weight: 500
 - AegisName: Rib_Of_Jormungand
   Flags:
     BuyingStore: true
   Id: 6598
-  Name: Rib Of Jormungand
+  Name: Costela de Jormungand
   Type: Etc
   Weight: 10000
 - AegisName: Spirit_Of_Hugin
   Flags:
     BuyingStore: true
   Id: 6599
-  Name: Spirit Of Hugin
+  Name: Espírito de Hugin
   Type: Etc
   Weight: 100
 - AegisName: Spirit_Of_Munin
   Flags:
     BuyingStore: true
   Id: 6600
-  Name: Spirit Of Munin
+  Name: Espírito de Munin
   Type: Etc
   Weight: 100
 - AegisName: Chisel_Of_Giant
   Flags:
     BuyingStore: true
   Id: 6601
-  Name: Chisel Of Giant
+  Name: Cinzel do Gigante
   Type: Etc
   Weight: 1000
 - AegisName: Secret_Of_Rune
   Flags:
     BuyingStore: true
   Id: 6602
-  Name: Secret Of Rune
+  Name: Segredo Rúnico
   Type: Etc
   Weight: 100
 - AegisName: Skin_Of_Hraesvelg
   Flags:
     BuyingStore: true
   Id: 6603
-  Name: Skin Of Hraesvelg
+  Name: Couro de Hraesvelg
   Type: Etc
   Weight: 500
 - AegisName: Essence_Rune_Magic
@@ -21894,7 +21894,7 @@
   Type: Etc
 - AegisName: P_Cart_C
   Id: 6606
-  Name: Cute Cart Remodel Coupon
+  Name: Cupom de Decoração de Carrinho
   Type: Etc
   Weight: 10
 - AegisName: Temporal_Crystal
@@ -21902,7 +21902,7 @@
   Flags:
     BuyingStore: true
   Id: 6607
-  Name: Temporal Crystal
+  Name: Cristal do Tempo
   Type: Etc
   Weight: 10
 - AegisName: Coagulated_Spell
@@ -21910,7 +21910,7 @@
   Flags:
     BuyingStore: true
   Id: 6608
-  Name: Coagulated Spell
+  Name: Mana Coagulada
   Type: Etc
   Weight: 10
 - AegisName: Glast_Decayed_Nail
@@ -21918,7 +21918,7 @@
   Flags:
     BuyingStore: true
   Id: 6609
-  Name: Glast Decayed Nail
+  Name: Unha Envelhecida de GH
   Type: Etc
   Weight: 10
 - AegisName: Glast_Horrendous_Mouth
@@ -21926,7 +21926,7 @@
   Flags:
     BuyingStore: true
   Id: 6610
-  Name: Glast Horrendous Mouth
+  Name: Dentadura Horrenda de GH
   Type: Etc
   Weight: 10
 - AegisName: Colorful_Key
@@ -21934,7 +21934,7 @@
   Flags:
     BuyingStore: true
   Id: 6611
-  Name: Colorful Key
+  Name: Chave Enfeitada
   Type: Etc
   Weight: 10
 - AegisName: Gold_Coin_Basket
@@ -21942,7 +21942,7 @@
   Flags:
     BuyingStore: true
   Id: 6612
-  Name: Gold Coin Basket
+  Name: Cesta de Moedas de Ouro
   Type: Etc
   Weight: 200
 - AegisName: Colorful_Brooch
@@ -21950,14 +21950,14 @@
   Flags:
     BuyingStore: true
   Id: 6613
-  Name: Colorful Brooch
+  Name: Broche Pomposo
   Type: Etc
   Weight: 10
 - AegisName: Siege_Guild_Coin
   Flags:
     BuyingStore: true
   Id: 6615
-  Name: Siege Guild Coin
+  Name: Moeda TE
   Type: Etc
   Weight: 10
 - AegisName: Lmtd_Manny_Card
@@ -21986,17 +21986,17 @@
   Weight: 10
 - AegisName: Rough_Energy_Crystal
   Id: 6623
-  Name: Rough Energy Crystal
+  Name: Cristal Bruto de Energia
   Type: Etc
   Weight: 10
 - AegisName: Purified_Energy_Crystal
   Id: 6624
-  Name: Purified Energy Crystal
+  Name: Cristal Refinado de Energia
   Type: Etc
   Weight: 10
 - AegisName: High_Purity_Energy_Xtal
   Id: 6625
-  Name: High Energy Crystal
+  Name: Cristal Puro de Energia
   Trade:
     NoAuction: true
     NoCart: true
@@ -22012,7 +22012,7 @@
   Flags:
     BuyingStore: true
   Id: 6635
-  Name: Blacksmith Blessing
+  Name: Bênção do Ferreiro
   Trade:
     NoDrop: true
     Override: 100
@@ -22084,42 +22084,42 @@
 - AegisName: Shabby_Crown
   Buy: 10
   Id: 6648
-  Name: Old Crown
+  Name: Coroa Entortada
   Type: Etc
   Weight: 10
 - AegisName: Broken_Horn
   Buy: 10
   Id: 6649
-  Name: Broken Horn
+  Name: Chifre Quebrado
   Type: Etc
   Weight: 10
 - AegisName: Shabby_Ring
   Buy: 10
   Id: 6650
-  Name: Old Ring
+  Name: Anel Antigo
   Type: Etc
   Weight: 10
 - AegisName: Rusty_Bracelet
   Buy: 10
   Id: 6651
-  Name: Rusty Bracalet
+  Name: Bracelete Enferrujado
   Type: Etc
   Weight: 10
 - AegisName: Old_Photo_Album
   Buy: 10
   Id: 6652
-  Name: Old Photo Album
+  Name: Antigo Álbum de Fotos
   Type: Etc
   Weight: 10
 - AegisName: Shabby_Pill
   Buy: 10
   Id: 6653
-  Name: Old Pill
+  Name: Pílula Antiga
   Type: Etc
   Weight: 10
 - AegisName: Needle_And_Thread
   Id: 6654
-  Name: Needle And Thread
+  Name: Agulha e Linha
   Trade:
     NoAuction: true
     NoCart: true
@@ -22132,7 +22132,7 @@
   Type: Etc
 - AegisName: Firm_Pumpkin
   Id: 6655
-  Name: Firm Pumpkin
+  Name: Abóbora Firme
   Trade:
     NoAuction: true
     NoCart: true
@@ -22145,7 +22145,7 @@
   Type: Etc
 - AegisName: Goast_Free_Charm
   Id: 6656
-  Name: Goast Free Charm
+  Name: Amuleto do Fantasma Livre
   Trade:
     NoAuction: true
     NoCart: true
@@ -22158,7 +22158,7 @@
   Type: Etc
 - AegisName: Memory_Of_Jack
   Id: 6657
-  Name: Memory Of Jack
+  Name: Memória de Jack
   Trade:
     NoAuction: true
     NoCart: true
@@ -22175,7 +22175,7 @@
   Type: Etc
 - AegisName: RWC_Inicializer
   Id: 6665
-  Name: RWC Inicializer
+  Name: Cupom de Aprimoramento do RWC
   Trade:
     NoDrop: true
     Override: 100
@@ -22248,7 +22248,7 @@
 - AegisName: XMAS_Cookie
   Buy: 20
   Id: 6681
-  Name: Christmas Cookie
+  Name: Biscoitos de Natal
   Trade:
     NoAuction: true
     NoCart: true
@@ -22262,7 +22262,7 @@
 - AegisName: Bag_Of_Selling_Goods
   Buy: 20
   Id: 6682
-  Name: Bag Of Selling Goods
+  Name: Sacola de Itens Negociáveis
   Trade:
     NoAuction: true
     NoCart: true
@@ -22285,7 +22285,7 @@
 - AegisName: TokenOfHero
   Buy: 10
   Id: 6684
-  Name: Token Of Hero
+  Name: Marca do Herói
   Trade:
     NoAuction: true
     NoCart: true
@@ -22360,7 +22360,7 @@
 - AegisName: BurningSkin
   Buy: 10
   Id: 6689
-  Name: Burning Bug Skin
+  Name: Pele de Verme Flamejante
   Trade:
     NoAuction: true
     NoCart: true
@@ -22373,7 +22373,7 @@
 - AegisName: YummyStem
   Buy: 10
   Id: 6690
-  Name: Yummy Stem
+  Name: Caule Delicioso
   Trade:
     NoAuction: true
     NoCart: true
@@ -22388,14 +22388,14 @@
   Flags:
     BuyingStore: true
   Id: 6691
-  Name: Burning Feather
+  Name: Pluma Flamejante
   Type: Etc
 - AegisName: PatrolLog
   Buy: 10
   Flags:
     BuyingStore: true
   Id: 6692
-  Name: Patrol Log
+  Name: Memorando da Patrulha
   Type: Etc
   Weight: 1
 - AegisName: Stone_Of_Blessing
@@ -22403,7 +22403,7 @@
   Flags:
     BuyingStore: true
   Id: 6693
-  Name: Stone Of Blessing
+  Name: Pedra Abençoada
   Type: Etc
   Weight: 10
 - AegisName: Monster_Blood
@@ -22411,7 +22411,7 @@
   Flags:
     BuyingStore: true
   Id: 6694
-  Name: Monster Blood
+  Name: Sangue de Monstro
   Type: Etc
   Weight: 10
 - AegisName: ToothOfFlameGolem
@@ -22419,7 +22419,7 @@
   Flags:
     BuyingStore: true
   Id: 6695
-  Name: Golem's Fiery Stone Tooth
+  Name: Dente de Golem
   Type: Etc
   Weight: 100
 - AegisName: ToothOfFlameFrilldora
@@ -22427,7 +22427,7 @@
   Flags:
     BuyingStore: true
   Id: 6696
-  Name: Frilldora's Fiery Nape
+  Name: Brasão Flamejante
   Type: Etc
   Weight: 10
 - AegisName: Costume_Exchange
@@ -22588,7 +22588,7 @@
 - AegisName: Mana_crystal
   Buy: 10
   Id: 6708
-  Name: Mana Crystal
+  Name: Cristal de Mana
   Trade:
     NoAuction: true
     NoCart: true
@@ -22661,7 +22661,7 @@
 - AegisName: P_Of_Evil_Soul
   Buy: 20
   Id: 6715
-  Name: Darklord Soulpiece
+  Name: Pedaço da Alma do Lorde das Trevas
   Trade:
     NoAuction: true
     NoCart: true
@@ -22895,7 +22895,7 @@
 - AegisName: Excavator_Repoet
   Buy: 10
   Id: 6748
-  Name: Daily Report He And His Team
+  Name: Relatório da Escavação
   Trade:
     NoAuction: true
     NoCart: true
@@ -22910,7 +22910,7 @@
 - AegisName: Power_Control_Device
   Buy: 10
   Id: 6749
-  Name: Operation Control Device
+  Name: Núcleo de Energia
   Trade:
     NoAuction: true
     NoCart: true
@@ -22943,7 +22943,7 @@
   Flags:
     BuyingStore: true
   Id: 6752
-  Name: Charleston Parts
+  Name: Componente de Charleston
   Trade:
     NoAuction: true
     NoCart: true
@@ -22957,7 +22957,7 @@
 - AegisName: Sign_Of_Destruction
   Buy: 10
   Id: 6753
-  Name: Token Of Destruction
+  Name: Amuleto do Infortúnio
   Trade:
     NoAuction: true
     NoCart: true
@@ -22970,7 +22970,7 @@
 - AegisName: Collected_Herb
   Buy: 10
   Id: 6754
-  Name: Collected Medicinal Herbs
+  Name: Erva Colhida
   Trade:
     NoAuction: true
     NoCart: true
@@ -22991,7 +22991,7 @@
 - AegisName: Condensed_Energy
   Buy: 20
   Id: 6756
-  Name: Cohesive Energy
+  Name: Energia Condensada
   Trade:
     NoAuction: true
     NoCart: true
@@ -23006,7 +23006,7 @@
 - AegisName: Memory_Record
   Buy: 20
   Id: 6757
-  Name: The Memory Recorder
+  Name: Registro de Memórias do Instituto
   Trade:
     NoAuction: true
     NoCart: true
@@ -23321,13 +23321,13 @@
 - AegisName: ORGANIC_PUMPKIN
   Buy: 20
   Id: 6804
-  Name: Organic Pumpkin
+  Name: Abóbora Orgânica
   Type: Etc
   Weight: 10
 - AegisName: INORGANIC_PUMPKIN
   Buy: 20
   Id: 6805
-  Name: Inorganic Pumpkin
+  Name: Abóbora Inorgânica
   Type: Etc
   Weight: 10
 - AegisName: Kafra_Ticket
@@ -23431,7 +23431,7 @@
   Weight: 10
 - AegisName: Particles_Of_Energy
   Id: 6820
-  Name: Energy Fragment
+  Name: Partículas de Energia
   Trade:
     NoAuction: true
     NoCart: true
@@ -23445,7 +23445,7 @@
   Weight: 10
 - AegisName: Solo_Troops_Badge
   Id: 6821
-  Name: Single Union Badge
+  Name: Insígnia de Tropas dos Solteiros
   Trade:
     NoAuction: true
     NoCart: true
@@ -23458,7 +23458,7 @@
 - AegisName: Lab_Memory_Record
   Buy: 10
   Id: 6824
-  Name: Experimental Dong Memory Record
+  Name: Registro de Memórias do Abrigo
   Trade:
     NoAuction: true
     NoCart: true
@@ -23504,7 +23504,7 @@
 - AegisName: Normal_Parts
   Buy: 10
   Id: 6827
-  Name: Complete Machine Parts
+  Name: Peça Intacta
   Trade:
     NoAuction: true
     NoCart: true
@@ -23518,7 +23518,7 @@
 - AegisName: Gravity_Parts
   Buy: 10
   Id: 6828
-  Name: Gravity Safety Device
+  Name: Aparelho Gravitacional
   Type: Etc
   Weight: 100
 - AegisName: Questioned_Parts
@@ -23547,13 +23547,13 @@
 - AegisName: Legendary_Fur
   Buy: 10
   Id: 6834
-  Name: Legendary Fur
+  Name: Pelo Lendário
   Type: Etc
   Weight: 10
 - AegisName: Legendary_Mane
   Buy: 10
   Id: 6835
-  Name: Legendary Mane
+  Name: Crina Lendária
   Type: Etc
   Weight: 10
 - AegisName: Talisman_Of_Soul
@@ -24469,7 +24469,7 @@
 - AegisName: Captured_Soul
   Buy: 10
   Id: 6915
-  Name: Captured Soul
+  Name: Alma Capturada
   Trade:
     NoAuction: true
     NoCart: true
@@ -24511,7 +24511,7 @@
 - AegisName: TokenOfHonor
   Buy: 10
   Id: 6919
-  Name: Honor Token
+  Name: Marca de Honra
   Trade:
     NoAuction: true
     NoCart: true
@@ -24541,7 +24541,7 @@
   Flags:
     BuyingStore: true
   Id: 6921
-  Name: Dehumidifiers
+  Name: Desumidificador
   Type: Etc
   Weight: 10
 - AegisName: Sandpaper
@@ -24549,13 +24549,13 @@
   Flags:
     BuyingStore: true
   Id: 6922
-  Name: Sandpaper
+  Name: Lixa
   Type: Etc
   Weight: 10
 - AegisName: Bright_Lights
   Buy: 10
   Id: 6923
-  Name: Bright Fire Lights
+  Name: Luz Flamejante
   Trade:
     NoAuction: true
     NoCart: true
@@ -24572,13 +24572,13 @@
   Flags:
     BuyingStore: true
   Id: 6924
-  Name: Red Eye
+  Name: Olho de Sangue
   Type: Etc
   Weight: 10
 - AegisName: Prisoner_Letter
   Buy: 10
   Id: 6925
-  Name: Letter Of Prisoner
+  Name: Carta do Prisioneiro
   Trade:
     NoAuction: true
     NoCart: true
@@ -24592,7 +24592,7 @@
 - AegisName: Midgards_Histories
   Buy: 10
   Id: 6926
-  Name: Rune-Midgarts History Book
+  Name: A História de Rune-Midgard
   Trade:
     NoAuction: true
     NoCart: true
@@ -24606,7 +24606,7 @@
 - AegisName: Filled_With_SeaStones
   Buy: 10
   Id: 6927
-  Name: Stone That Contained Sea
+  Name: Pedra do Mar
   Trade:
     NoAuction: true
     NoCart: true
@@ -24620,7 +24620,7 @@
 - AegisName: Poring_Loofah
   Buy: 10
   Id: 6928
-  Name: Poring Scourer
+  Name: Esponja de Poring
   Trade:
     NoAuction: true
     NoCart: true
@@ -24634,7 +24634,7 @@
 - AegisName: Letters_Stamped_Seal
   Buy: 10
   Id: 6929
-  Name: Letter With Stamped Seal
+  Name: Carta com Selo
   Trade:
     NoAuction: true
     NoCart: true
@@ -24648,7 +24648,7 @@
 - AegisName: Biz_Items_Sample
   Buy: 10
   Id: 6930
-  Name: Samples New Business Items
+  Name: Baú de Negócios
   Trade:
     NoAuction: true
     NoCart: true
@@ -24662,7 +24662,7 @@
 - AegisName: Secret_Documents
   Buy: 10
   Id: 6931
-  Name: Secret Documents
+  Name: Documento Secreto
   Trade:
     NoAuction: true
     NoCart: true
@@ -24719,7 +24719,7 @@
 - AegisName: Luxurious_Dish
   Buy: 10
   Id: 6935
-  Name: High-Class Dish
+  Name: Prato Luxuoso
   Trade:
     NoAuction: true
     NoCart: true
@@ -24888,7 +24888,7 @@
 - AegisName: Captured_Sheep
   Buy: 10
   Id: 6956
-  Name: Captured Sheep
+  Name: Carneiro Capturado
   Trade:
     NoAuction: true
     NoCart: true
@@ -24950,7 +24950,7 @@
   Flags:
     BuyingStore: true
   Id: 6961
-  Name: Huge Metal Scrap
+  Name: Bloco de Sucata
   Type: Etc
   Weight: 1000
 - AegisName: OldTank
@@ -24958,7 +24958,7 @@
   Flags:
     BuyingStore: true
   Id: 6962
-  Name: Old Fuel
+  Name: Tanque Velho
   Type: Etc
   Weight: 100
 - AegisName: HPdrainStone_Robe
@@ -24975,117 +24975,117 @@
   Weight: 100
 - AegisName: Reactor_P_FIRE_
   Id: 6965
-  Name: Fire Property Reactor Blueprint
+  Name: Diagrama de E-Fogo
   Type: Etc
   Weight: 10
 - AegisName: Reactor_P_WATER_
   Id: 6966
-  Name: Water Property Reactor Blueprint
+  Name: Diagrama de E-Água
   Type: Etc
   Weight: 10
 - AegisName: Reactor_P_GROUND_
   Id: 6967
-  Name: Earth Property Reactor Blueprint
+  Name: Diagrama de E-Terra
   Type: Etc
   Weight: 10
 - AegisName: Reactor_P_WIND_
   Id: 6968
-  Name: Wind Property Reactor Blueprint
+  Name: Diagrama de E-Vento
   Type: Etc
   Weight: 10
 - AegisName: Reactor_T_FIRE_
   Id: 6969
-  Name: Fire Resistance Reactor Blueprint
+  Name: Diagrama de R-Fogo
   Type: Etc
   Weight: 10
 - AegisName: Reactor_T_WATER_
   Id: 6970
-  Name: Water Resistance Reactor Blueprint
+  Name: Diagrama de R-Água
   Type: Etc
   Weight: 10
 - AegisName: Reactor_T_GROUND_
   Id: 6971
-  Name: Earth Resistance Reactor Blueprint
+  Name: Diagrama de R-Terra
   Type: Etc
   Weight: 10
 - AegisName: Reactor_T_WIND_
   Id: 6972
-  Name: Wind Resistance Reactor Blueprint
+  Name: Diagrama de R-Vento
   Type: Etc
   Weight: 10
 - AegisName: Reactor_Cure_101_
   Id: 6973
-  Name: Recovery101 Reactor Blueprint
+  Name: Diagrama de C-Corpo
   Type: Etc
   Weight: 10
 - AegisName: Reactor_Cure_102_
   Id: 6974
-  Name: Recovery102 Reactor Blueprint
+  Name: Diagrama de C-Alma
   Type: Etc
   Weight: 10
 - AegisName: Reactor_Cure_201_
   Id: 6975
-  Name: Recovery201 Reactor Blueprint
+  Name: Diagrama de C-Físico
   Type: Etc
   Weight: 10
 - AegisName: Reactor_Cure_202_
   Id: 6976
-  Name: Recovery202 Reactor Blueprint
+  Name: Diagrama de C-Mental
   Type: Etc
   Weight: 10
 - AegisName: Reactor_A_STR_
   Id: 6977
-  Name: STR Reactor Blueprint
+  Name: Diagrama de A-FOR
   Type: Etc
   Weight: 10
 - AegisName: Reactor_A_INT_
   Id: 6978
-  Name: INT Reactor Blueprint
+  Name: Diagrama de A-INT
   Type: Etc
   Weight: 10
 - AegisName: Reactor_A_DEF_
   Id: 6979
-  Name: DEF Reactor Blueprint
+  Name: Diagrama de A-DEF
   Type: Etc
   Weight: 10
 - AegisName: Reactor_A_AVOI_
   Id: 6980
-  Name: Perfect Dodge Reactor Blueprint
+  Name: Diagrama de A-ESQV
   Type: Etc
   Weight: 10
 - AegisName: Reactor_A_ATK_
   Id: 6981
-  Name: Attack Reactor Blueprint
+  Name: Diagrama de A-ATQ
   Type: Etc
   Weight: 10
 - AegisName: Reactor_A_MATK_
   Id: 6982
-  Name: Magical Reactor Blueprint
+  Name: Diagrama de A-ATQM
   Type: Etc
   Weight: 10
 - AegisName: Reactor_A_MHP_
   Id: 6983
-  Name: HP Reactor Blueprint
+  Name: Diagrama de A-HP
   Type: Etc
   Weight: 10
 - AegisName: Reactor_A_MSP_
   Id: 6984
-  Name: SP Reactor Blueprint
+  Name: Diagrama de A-SP
   Type: Etc
   Weight: 10
 - AegisName: Reactor_A_FROZ_
   Id: 6985
-  Name: Frozen Reactor Blueprint
+  Name: Diagrama de I-Gelo
   Type: Etc
   Weight: 10
 - AegisName: Reactor_A_ASPD_
   Id: 6986
-  Name: ASPD Reactor Blueprint
+  Name: Diagrama de A-VdA
   Type: Etc
   Weight: 10
 - AegisName: Guarantee_Weapon_10Up
   Id: 6993
-  Name: +10 Weapon Certificate
+  Name: Pergaminho de Arma +10
   Trade:
     NoAuction: true
     NoCart: true
@@ -25098,7 +25098,7 @@
   Type: Etc
 - AegisName: Guarantee_Armor_10Up
   Id: 6994
-  Name: +10 Armor Certificate
+  Name: Pergaminho de Armadura +10
   Trade:
     NoAuction: true
     NoCart: true
@@ -30122,7 +30122,7 @@
   Weight: 10
 - AegisName: BlueCard_R
   Id: 7602
-  Name: Blue R Card
+  Name: Carta Azul R
   Type: Etc
   Weight: 10
 - AegisName: RO_Party_Ticket
@@ -30351,11 +30351,11 @@
   Type: Etc
 - AegisName: Pink_Gift_Box
   Id: 7629
-  Name: Caixa Rosa
+  Name: Pink Gift Box
   Type: Etc
 - AegisName: Clean_Beach_Brush
   Id: 7630
-  Name: Clean Beach Brush
+  Name: Vassoura de Praia
   Trade:
     NoAuction: true
     NoCart: true
@@ -30368,7 +30368,7 @@
   Type: Etc
 - AegisName: Trash_Debris
   Id: 7631
-  Name: Trash Debris
+  Name: Restos de Lixo
   Trade:
     NoAuction: true
     NoCart: true
@@ -30442,14 +30442,14 @@
   Flags:
     BuyingStore: true
   Id: 7642
-  Name: Bloody Coin
+  Name: Moeda Sangrenta
   Type: Etc
 - AegisName: Bloody_Letter
   Buy: 10
   Flags:
     BuyingStore: true
   Id: 7643
-  Name: Bloody Letter
+  Name: Carta Ensanguentada
   Type: Etc
   Weight: 10
 - AegisName: Unsent_Letter
@@ -30701,7 +30701,7 @@
   Weight: 10
 - AegisName: Handmade_Choco_Recipe
   Id: 7715
-  Name: Handmade Chocolate Recipe
+  Name: Receita de Chocolate Caseiro
   Trade:
     NoAuction: true
     NoCart: true
@@ -30714,7 +30714,7 @@
   Type: Etc
 - AegisName: Strawberry_Choco_Recipe
   Id: 7716
-  Name: Chocolate Strawberry Recipe
+  Name: Receita de Chocolate Com Morango
   Trade:
     NoAuction: true
     NoCart: true
@@ -30727,7 +30727,7 @@
   Type: Etc
 - AegisName: Choco_Tart_Recipe
   Id: 7717
-  Name: Chocolate Tart Recipe
+  Name: Receita de Torta de Chocolate
   Trade:
     NoAuction: true
     NoCart: true
@@ -30845,7 +30845,7 @@
   Type: Etc
 - AegisName: HP_Doctor_Ticket
   Id: 7727
-  Name: HP Doctor Ticket
+  Name: Vale de HP
   Trade:
     NoAuction: true
     NoCart: true
@@ -30858,7 +30858,7 @@
   Type: Etc
 - AegisName: SP_Doctor_Ticket
   Id: 7728
-  Name: SP Doctor Ticket
+  Name: Vale de SP
   Trade:
     NoAuction: true
     NoCart: true
@@ -33364,7 +33364,7 @@
   Weight: 10
 - AegisName: Barmund_Note
   Id: 11011
-  Name: Varmunt's Note
+  Name: Caderno de Varmunt
   Trade:
     NoAuction: true
     NoCart: true
@@ -33377,7 +33377,7 @@
   Type: Etc
 - AegisName: Expedition_Report
   Id: 11012
-  Name: Expedition Report
+  Name: Relatório da Expedição
   Trade:
     NoAuction: true
     NoCart: true
@@ -33390,7 +33390,7 @@
   Type: Etc
 - AegisName: Expedition_Report_Vol1
   Id: 11013
-  Name: Expedition Report Vol1
+  Name: Relatório da Expedição Vol. 1
   Trade:
     NoAuction: true
     NoCart: true
@@ -33403,7 +33403,7 @@
   Type: Etc
 - AegisName: Expedition_Report_Vol2
   Id: 11014
-  Name: Expedition Report Vol2
+  Name: Relatório da Expedição Vol. 2
   Trade:
     NoAuction: true
     NoCart: true
@@ -33416,7 +33416,7 @@
   Type: Etc
 - AegisName: Expedition_Report_Vol3
   Id: 11015
-  Name: Expedition Report Vol3
+  Name: Relatório da Expedição Vol. 3
   Trade:
     NoAuction: true
     NoCart: true
@@ -33429,7 +33429,7 @@
   Type: Etc
 - AegisName: Expedition_Report_Vol4
   Id: 11016
-  Name: Expedition Report Vol4
+  Name: Relatório da Expedição Vol. 4
   Trade:
     NoAuction: true
     NoCart: true
@@ -33695,7 +33695,7 @@
   Weight: 50
 - AegisName: Novice_Combi_Book
   Id: 11058
-  Name: Novice Combi Book
+  Name: Livro de Culinária Iniciante
   Type: Etc
   Weight: 10
 - AegisName: WoE_TE_Rental_List
@@ -33705,7 +33705,7 @@
   Weight: 10
 - AegisName: Energy_Xtal_Combi_Book
   Id: 11060
-  Name: Energy Crystal Book
+  Name: 'Livro: Cristais de Energia'
   Type: Etc
   Weight: 10
 - AegisName: Honor_Proof_Exchange_List
@@ -33717,7 +33717,7 @@
 - AegisName: Lucky_Cookie_B
   Buy: 10
   Id: 11575
-  Name: Lucky Cookie
+  Name: Biscoito da Sorte
   Trade:
     NoAuction: true
     NoCart: true
@@ -33895,7 +33895,7 @@
     Rebellion: true
   Locations:
     Ammo: true
-  Name: Sow Bug
+  Name: Tatu Bola
   Script: 'bonus2 bAddEff,Eff_Stun,1000;
 
     '
@@ -34962,7 +34962,7 @@
     Ninja: true
   Locations:
     Ammo: true
-  Name: Starfish
+  Name: Estrela-do-mar
   Script: 'bonus bAtkEle,Ele_Neutral;
 
     bonus2 bAddEff,Eff_Stun,1000;
@@ -34990,7 +34990,7 @@
     Ninja: true
   Locations:
     Ammo: true
-  Name: Dried Squid
+  Name: Lula Seca
   Script: 'bonus bAtkEle,Ele_Neutral;
 
     bonus2 bAddEff,Eff_Stun,1000;
@@ -35018,7 +35018,7 @@
     Ninja: true
   Locations:
     Ammo: true
-  Name: Flying Fish
+  Name: Peixe Voador
   Script: 'bonus bAtkEle,Ele_Neutral;
 
     bonus3 bAutoSpell,"NPC_CRITICALWOUND",1,3;
@@ -35303,7 +35303,7 @@
 - AegisName: Frost_Crystal
   Buy: 20
   Id: 22566
-  Name: Last Year's Frost
+  Name: Cristal Congelado
   Trade:
     NoCart: true
     NoGuildStorage: true
@@ -36251,7 +36251,7 @@
   Type: Etc
 - AegisName: Gift_Stuffed_Doll
   Id: 25143
-  Name: Gift Stuffed Doll
+  Name: Pelúcia de Coelhinho
   Trade:
     NoAuction: true
     NoCart: true
@@ -36536,7 +36536,7 @@
   Type: Etc
 - AegisName: Sticky_Slime
   Id: 25169
-  Name: Sticky Mucus
+  Name: Gelatina Pegajosa
   Trade:
     NoAuction: true
     NoCart: true
@@ -36944,12 +36944,12 @@
   Type: Etc
 - AegisName: Independence_Permit
   Id: 25240
-  Name: Independence Certificate
+  Name: Certidão de Emancipação
   Type: Etc
   Weight: 10
 - AegisName: Little_Skel_Bone
   Id: 25245
-  Name: Small pile of bones
+  Name: Pequena Pilha de Ossos
   Trade:
     NoAuction: true
     NoCart: true
@@ -37284,7 +37284,7 @@
   Type: Etc
 - AegisName: Fac_Choco
   Id: 25291
-  Name: Product Chocolate
+  Name: Chocolate em Barra
   Trade:
     NoAuction: true
     NoCart: true
@@ -37697,7 +37697,7 @@
   Type: Etc
 - AegisName: Black_Fur
   Id: 25401
-  Name: Black Fur
+  Name: Pelugem Negra
   Trade:
     NoAuction: true
     NoCart: true
@@ -37710,7 +37710,7 @@
   Type: Etc
 - AegisName: Memory_Of_Gyol
   Id: 25408
-  Name: Memories of Gyoll
+  Name: Memória de Gyoll
   Trade:
     NoAuction: true
     NoCart: true
@@ -37795,7 +37795,7 @@
   Weight: 100
 - AegisName: Pumpkin_Decor
   Id: 25421
-  Name: Pumpkin Decoration
+  Name: Decoração de Abóbora
   Trade:
     NoAuction: true
     NoCart: true
@@ -37808,7 +37808,7 @@
   Type: Etc
 - AegisName: White_Thin_Stem
   Id: 25422
-  Name: Dry White Stem
+  Name: Ramo Branco Fino
   Trade:
     NoAuction: true
     NoCart: true
@@ -39030,7 +39030,7 @@
   Type: Etc
 - AegisName: Inventory_Ex_Dis
   Id: 25792
-  Name: '[Limited] Inventory Expansion Voucher'
+  Name: Ticket de Expansão de Inventário
   Trade:
     NoAuction: true
     NoCart: true
@@ -39439,7 +39439,7 @@
   Id: 27012
   Locations:
     Armor: true
-  Name: Kick Step Card
+  Name: Carta Transistor
   Script: "bonus bMaxHPrate,8;\nif ((eaclass()&EAJ_THIRDMASK) == EAJ_MECHANIC) {\n\
     \   bonus bLongAtkDef,30;\n}\n"
   Type: Card
@@ -39451,7 +39451,7 @@
   Id: 27013
   Locations:
     Right_Hand: true
-  Name: Kick & Kick Card
+  Name: Carta Mecha v1.6
   Script: 'bonus2 bSkillAtk,"NC_VULCANARM",10+((getrefine()>=10)*20);
 
     '
@@ -39464,7 +39464,7 @@
   Id: 27014
   Locations:
     Shoes: true
-  Name: Green Cenere Card
+  Name: Carta Fumaça Verde
   Script: 'bonus bMaxHPrate,2;
 
     autobonus2 "{ bonus2 bHPRegenRate,1000,1000; }",20,5000,BF_NORMAL|BF_MAGIC,"{
@@ -39482,7 +39482,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Repair Robot Turbo Card
+  Name: Carta Robô Reparador Turbo
   Script: 'bonus bHPrecovRate,25;
 
     bonus bSPrecovRate,25;
@@ -39503,7 +39503,7 @@
   Id: 27016
   Locations:
     Right_Hand: true
-  Name: Exploration Rover Turbo Card
+  Name: Carta Robô Explorador Turbo
   Script: 'bonus2 bCriticalAddRace,RC_Formless,30;
 
     '
@@ -39516,7 +39516,7 @@
   Id: 27017
   Locations:
     Garment: true
-  Name: Scrap Robots Card
+  Name: Carta Robô de Sucata
   Script: "if (getrefine()<7)\n   bonus2 bSubRace,RC_Formless,10;\nelse {\n   bonus2\
     \ bSubRace,RC_Formless,15;\n   bonus2 bAddMonsterDropItem,7317,10;\n   bonus2\
     \ bAddMonsterDropItem,998,5;\n   bonus2 bAddMonsterDropItem,7319,3;\n   bonus2\
@@ -39530,7 +39530,7 @@
   Id: 27018
   Locations:
     Both_Accessory: true
-  Name: GC109 Card
+  Name: Carta GC109
   Script: 'bonus bAspdRate,-(1+(BaseLevel>=90)+(BaseLevel>=120));
 
     '
@@ -39543,7 +39543,7 @@
   Id: 27019
   Locations:
     Both_Accessory: true
-  Name: DR815 Card
+  Name: Carta DR815
   Script: 'bonus bHit,1+(BaseLevel>=90)+(BaseLevel>=120);
 
     '
@@ -39556,7 +39556,7 @@
   Id: 27020
   Locations:
     Right_Hand: true
-  Name: T W O Card
+  Name: Carta T W O
   Script: 'bonus2 bAddClass,Class_All,10;
 
     bonus3 bAutoSpell,"NPC_WIDESOULDRAIN",2,5+((getrefine()/3)*10);
@@ -39586,7 +39586,7 @@
   Id: 27026
   Locations:
     Both_Accessory: true
-  Name: Fire Condor Card
+  Name: Carta Condor de Fogo
   Script: 'bonus2 bVariableCastRate,"MG_FIREBALL",-50;
 
     bonus2 bSkillAtk,"MG_FIREBALL",100;
@@ -39601,7 +39601,7 @@
   Id: 27027
   Locations:
     Armor: true
-  Name: Fire Sandman Card
+  Name: Carta Arenoso de Fogo
   Script: 'bonus bDef,50;
 
     bonus2 bSubDefEle,Ele_Fire,10;
@@ -39616,7 +39616,7 @@
   Id: 27028
   Locations:
     Right_Hand: true
-  Name: Fire Frilldora Card
+  Name: Carta Frilldora de Fogo
   Script: '.@r = getrefine();
 
     bonus2 bMagicAddEle,Ele_Earth,3+((.@r>=7)*5)+((.@r>=9)*7);
@@ -39631,7 +39631,7 @@
   Id: 27029
   Locations:
     Left_Hand: true
-  Name: Fire Golem Card
+  Name: Carta Golem de Fogo
   Script: 'bonus2 bSubDefEle,Ele_Fire,20;
 
     bonus2 bAddEle,Ele_Fire,5;
@@ -39648,7 +39648,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Firebug Card
+  Name: Carta Besouro Rola Brasa
   Script: 'bonus3 bAddEff,Eff_Burning,700,ATF_WEAPON|ATF_MAGIC;
 
     '
@@ -40069,7 +40069,7 @@
   Id: 27120
   Locations:
     Both_Accessory: true
-  Name: Iara Card
+  Name: Carta Iara
   Script: 'skill "PR_STRECOVERY",1;
 
     '
@@ -40082,7 +40082,7 @@
   Id: 27121
   Locations:
     Shoes: true
-  Name: Piranha Card
+  Name: Carta Espírito da Água
   Script: ".@val = 10;\nif (getrefine() >= 9) {\n   .@val += 5;\n}\nbonus2 bAddRace,RC_Fish,.@val;\n\
     bonus2 bMagicAddRace,RC_Fish,.@val;\n"
   Type: Card
@@ -40094,7 +40094,7 @@
   Id: 27122
   Locations:
     Right_Hand: true
-  Name: Curupira Card
+  Name: Carta Curupira
   Script: ".@val = 3;\n.@r = getrefine();\nif (.@r>=7) {\n   .@val += 5;\n}\nif (.@r>=9)\
     \ {\n   .@val += 7;\n}\nbonus2 bMagicAddEle,Ele_Water,.@val;\n"
   Type: Card
@@ -40108,7 +40108,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Toucan Card
+  Name: Carta Espírito do Vento
   Script: ".@val = 10;\nif (getrefine() >= 9) {\n   .@val += 5;\n}\nbonus2 bMagicAddRace,RC_Insect,.@val;\n"
   Type: Card
   Weight: 10
@@ -40121,7 +40121,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Jaguar Card
+  Name: Carta Espírito da Terra
   Script: ".@val = 10;\nif (getrefine() >= 9) {\n   .@val += 5;\n}\nbonus2 bMagicAddRace,RC_Brute,.@val;\n"
   Type: Card
   Weight: 10
@@ -40132,7 +40132,7 @@
   Id: 27125
   Locations:
     Both_Accessory: true
-  Name: Headless Mule Card
+  Name: Carta Mula Sem Cabeça
   Script: 'bonus2 bMagicAtkEle,Ele_Water,20;
 
     bonus2 bMagicAtkEle,Ele_Holy,20;
@@ -40147,7 +40147,7 @@
   Id: 27126
   Locations:
     Armor: true
-  Name: Boitata Card
+  Name: Carta Boitatá
   Script: 'bonus2 bAddEle,Ele_Wind,40;
 
     bonus2 bAddEle,Ele_Earth,40;
@@ -40252,7 +40252,7 @@
   Id: 27157
   Locations:
     Armor: true
-  Name: Wood Goblin Card
+  Name: Carta Leshij
   Script: '.@r = getrefine();
 
     bonus2 bAddEle,Ele_Water,(.@r >= 9 ? 10 : 5);
@@ -40273,7 +40273,7 @@
   Id: 27158
   Locations:
     Left_Hand: true
-  Name: Les Card
+  Name: Carta Les
   Script: 'bonus2 bSubEle,Ele_Wind,30;
 
     '
@@ -40288,7 +40288,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Uzhas Card
+  Name: Carta Kikimora
   Script: 'bonus2 bMagicAddRace,RC_Demon,(getrefine() >= 9 ? 15 : 10);
 
     '
@@ -40301,7 +40301,7 @@
   Id: 27160
   Locations:
     Shoes: true
-  Name: Vavayaga Card
+  Name: Carta Baba-Yaga
   Script: 'bonus bFlee,getrefine()*2;
 
     '
@@ -40314,7 +40314,7 @@
   Id: 27161
   Locations:
     Both_Accessory: true
-  Name: Mavka Card
+  Name: Carta Mavka
   Script: 'bonus2 bMagicAtkEle,Ele_Fire,20;
 
     bonus2 bMagicAtkEle,Ele_Earth,20;
@@ -40331,7 +40331,7 @@
     Head_Low: true
     Head_Mid: true
     Head_Top: true
-  Name: Gopinich Card
+  Name: Carta Gorynych
   Script: 'bonus bSPDrainValue,5;
 
     bonus bUseSPrate,50;
@@ -40346,7 +40346,7 @@
   Id: 27163
   Locations:
     Both_Accessory: true
-  Name: Faceworm Card
+  Name: Carta Verme com Rosto
   Script: 'bonus bAgi,-1;
 
     bonus bDex,-1;
@@ -40363,7 +40363,7 @@
   Id: 27164
   Locations:
     Shoes: true
-  Name: Faceworm Queen Card
+  Name: Carta Rainha Verme
   Script: 'bonus bMaxHPrate,-10;
 
     .@r = getrefine();
@@ -40382,7 +40382,7 @@
   Id: 27165
   Locations:
     Both_Accessory: true
-  Name: Dark Faceworm Card
+  Name: Carta Verme Sombrio com Rosto
   Script: 'bonus bVit,-1;
 
     bonus bInt,-1;
@@ -40399,7 +40399,7 @@
   Id: 27166
   Locations:
     Shoes: true
-  Name: Faceworm Egg Card
+  Name: Carta Ovo de Verme com Rosto
   Script: '.@r = getrefine();
 
     .@sub = 2+(.@r >= 9 ? 3 : .@r >= 7 ? 1 : 0);
@@ -40416,7 +40416,7 @@
   Id: 27167
   Locations:
     Garment: true
-  Name: Faceworm Larva Card
+  Name: Carta Larva de Verme
   Script: 'bonus2 bSubEle,Ele_Neutral,15;
 
     bonus2 bMagicAtkEle,Ele_Water,getrefine()*3;
@@ -40431,7 +40431,7 @@
   Id: 27168
   Locations:
     Garment: true
-  Name: Irene High Elder Card
+  Name: Carta Lorde Irine
   Script: 'bonus bHit,10 + 5 * (getrefine()/3);
 
     '
@@ -40444,7 +40444,7 @@
   Id: 27169
   Locations:
     Right_Hand: true
-  Name: Payon Soldier Card
+  Name: Carta Guarda de Payon
   Script: ".@atk = 5;\n.@r = getrefine();\nif (getiteminfo(getequipid(EQI_HAND_R),\
     \ ITEMINFO_VIEW) == W_SPEAR && .@r >= 10) {\n   .@atk += 20;\n   if (.@r >= 14)\
     \ {\n      .@atk += 20;\n   }\n}\nbonus bBaseAtk,.@atk;\nbonus bMatk,.@atk;\n"
@@ -40607,7 +40607,7 @@
   Id: 27181
   Locations:
     Right_Hand: true
-  Name: Airship Raid Card
+  Name: Carta Invasores
   Script: '.@r = getrefine();
 
     bonus bLongAtkRate,1 + .@r/2;
@@ -40624,7 +40624,7 @@
   Id: 27182
   Locations:
     Right_Hand: true
-  Name: Captain Felock Card
+  Name: Carta Ferlock
   Script: 'bonus bBaseAtk,30;
 
     .@r = getrefine();
@@ -40643,7 +40643,7 @@
   Id: 27183
   Locations:
     Left_Accessory: true
-  Name: Gigantes Card
+  Name: Carta Gigantes
   Script: "bonus bBaseAtk,20;\nif (readparam(bStr) >= 120) {\n   bonus bBaseAtk,20;\n\
     \   bonus bAspdRate,-3;\n}\n"
   Type: Card
@@ -40655,7 +40655,7 @@
   Id: 27184
   Locations:
     Right_Hand: true
-  Name: Knight Sakray Card
+  Name: Carta Skurai
   Script: 'bonus bBaseAtk,20;
 
     bonus2 bAddRace,RC_Demon,30;
@@ -40725,28 +40725,28 @@
   Id: 27200
   Locations:
     Right_Hand: true
-  Name: Nihil Card
+  Name: Carta Autógrafo de Nihil
   Type: Card
   Weight: 10
 - AegisName: Agnes_Card
   Id: 27201
   Locations:
     Right_Hand: true
-  Name: Agnes Card
+  Name: Carta Autógrafo de Agnes
   Type: Card
   Weight: 10
 - AegisName: Jurgen_Card
   Id: 27202
   Locations:
     Right_Hand: true
-  Name: Juergen Card
+  Name: Carta Autógrafo de Jugen
   Type: Card
   Weight: 10
 - AegisName: Spica_Card
   Id: 27203
   Locations:
     Right_Hand: true
-  Name: Spica Card
+  Name: Carta Autógrafo de Spica
   Type: Card
   Weight: 10
 - AegisName: SLD_Q_Scaraba_Card
@@ -40948,7 +40948,7 @@
   Id: 27249
   Locations:
     Shoes: true
-  Name: Arhi Card
+  Name: Carta Alphard
   Script: 'bonus bBaseAtk,15;
 
     bonus bMatk,15;
@@ -40969,7 +40969,7 @@
   Id: 27250
   Locations:
     Shoes: true
-  Name: Dio Anemos Card
+  Name: Carta Sirius
   Script: 'bonus bMatkRate,3;
 
     bonus2 bMagicAtkEle,Ele_Neutral,5;
@@ -40986,7 +40986,7 @@
   Id: 27251
   Locations:
     Shoes: true
-  Name: Geffen Gang Member Card
+  Name: Carta Bandido de Geffen
   Script: 'bonus bCritAtkRate,3;
 
     bonus bAspdRate,5;
@@ -41001,7 +41001,7 @@
   Id: 27252
   Locations:
     Shoes: true
-  Name: Geffen Bully Card
+  Name: Carta Valentão de Geffen
   Script: 'bonus bCritAtkRate,5;
 
     bonus bAspdRate,3;
@@ -41016,7 +41016,7 @@
   Id: 27253
   Locations:
     Shoes: true
-  Name: Geffen Shoplifter Card
+  Name: Carta Gatuna de Geffen
   Script: 'bonus bMatkRate,3;
 
     bonus2 bMagicAtkEle,Ele_Fire,5;
@@ -41033,7 +41033,7 @@
   Id: 27254
   Locations:
     Shoes: true
-  Name: Faymont Card
+  Name: Carta Mirzam
   Script: 'bonus bSPrecovRate,10;
 
     bonus3 bAutoSpellWhenHit,"CH_SOULCOLLECT",1,10;
@@ -41048,7 +41048,7 @@
   Id: 27255
   Locations:
     Shoes: true
-  Name: Ordre Card
+  Name: Carta Muliphen
   Script: 'bonus bMatkRate,3;
 
     bonus2 bMagicAtkEle,Ele_Wind,5;
@@ -41065,7 +41065,7 @@
   Id: 27256
   Locations:
     Shoes: true
-  Name: Blut Hase Card
+  Name: Carta Wezen
   Script: 'bonus2 bAddClass,Class_All,3;
 
     bonus bLongAtkRate,5;
@@ -41080,7 +41080,7 @@
   Id: 27257
   Locations:
     Shoes: true
-  Name: Kuro Akuma Card
+  Name: Carta Wei
   Script: 'bonus bVariableCastrate,-3;
 
     bonus bLongAtkRate,5;
@@ -41101,7 +41101,7 @@
   Id: 27258
   Locations:
     Shoes: true
-  Name: Ifodes Card
+  Name: Carta Sargas
   Script: 'bonus2 bAddClass,Class_All,3;
 
     bonus bAspdRate,5;
@@ -41116,7 +41116,7 @@
   Id: 27259
   Locations:
     Shoes: true
-  Name: Licheniyes Card
+  Name: Carta Shaula
   Script: 'bonus bMatkRate,3;
 
     bonus2 bMagicAtkEle,Ele_Holy,5;
@@ -41133,7 +41133,7 @@
   Id: 27260
   Locations:
     Shoes: true
-  Name: Odoric Card
+  Name: Carta Ahdara
   Script: 'bonus bAspdRate,3;
 
     bonus bLongAtkRate,5;
@@ -41148,7 +41148,7 @@
   Id: 27261
   Locations:
     Right_Hand: true
-  Name: Ju Card
+  Name: Carta Procyon
   Script: '.@rate = 10 + (getiteminfo(getequipid(EQI_HAND_R), ITEMINFO_VIEW) == W_BOOK
     ? 20 : 0) + (getrefine() >= 14 ? 20 : 0);
 
@@ -41168,7 +41168,7 @@
   Id: 27262
   Locations:
     Both_Accessory: true
-  Name: Dwigh Card
+  Name: Carta Atria
   Script: 'bonus2 bMagicAtkEle,Ele_Dark,20;
 
     bonus2 bMagicAtkEle,Ele_Neutral,20;
@@ -41183,7 +41183,7 @@
   Id: 27263
   Locations:
     Shoes: true
-  Name: Fay Kanavian Card
+  Name: Carta Fey Kanavion
   Script: 'autobonus "{ bonus bDef,300; }",20,10000,BF_WEAPON|BF_SHORT,"{ specialeffect2
     EF_POTION_BERSERK; active_transform 1040,10000; }";
 
@@ -41197,7 +41197,7 @@
   Id: 27264
   Locations:
     Left_Hand: true
-  Name: Evil Shadow Card
+  Name: Carta Sombras das Trevas
   Script: 'bonus2 bSubEle,Ele_Dark,30;
 
     bonus2 bSubEle,Ele_Undead,30;
@@ -41216,7 +41216,7 @@
   Id: 27265
   Locations:
     Right_Hand: true
-  Name: Evil Fanatics Card
+  Name: Carta Fanático das Trevas
   Script: 'bonus2 bAddEle,Ele_Dark,30;
 
     bonus2 bAddEle,Ele_Undead,30;
@@ -41713,7 +41713,7 @@
   Id: 27324
   Locations:
     Right_Hand: true
-  Name: Brinaranea Card
+  Name: Carta Brinaranha
   Script: 'bonus2 bMagicAtkEle,Ele_Water,15;
 
     '
@@ -41726,7 +41726,7 @@
   Id: 27325
   Locations:
     Left_Hand: true
-  Name: Muspellskoll Card
+  Name: Carta Skoll
   Script: 'bonus2 bSubDefEle,Ele_Fire,30;
 
     '
@@ -41808,7 +41808,7 @@
   Id: 27330
   Locations:
     Right_Accessory: true
-  Name: Kronecker Card
+  Name: Carta Autógrafo de Kronecker
   Type: Card
   Weight: 10
 - AegisName: Kronecker_G_Heine_Card
@@ -41829,7 +41829,7 @@
   Id: 27332
   Locations:
     Left_Accessory: true
-  Name: Skia Card
+  Name: Carta Autógrafo de Skia
   Type: Card
   Weight: 10
 - AegisName: Skia_Nerius_Card
@@ -42438,7 +42438,7 @@
 - AegisName: Neev_INT_1
   Buy: 20
   Id: 29000
-  Name: Rune of Intellect Lv 1
+  Name: Runa da Magia 1
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bInt,5;\n   if (.@r>=10) {\n\
     \      bonus bMatkRate,5;\n   }\n}\n"
   SubType: Enchant
@@ -42446,7 +42446,7 @@
 - AegisName: Neev_INT_2
   Buy: 20
   Id: 29001
-  Name: Rune of Intellect Lv 2
+  Name: Runa da Magia 2
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bInt,6;\n   if (.@r>=11) {\n\
     \      bonus bMatkRate,7;\n      bonus bInt,1;\n   }\n}\n"
   SubType: Enchant
@@ -42454,7 +42454,7 @@
 - AegisName: Neev_INT_3
   Buy: 20
   Id: 29002
-  Name: Rune of Intellect Lv 3
+  Name: Runa da Magia 3
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bInt,7;\n   if (.@r>=12) {\n\
     \      bonus bMatkRate,8;\n      bonus bInt,1;\n      if (.@r>=13) {\n       \
     \  bonus bMatkRate,2;\n         bonus bInt,1;\n      }\n   }\n}\n"
@@ -42463,7 +42463,7 @@
 - AegisName: Neev_DEX_1
   Buy: 20
   Id: 29003
-  Name: Rune of Dexterity Lv 1
+  Name: Runa da Visão 1
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bDex,5;\n   if (.@r>=10) {\n\
     \      bonus bLongAtkRate,5;\n   }\n}\n"
   SubType: Enchant
@@ -42471,7 +42471,7 @@
 - AegisName: Neev_DEX_2
   Buy: 20
   Id: 29004
-  Name: Rune of Dexterity Lv 2
+  Name: Runa da Visão 2
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bDex,6;\n   if (.@r>=11) {\n\
     \      bonus bLongAtkRate,7;\n      bonus bDex,1;\n   }\n}\n"
   SubType: Enchant
@@ -42479,7 +42479,7 @@
 - AegisName: Neev_DEX_3
   Buy: 20
   Id: 29005
-  Name: Rune of Dexterity Lv 3
+  Name: Runa da Visão 3
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bDex,7;\n   if (.@r>=12) {\n\
     \      bonus bLongAtkRate,8;\n      bonus bDex,1;\n      if (.@r>=13) {\n    \
     \     bonus bLongAtkRate,2;\n         bonus bDex,1;\n      }\n   }\n}\n"
@@ -42488,7 +42488,7 @@
 - AegisName: Neev_LUK_1
   Buy: 20
   Id: 29006
-  Name: Rune of Luck Lv 1
+  Name: Runa do Acaso 1
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bLuk,5;\n   if (.@r>=10) {\n\
     \      bonus bCritAtkRate,5;\n   }\n}\n"
   SubType: Enchant
@@ -42496,7 +42496,7 @@
 - AegisName: Neev_LUK_2
   Buy: 20
   Id: 29007
-  Name: Rune of Luck Lv 2
+  Name: Runa do Acaso 2
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bLuk,6;\n   if (.@r>=11) {\n\
     \      bonus bCritAtkRate,7;\n      bonus bLuk,1;\n   }\n}\n"
   SubType: Enchant
@@ -42504,7 +42504,7 @@
 - AegisName: Neev_LUK_3
   Buy: 20
   Id: 29008
-  Name: Rune of Luck Lv 3
+  Name: Runa do Acaso 3
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bLuk,7;\n   if (.@r>=12) {\n\
     \      bonus bCritAtkRate,8;\n      bonus bLuk,1;\n      if (.@r>=13) {\n    \
     \     bonus bCritAtkRate,6;\n         bonus bLuk,1;\n      }\n   }\n}\n"
@@ -42513,7 +42513,7 @@
 - AegisName: Neev_VIT_1
   Buy: 20
   Id: 29009
-  Name: Rune of Vitality Lv 1
+  Name: Runa da Saúde 1
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bVit,5;\n   if (.@r>=10) {\n\
     \      bonus bMaxHPrate,5;\n   }\n}\n"
   SubType: Enchant
@@ -42521,7 +42521,7 @@
 - AegisName: Neev_VIT_2
   Buy: 20
   Id: 29010
-  Name: Rune of Vitality Lv 2
+  Name: Runa da Saúde 2
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bVit,6;\n   if (.@r>=11) {\n\
     \      bonus bMaxHPrate,7;\n      bonus bVit,1;\n   }\n}\n"
   SubType: Enchant
@@ -42529,7 +42529,7 @@
 - AegisName: Neev_VIT_3
   Buy: 20
   Id: 29011
-  Name: Rune of Vitality Lv 3
+  Name: Runa da Saúde 3
   Script: ".@r = getrefine();\nif (.@r>=7) {\n   bonus bVit,7;\n   if (.@r>=12) {\n\
     \      bonus bMaxHPrate,8;\n      bonus bVit,1;\n      if (.@r>=13) {\n      \
     \   bonus bMaxHPrate,2;\n         bonus bVit,1;\n      }\n   }\n}\n"
@@ -45936,7 +45936,7 @@
   Id: 31016
   Locations:
     Armor: true
-  Name: Decorated Evil Tree Card
+  Name: Carta Árvore Maldita Decorada
   Script: 'bonus bMaxHP,1000;
 
     bonus bMaxSP,150;
@@ -45953,7 +45953,7 @@
   Id: 31017
   Locations:
     Shoes: true
-  Name: Vicious Cookie Card
+  Name: Carta Cookie Aterrorizante
   Script: '.@r = getrefine()/2;
 
     bonus2 bAddClass,Class_All,1+.@r;
@@ -45972,7 +45972,7 @@
   Id: 31018
   Locations:
     Right_Hand: true
-  Name: Evil Dwelling Box Card
+  Name: Carta Presente das Trevas
   Script: 'bonus bMaxHP,-1225;
 
     bonus3 bAddEff,Eff_Curse,5000,ATF_MAGIC;
@@ -45987,7 +45987,7 @@
   Id: 31019
   Locations:
     Both_Accessory: true
-  Name: Creepy Demon Card
+  Name: Carta Lude Grotesco
   Script: 'bonus bMaxHPrate,-13;
 
     bonus3 bAddEffWhenHit,Eff_Curse,4000,ATF_MAGIC;
@@ -46002,7 +46002,7 @@
   Id: 31020
   Locations:
     Both_Accessory: true
-  Name: Malicious Baby Ghost Card
+  Name: Carta Poltergeist Sangrento
   Script: 'bonus bMaxHPrate,-13;
 
     bonus3 bAddEffWhenHit,Eff_Curse,4000,ATF_WEAPON;
@@ -46017,7 +46017,7 @@
   Id: 31021
   Locations:
     Right_Hand: true
-  Name: Dancing Marionette Card
+  Name: Carta Marionete Demoníaca
   Script: 'bonus bAspdRate,10;
 
     bonus2 bAddClass,Class_All,-3;
@@ -46032,7 +46032,7 @@
   Id: 31022
   Locations:
     Shoes: true
-  Name: Abandoned Teddy Bear Card
+  Name: Carta Ursinho Abominável
   Script: 'bonus bMaxSPRate,20;
 
     bonus2 bAddEff2,Eff_Curse,20;
@@ -46047,7 +46047,7 @@
   Id: 31023
   Locations:
     Right_Hand: true
-  Name: Celine Kimi Card
+  Name: Carta Celine Kimi
   Script: 'bonus bMatkRate,10;
 
     bonus5 bAutoSpell,"NPC_CRITICALWOUND",3,5+(10*(getrefine()/3)),BF_MAGIC,1;
@@ -46063,7 +46063,7 @@
   Id: 31024
   Locations:
     Right_Hand: true
-  Name: Immortal Cursed Knight Card
+  Name: Carta Cavaleiro Imortal
   Script: 'bonus2 bAddClass,Class_All,10;
 
     bonus5 bAutoSpell,"RK_IGNITIONBREAK",5,20,BF_WEAPON,1;
@@ -46079,7 +46079,7 @@
   Id: 31025
   Locations:
     Right_Hand: true
-  Name: Immortal Wind Ghost Card
+  Name: Carta Xamã Imortal
   Script: 'bonus bMatkRate,10;
 
     bonus5 bAutoSpell,"SO_CLOUD_KILL",5,10,BF_MAGIC,1;
@@ -46095,7 +46095,7 @@
   Id: 31026
   Locations:
     Shoes: true
-  Name: Stephane Jack Earnest Wolf Card
+  Name: Carta Jack Wolf
   Script: 'bonus5 bAutoSpellWhenHit,"SO_FIREWALK",5,35,BF_WEAPON,0;
 
     bonus5 bAutoSpellWhenHit,"SO_ELECTRICWALK",5,80,BF_MAGIC,0;
@@ -47348,7 +47348,7 @@
   Id: 300128
   Locations:
     Right_Hand: true
-  Name: Wolf Lugenburg Card
+  Name: Carta Wolf
   Script: 'bonus2 bAddRace,RC_Insect,15;
 
     bonus2 bMagicAddRace,RC_Insect,15;
@@ -47360,14 +47360,14 @@
   Id: 300129
   Locations:
     Right_Hand: true
-  Name: Poe Card
+  Name: Carta Autógrafo de Poe
   Type: Card
   Weight: 10
 - AegisName: S_Poe_Card
   Id: 300130
   Locations:
     Right_Hand: true
-  Name: Poe Richard Card
+  Name: Carta Poe
   Type: Card
   Weight: 10
 - AegisName: ILL_Sropho_Card
@@ -55716,7 +55716,7 @@
   Type: Etc
 - AegisName: aegis_1000235
   Id: 1000235
-  Name: Elite Hunter Token
+  Name: Great Hunter's Mark
   Type: Etc
 - AegisName: Sin_Shard_A
   Flags:
