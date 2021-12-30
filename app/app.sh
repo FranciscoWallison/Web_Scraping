@@ -8,4 +8,4 @@ pip install --upgrade pip
 pip install pyyaml
 pip install mysql-connector-python
 
-python item_yml.py
+python mob_yml.py
