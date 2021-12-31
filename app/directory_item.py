@@ -83,9 +83,9 @@ for idx, i in enumerate(lines):
             nome_traduzido = linhaNome.findChildren("h1")[0].text.replace(" [4]", "").replace(" [3]", "").replace(" [2]", "").replace(" [1]", "")
             id_item = valores[0].replace("(", "")
             print(id_item, "- Nome: ", nome_traduzido)
-            newLine = i.replace(""+valores[1]+","+valores[2]+"", ""+valores[1]+",'"+nome_traduzido+"'")        
+            newLine = i.replace(""+valores[1]+","+valores[2]+"", ""+valores[1]+',"'+nome_traduzido+'"')        
             path_new.write(newLine) # TRADUZINDO A LINHA 
-            print("----- Descrição -----") 
+            print("----- Descrição -----")
             descricao_iteminfor = bs.find_all('meta',{'name':'description'})[0]['content']
             print(descricao_iteminfor)
 
