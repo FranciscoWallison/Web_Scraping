@@ -15,7 +15,7 @@ file_path_item_new = "db_extra/create_scrapin/item_description_re_usable.txt"
 path_item_new = open(file_path_item_new, "wt")
 
 with open(file_path) as f:
-    lines = f.readlines() ##Assume the sample file has 3 lines
+    lines = f.readlines() ##LENDO AS LINHAS DO BANCO DE DADOS
     # first = lines.split('\n', 1)[0]
 
 for idx, i in enumerate(lines):
