@@ -17,7 +17,7 @@ file_path_drop_new = "db_extra/create_scrapin/mob_item_drop_re.txt"
 path_drop_new = open(file_path_drop_new, "wt")
 
 with open(file_path) as f:
-    lines = f.readlines() ##Assume the sample file has 3 lines
+    lines = f.readlines()
     # first = lines.split('\n', 1)[0]
 
 for idx, i in enumerate(lines):
