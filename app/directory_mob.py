@@ -18,7 +18,7 @@ path_drop_new = open(file_path_drop_new, "wt")
 
 with open(file_path) as f:
     lines = f.readlines()
-    # first = lines.split('\n', 1)[0]
+    
 
 for idx, i in enumerate(lines):
     index = idx+1
