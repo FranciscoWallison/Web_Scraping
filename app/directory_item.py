@@ -15,7 +15,7 @@ file_path_item_new = "db_extra/create_scrapin/item_description_re_usable.txt"
 path_item_new = open(file_path_item_new, "wt")
 
 with open(file_path) as f:
-    lines = f.readlines() ##LENDO AS LINHAS DO BANCO DE DADOS
+    lines = f.readlines() # LENDO AS LINHAS DO BANCO DE DADOS
     # first = lines.split('\n', 1)[0]
 
 for idx, i in enumerate(lines):
@@ -41,7 +41,7 @@ for idx, i in enumerate(lines):
         type_item = "itens-slot"
     if valores[3] == "'Cash'" or valores[3] == "'Delayconsume'" or valores[3] == "'Etc'" or valores[3] == "'Healing'" or valores[3] == "'Usable'": 
         type_item = "itens"
-    if valores[3] == "'Shadowgear'":  # não achei categoria para esse item
+    if valores[3] == "'Shadowgear'":  # NÃO ACHEI CATEGOTIA PARA ESSE ITEM 
         print("'Shadowgear'", id_name_item_url)
         path_new.write(i) # NÃO SEI QUAL O TIPO  
         continue
