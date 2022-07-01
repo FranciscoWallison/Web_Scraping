@@ -16,7 +16,6 @@ path_item_new = open(file_path_item_new, "wt")
 
 with open(file_path) as f:
     lines = f.readlines() # LENDO AS LINHAS DO BANCO DE DADOS
-    # first = lines.split('\n', 1)[0]
 
 for idx, i in enumerate(lines):
     index = idx+1
