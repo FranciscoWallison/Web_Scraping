@@ -1,0 +1,5192 @@
+[
+  {
+    "id": 19576,
+    "name": "Chapéu da Proteção Divina",
+    "viewID": 0,
+    "Identified": "c_tare_pope",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tare_pope"
+  },
+  {
+    "id": 19587,
+    "name": "Visual do Rei Poring",
+    "viewID": 0,
+    "Identified": "c_king_poring_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_king_poring_hat"
+  },
+  {
+    "id": 19602,
+    "name": "Chapéu Invisível",
+    "viewID": 0,
+    "Identified": "c_invisible_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_invisible_cap"
+  },
+  {
+    "id": 19701,
+    "name": "Capuz Vermelho",
+    "viewID": 0,
+    "Identified": "c_red_bonnet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_red_bonnet"
+  },
+  {
+    "id": 19917,
+    "name": "Chapéu de Abóbora Iluminado",
+    "viewID": 0,
+    "Identified": "c_gloomy_pumpkin_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gloomy_pumpkin_hat"
+  },
+  {
+    "id": 19920,
+    "name": "Máscara de Sussurro Assustador",
+    "viewID": 0,
+    "Identified": "c_adv_whisper_mask",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_adv_whisper_mask"
+  },
+  {
+    "id": 19944,
+    "name": "Fadinha Angelical",
+    "viewID": 0,
+    "Identified": "c_rtc_third_best",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rtc_third_best"
+  },
+  {
+    "id": 20062,
+    "name": "Brilho do Sol Nascente",
+    "viewID": 0,
+    "Identified": "c_angel_stairs",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_angel_stairs"
+  },
+  {
+    "id": 20251,
+    "name": "Capuz da Pastora",
+    "viewID": 0,
+    "Identified": "c_rose_cascade",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rose_cascade"
+  },
+  {
+    "id": 20346,
+    "name": "Chapéu de Batedor",
+    "viewID": 0,
+    "Identified": "c_drooping_permeter_",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_drooping_permeter_"
+  },
+  {
+    "id": 20393,
+    "name": "Elmo do Guardião",
+    "viewID": 0,
+    "Identified": "c_schmidt_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_schmidt_helm"
+  },
+  {
+    "id": 31091,
+    "name": "Chuva Dourada",
+    "viewID": 0,
+    "Identified": "c_gold_shower",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gold_shower"
+  },
+  {
+    "id": 31193,
+    "name": "Chapéu de Ahat",
+    "viewID": 0,
+    "Identified": "c_tare_ahat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tare_ahat"
+  },
+  {
+    "id": 31200,
+    "name": "Laço Esplêndido",
+    "viewID": 0,
+    "Identified": "c_wrapping_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wrapping_ribbon"
+  },
+  {
+    "id": 31201,
+    "name": "Coroa da Grandeza",
+    "viewID": 0,
+    "Identified": "c_royal_rabbit_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_royal_rabbit_crown"
+  },
+  {
+    "id": 31202,
+    "name": "Quepe do Serumaninho",
+    "viewID": 0,
+    "Identified": "c_dog_officer",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dog_officer"
+  },
+  {
+    "id": 31435,
+    "name": "Gorro de Tricô Hipster",
+    "viewID": 0,
+    "Identified": "c_magician_knithat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_magician_knithat"
+  },
+  {
+    "id": 31602,
+    "name": "Brasão de Midgard",
+    "viewID": 0,
+    "Identified": "c_midgarts_glory",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_midgarts_glory"
+  },
+  {
+    "id": 400073,
+    "name": "Pétalas de Rosa",
+    "viewID": 0,
+    "Identified": "c_romance_rose_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_romance_rose_tw"
+  },
+  {
+    "id": 440008,
+    "name": "Grande Mestre",
+    "viewID": 0,
+    "Identified": "c_master",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_master"
+  },
+  {
+    "id": 19578,
+    "name": "Óculos de Aviação",
+    "viewID": 1
+  },
+  {
+    "id": 20203,
+    "name": "Bandana para Testa",
+    "viewID": 6
+  },
+  {
+    "id": 19625,
+    "name": "Orelhas Lunares",
+    "viewID": 15,
+    "Identified": "c_bunny_band",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bunny_band"
+  },
+  {
+    "id": 19629,
+    "name": "Diadema em Ouro",
+    "viewID": 19
+  },
+  {
+    "id": 19982,
+    "name": "Gorro de Noel",
+    "viewID": 20
+  },
+  {
+    "id": 19789,
+    "name": "Chapéu Elegante",
+    "viewID": 29,
+    "Identified": "c_sweet_gents",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sweet_gents"
+  },
+  {
+    "id": 19720,
+    "name": "Chapéu de Oportunista",
+    "viewID": 31
+  },
+  {
+    "id": 20180,
+    "name": "Chapéu de Faroeste",
+    "viewID": 32
+  },
+  {
+    "id": 19719,
+    "name": "Pequena Coroa",
+    "viewID": 33
+  },
+  {
+    "id": 19529,
+    "name": "Tiara de Anjo",
+    "viewID": 38,
+    "Identified": "c_angelic_chain",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_angelic_chain"
+  },
+  {
+    "id": 19731,
+    "name": "Asas Demoníacas",
+    "viewID": 39
+  },
+  {
+    "id": 19526,
+    "name": "Elmo de Sucata",
+    "viewID": 40,
+    "Identified": "c_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_helm"
+  },
+  {
+    "id": 19549,
+    "name": "Chifres Enormes",
+    "viewID": 41,
+    "Identified": "c_magestic_goat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_magestic_goat"
+  },
+  {
+    "id": 19527,
+    "name": "Tiara Pontuda",
+    "viewID": 43,
+    "Identified": "c_sharp_gear",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sharp_gear"
+  },
+  {
+    "id": 19790,
+    "name": "Véu de Matrimônio",
+    "viewID": 44,
+    "Identified": "c_wedding_veil",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wedding_veil"
+  },
+  {
+    "id": 19630,
+    "name": "Coroa Valiosa",
+    "viewID": 45
+  },
+  {
+    "id": 20161,
+    "name": "Chapéu da Guarda de Prontera",
+    "viewID": 48
+  },
+  {
+    "id": 440000,
+    "name": "Chapéu de Tubarão",
+    "viewID": 51,
+    "Identified": "shark_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/shark_hat"
+  },
+  {
+    "id": 19525,
+    "name": "Óculos Elegantes",
+    "viewID": 58,
+    "Identified": "c_jack_a_dandy",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_jack_a_dandy"
+  },
+  {
+    "id": 19637,
+    "name": "Chapéu de Ambulatório",
+    "viewID": 64
+  },
+  {
+    "id": 19639,
+    "name": "Chapéu Rural",
+    "viewID": 67,
+    "Identified": "c_sahkkat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sahkkat"
+  },
+  {
+    "id": 19941,
+    "name": "Protetores de Ouvido",
+    "viewID": 70
+  },
+  {
+    "id": 19939,
+    "name": "Chifres de Cervo",
+    "viewID": 71,
+    "Identified": "c_antler",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_antler"
+  },
+  {
+    "id": 19797,
+    "name": "Maçã do Arqueiro",
+    "viewID": 72
+  },
+  {
+    "id": 19913,
+    "name": "Chapéu de Esterco",
+    "viewID": 76,
+    "Identified": "c_poo_poo_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_poo_poo_hat"
+  },
+  {
+    "id": 19524,
+    "name": "Cospobre de Rocker",
+    "viewID": 85,
+    "Identified": "c_green_feeler",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_green_feeler"
+  },
+  {
+    "id": 31711,
+    "name": "Coroa de Reis",
+    "viewID": 88,
+    "Identified": "c_gemmed_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gemmed_crown"
+  },
+  {
+    "id": 19865,
+    "name": "Coroa de Bufão",
+    "viewID": 89,
+    "Identified": "c_joker_jester",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_joker_jester"
+  },
+  {
+    "id": 19545,
+    "name": "Quepe da Ostentação",
+    "viewID": 102,
+    "Identified": "c_boys_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_boys_cap"
+  },
+  {
+    "id": 19796,
+    "name": "Elmo com Chifres",
+    "viewID": 103
+  },
+  {
+    "id": 20453,
+    "name": "Fardo de Roupas",
+    "viewID": 108,
+    "Identified": "c_hat_of_bundle",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hat_of_bundle"
+  },
+  {
+    "id": 20472,
+    "name": "Elmo do Anjo",
+    "viewID": 110,
+    "Identified": "c_helm_of_angel",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_helm_of_angel"
+  },
+  {
+    "id": 19533,
+    "name": "Touca de Esporo",
+    "viewID": 114,
+    "Identified": "c_spore_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_spore_hat"
+  },
+  {
+    "id": 20348,
+    "name": "Chapéu de Veraneio",
+    "viewID": 117
+  },
+  {
+    "id": 20304,
+    "name": "Touca de Fumacento",
+    "viewID": 118
+  },
+  {
+    "id": 19547,
+    "name": "Touca de Anime",
+    "viewID": 123,
+    "Identified": "c_deviruchi_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_deviruchi_cap"
+  },
+  {
+    "id": 20207,
+    "name": "Bandana Listrada",
+    "viewID": 133,
+    "Identified": "c_stripe_band",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_stripe_band"
+  },
+  {
+    "id": 31713,
+    "name": "Chapéu de Casca",
+    "viewID": 134,
+    "Identified": "c_mystery_fruit_shell",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mystery_fruit_shell"
+  },
+  {
+    "id": 15893,
+    "name": "Solarium",
+    "viewID": 138,
+    "Identified": "c_helm_of_sun_v",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_helm_of_sun_v"
+  },
+  {
+    "id": 19840,
+    "name": "Elmo Solar Dourado",
+    "viewID": 138,
+    "Identified": "c_helm_of_sun",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_helm_of_sun"
+  },
+  {
+    "id": 19851,
+    "name": "Touca de Ursinho",
+    "viewID": 143,
+    "Identified": "c_brown_bear_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_brown_bear_cap"
+  },
+  {
+    "id": 19829,
+    "name": "Chapéu de Vime",
+    "viewID": 146,
+    "Identified": "c_straw_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_straw_hat"
+  },
+  {
+    "id": 19862,
+    "name": "Chifres de Succubus",
+    "viewID": 150
+  },
+  {
+    "id": 20330,
+    "name": "Chapéu de Solita",
+    "viewID": 151,
+    "Identified": "c_sombrero",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sombrero"
+  },
+  {
+    "id": 19618,
+    "name": "Máscara de Nove Caudas",
+    "viewID": 153,
+    "Identified": "c_mask_of_fox",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mask_of_fox"
+  },
+  {
+    "id": 19582,
+    "name": "Chapéu do Vaqueiro Izael",
+    "viewID": 159,
+    "Identified": "c_cowboy_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cowboy_hat"
+  },
+  {
+    "id": 20454,
+    "name": "Rainha das Serpentes",
+    "viewID": 164,
+    "Identified": "c_headgear_of_queen",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_headgear_of_queen"
+  },
+  {
+    "id": 20224,
+    "name": "Laço Vermelho Delicado",
+    "viewID": 167,
+    "Identified": "c_red_tailed_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_red_tailed_ribbon"
+  },
+  {
+    "id": 19931,
+    "name": "Fumacento Dorminhoco",
+    "viewID": 168,
+    "Identified": "lazy_raccoon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/lazy_raccoon"
+  },
+  {
+    "id": 20385,
+    "name": "Elmo do Herói",
+    "viewID": 178
+  },
+  {
+    "id": 19738,
+    "name": "Chapéu do Xerloque",
+    "viewID": 189,
+    "Identified": "c_detective_hat_k",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_detective_hat_k"
+  },
+  {
+    "id": 19852,
+    "name": "Boné de Pingu",
+    "viewID": 192,
+    "Identified": "c_galapago_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_galapago_cap"
+  },
+  {
+    "id": 19614,
+    "name": "Supervisual de Aprendiz",
+    "viewID": 193,
+    "Identified": "c_super_novice_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_super_novice_hat"
+  },
+  {
+    "id": 19984,
+    "name": "Chapéu Visual de Inverno",
+    "viewID": 196,
+    "Identified": "c_winter_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_winter_hat"
+  },
+  {
+    "id": 19617,
+    "name": "Orelhas de Filhote",
+    "viewID": 199,
+    "Identified": "c_ear_of_puppy",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_ear_of_puppy"
+  },
+  {
+    "id": 20244,
+    "name": "Disfarce de Jirtas",
+    "viewID": 200
+  },
+  {
+    "id": 20194,
+    "name": "Traje de Leão",
+    "viewID": 202
+  },
+  {
+    "id": 440004,
+    "name": "Elmo Antigo",
+    "viewID": 203,
+    "Identified": "c_close_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_close_helmet"
+  },
+  {
+    "id": 19848,
+    "name": "Gorro de Angeling",
+    "viewID": 204,
+    "Identified": "angeling_wanna_fly",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/angeling_wanna_fly"
+  },
+  {
+    "id": 19597,
+    "name": "Chapéu da Ordem Arcana",
+    "viewID": 209,
+    "Identified": "c_magic_eyes_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_magic_eyes_j"
+  },
+  {
+    "id": 19640,
+    "name": "Lacinho Charmoso",
+    "viewID": 211,
+    "Identified": "c_charming_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_charming_ribbon"
+  },
+  {
+    "id": 19555,
+    "name": "Elmo da Lua Crescente",
+    "viewID": 213,
+    "Identified": "c_crescent_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_crescent_helm"
+  },
+  {
+    "id": 20498,
+    "name": "Elefante Fofinho",
+    "viewID": 215,
+    "Identified": "c_elephant_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_elephant_hat"
+  },
+  {
+    "id": 19834,
+    "name": "Boné do Melhor Pai do Mundo",
+    "viewID": 216,
+    "Identified": "c_baseball_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_baseball_cap"
+  },
+  {
+    "id": 19681,
+    "name": "Tiara Prateada",
+    "viewID": 218,
+    "Identified": "c_silver_tiara",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_silver_tiara"
+  },
+  {
+    "id": 19908,
+    "name": "Chapéu do Bobo da Corte",
+    "viewID": 219,
+    "Identified": "c_joker_jester_",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_joker_jester_"
+  },
+  {
+    "id": 19612,
+    "name": "Fones Audio-Poring",
+    "viewID": 220,
+    "Identified": "c_headset_ost",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_headset_ost"
+  },
+  {
+    "id": 19773,
+    "name": "Presilha de Angeling",
+    "viewID": 222,
+    "Identified": "angeling_hairpin",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/angeling_hairpin"
+  },
+  {
+    "id": 19585,
+    "name": "Boina Alada Visual",
+    "viewID": 224,
+    "Identified": "c_feather_beret",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_feather_beret"
+  },
+  {
+    "id": 19546,
+    "name": "Disfarce de Valquíria",
+    "viewID": 225,
+    "Identified": "c_valkyrie_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_valkyrie_helm"
+  },
+  {
+    "id": 31036,
+    "name": "Chapéu de Ministro",
+    "viewID": 227
+  },
+  {
+    "id": 21300,
+    "name": "Máscara do Guarda Leão",
+    "viewID": 231
+  },
+  {
+    "id": 19880,
+    "name": "Tiara Estelar",
+    "viewID": 232,
+    "Identified": "c_gold_tiara",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gold_tiara"
+  },
+  {
+    "id": 19657,
+    "name": "Quepe do Capitão",
+    "viewID": 236,
+    "Identified": "c_captain_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_captain_hat"
+  },
+  {
+    "id": 19594,
+    "name": "Chapéu de Girassol",
+    "viewID": 238
+  },
+  {
+    "id": 19590,
+    "name": "Laços da Paixão",
+    "viewID": 239,
+    "Identified": "c_twin_ribbon_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_twin_ribbon_j"
+  },
+  {
+    "id": 19656,
+    "name": "Chapéu do Bardo Verde",
+    "viewID": 240,
+    "Identified": "c_minstrel_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_minstrel_hat"
+  },
+  {
+    "id": 19523,
+    "name": "Pequeno Laço Verde",
+    "viewID": 244,
+    "Identified": "donation_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/donation_ribbon"
+  },
+  {
+    "id": 19878,
+    "name": "Coelho de Pano",
+    "viewID": 249,
+    "Identified": "c_drooping_bunny",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_drooping_bunny"
+  },
+  {
+    "id": 20187,
+    "name": "Tiara de Fricca",
+    "viewID": 251,
+    "Identified": "c_fricca_circlet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fricca_circlet"
+  },
+  {
+    "id": 19660,
+    "name": "Boina Magenta",
+    "viewID": 252,
+    "Identified": "c_coppola",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_coppola"
+  },
+  {
+    "id": 20188,
+    "name": "Faixa de Morpheus",
+    "viewID": 256
+  },
+  {
+    "id": 19784,
+    "name": "Gálea da Morrigane",
+    "viewID": 257
+  },
+  {
+    "id": 20189,
+    "name": "Égide de Goibne",
+    "viewID": 258,
+    "Identified": "c_goibne_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_goibne_helmet"
+  },
+  {
+    "id": 19749,
+    "name": "Auréola Dourada",
+    "viewID": 260,
+    "Identified": "c_gold_spirit_chain",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gold_spirit_chain"
+  },
+  {
+    "id": 19774,
+    "name": "Coroa do Imperador",
+    "viewID": 261,
+    "Identified": "c_emperor_wreath_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_emperor_wreath_j"
+  },
+  {
+    "id": 19589,
+    "name": "Tiara de Randgris",
+    "viewID": 264,
+    "Identified": "c_fallen_angel_lost_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fallen_angel_lost_j"
+  },
+  {
+    "id": 19627,
+    "name": "Tiara Satélite",
+    "viewID": 266,
+    "Identified": "c_satellite_hairband",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_satellite_hairband"
+  },
+  {
+    "id": 19879,
+    "name": "Orelhas Fabulosas",
+    "viewID": 267,
+    "Identified": "c_black_bunny_band",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_black_bunny_band"
+  },
+  {
+    "id": 31556,
+    "name": "Touca de Raposa",
+    "viewID": 268,
+    "Identified": "c_moonlight_f_hat_v",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_moonlight_f_hat_v"
+  },
+  {
+    "id": 19653,
+    "name": "Chapéu da Banda Real",
+    "viewID": 269,
+    "Identified": "c_marcher_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_marcher_hat"
+  },
+  {
+    "id": 19659,
+    "name": "Touca com Pompom",
+    "viewID": 279,
+    "Identified": "c_gray_fur_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gray_fur_hat"
+  },
+  {
+    "id": 19987,
+    "name": "Gorro Visual de Inverno",
+    "viewID": 280,
+    "Identified": "c_blue_fur_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_blue_fur_hat"
+  },
+  {
+    "id": 31394,
+    "name": "Chapéu Mágico",
+    "viewID": 283,
+    "Identified": "c_white_wizardry_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_wizardry_hat"
+  },
+  {
+    "id": 31119,
+    "name": "Chapéu Cone Arcano",
+    "viewID": 285,
+    "Identified": "c_blue_wizardry_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_blue_wizardry_hat"
+  },
+  {
+    "id": 19802,
+    "name": "Nove Caudas Dorminhoca",
+    "viewID": 296,
+    "Identified": "c_drooping_nine_tail",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_drooping_nine_tail"
+  },
+  {
+    "id": 19835,
+    "name": "Bonequinha de Lif",
+    "viewID": 297,
+    "Identified": "c_lif_doll_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lif_doll_hat"
+  },
+  {
+    "id": 19727,
+    "name": "Gorro de Deviling",
+    "viewID": 298,
+    "Identified": "c_deviling_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_deviling_hat"
+  },
+  {
+    "id": 19693,
+    "name": "Porings Triplo",
+    "viewID": 299,
+    "Identified": "c_triple_poring_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_triple_poring_hat"
+  },
+  {
+    "id": 19677,
+    "name": "Auréola Espiritual",
+    "viewID": 301,
+    "Identified": "c_soulless_wing",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_soulless_wing"
+  },
+  {
+    "id": 19684,
+    "name": "Peruca do Visual Carnavalesco",
+    "viewID": 305,
+    "Identified": "c_happy_wig",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_happy_wig"
+  },
+  {
+    "id": 19775,
+    "name": "Peruca Maravilinda",
+    "viewID": 307,
+    "Identified": "c_marvelous_wig",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_marvelous_wig"
+  },
+  {
+    "id": 19822,
+    "name": "Bandana da Mecânica",
+    "viewID": 309,
+    "Identified": "c_yellow_bandana",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_yellow_bandana"
+  },
+  {
+    "id": 19709,
+    "name": "Lacinho de Fruto de Yggdrasil",
+    "viewID": 310,
+    "Identified": "c_yellow_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_yellow_ribbon"
+  },
+  {
+    "id": 19608,
+    "name": "Pintinho Decorativo",
+    "viewID": 311
+  },
+  {
+    "id": 19658,
+    "name": "Chapéu de Praia",
+    "viewID": 315,
+    "Identified": "c_vacation_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_vacation_hat"
+  },
+  {
+    "id": 19839,
+    "name": "Bonequinho de Vanilmirth",
+    "viewID": 317,
+    "Identified": "c_vanilmirth_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_vanilmirth_hat"
+  },
+  {
+    "id": 20009,
+    "name": "Crânio Ancião",
+    "viewID": 319,
+    "Identified": "c_dragon_skull",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dragon_skull"
+  },
+  {
+    "id": 20007,
+    "name": "Elmo de Tyr",
+    "viewID": 322,
+    "Identified": "c_bullock_helm_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bullock_helm_j"
+  },
+  {
+    "id": 19746,
+    "name": "Capuz do Coração Gelado",
+    "viewID": 326,
+    "Identified": "c_cap_of_blindness",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cap_of_blindness"
+  },
+  {
+    "id": 15851,
+    "name": "Coroa Realeza Gelada",
+    "viewID": 328,
+    "Identified": "c_freyja_crown_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_freyja_crown_j"
+  },
+  {
+    "id": 20044,
+    "name": "Chapéu de Carmen Miranda",
+    "viewID": 329,
+    "Identified": "c_carmen_miranda_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_carmen_miranda_hat"
+  },
+  {
+    "id": 400493,
+    "name": "Boné de bRO deragem",
+    "viewID": 330,
+    "Identified": "c_brazilian_flag_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_brazilian_flag_hat"
+  },
+  {
+    "id": 19812,
+    "name": "Hibiscus Desabrochado",
+    "viewID": 333,
+    "Identified": "c_large_hibiscus",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_large_hibiscus"
+  },
+  {
+    "id": 19748,
+    "name": "Diadema com Rubi",
+    "viewID": 335,
+    "Identified": "c_diadem",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_diadem"
+  },
+  {
+    "id": 19759,
+    "name": "Chapéu da Corporação Sombrinha",
+    "viewID": 338,
+    "Identified": "c_umbrella_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_umbrella_hat"
+  },
+  {
+    "id": 20236,
+    "name": "Gorro de ArchAngeling",
+    "viewID": 341,
+    "Identified": "c_hellomother_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hellomother_hat"
+  },
+  {
+    "id": 19715,
+    "name": "Lenço da Memória Secreta",
+    "viewID": 343,
+    "Identified": "c_scarf",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_scarf"
+  },
+  {
+    "id": 19712,
+    "name": "Bonequinha Angelical",
+    "viewID": 344,
+    "Identified": "c_little_angel_doll",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_little_angel_doll"
+  },
+  {
+    "id": 19724,
+    "name": "Kafra V.I.P.",
+    "viewID": 354,
+    "Identified": "c_deprotai_doll_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_deprotai_doll_hat"
+  },
+  {
+    "id": 20411,
+    "name": "Kafra Sofia",
+    "viewID": 355,
+    "Identified": "c_claris_doll_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_claris_doll_hat"
+  },
+  {
+    "id": 20412,
+    "name": "Kafra Tatiana",
+    "viewID": 357,
+    "Identified": "c_tayelin_doll_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tayelin_doll_hat"
+  },
+  {
+    "id": 31372,
+    "name": "Kafra Bianca",
+    "viewID": 358,
+    "Identified": "c_binit_doll_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_binit_doll_hat"
+  },
+  {
+    "id": 31148,
+    "name": "Kafra Deborah",
+    "viewID": 359,
+    "Identified": "c_debril_doll_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_debril_doll_hat"
+  },
+  {
+    "id": 20129,
+    "name": "Gorro de Poporing",
+    "viewID": 361
+  },
+  {
+    "id": 440005,
+    "name": "Coroa do Diabo",
+    "viewID": 364,
+    "Identified": "c_diabolus_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_diabolus_helmet"
+  },
+  {
+    "id": 19710,
+    "name": "Asas da Vitória",
+    "viewID": 365,
+    "Identified": "c_wings_of_victory",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wings_of_victory"
+  },
+  {
+    "id": 19654,
+    "name": "Chapéu do Timoneiro",
+    "viewID": 367,
+    "Identified": "c_j_captain_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_j_captain_hat"
+  },
+  {
+    "id": 19643,
+    "name": "Orelhas da Wickebine",
+    "viewID": 368
+  },
+  {
+    "id": 19690,
+    "name": "Capelo do Equilíbrio",
+    "viewID": 372,
+    "Identified": "c_dark_snake_lord_hat_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dark_snake_lord_hat_j"
+  },
+  {
+    "id": 20160,
+    "name": "Mini Magnólia",
+    "viewID": 373,
+    "Identified": "c_fried_egg",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fried_egg"
+  },
+  {
+    "id": 31204,
+    "name": "Chapéu de Gatinho Branco",
+    "viewID": 378,
+    "Identified": "c_drooping_white_kitty",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_drooping_white_kitty"
+  },
+  {
+    "id": 19836,
+    "name": "Chifres Majestosos do Bafomé",
+    "viewID": 380,
+    "Identified": "c_l_magestic_goat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_l_magestic_goat"
+  },
+  {
+    "id": 31205,
+    "name": "Coroa do Chefe dos Orcs",
+    "viewID": 381,
+    "Identified": "c_l_orc_hero_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_l_orc_hero_helm"
+  },
+  {
+    "id": 19876,
+    "name": "Cartola da Mekoro",
+    "viewID": 384,
+    "Identified": "c_rabbit_ear_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rabbit_ear_hat"
+  },
+  {
+    "id": 20277,
+    "name": "Boina Estudantil",
+    "viewID": 385,
+    "Identified": "c_balloon_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_balloon_hat"
+  },
+  {
+    "id": 20105,
+    "name": "Chapéu de Merluza",
+    "viewID": 386,
+    "Identified": "c_fish_head_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fish_head_hat"
+  },
+  {
+    "id": 19682,
+    "name": "Chapéu de Poring Natalino",
+    "viewID": 387,
+    "Identified": "c_santa_poring_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_santa_poring_hat"
+  },
+  {
+    "id": 19678,
+    "name": "Lacinho com Sinos",
+    "viewID": 388,
+    "Identified": "c_bell_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bell_ribbon"
+  },
+  {
+    "id": 20204,
+    "name": "Boina de Caça",
+    "viewID": 389,
+    "Identified": "c_hunting_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hunting_cap"
+  },
+  {
+    "id": 19702,
+    "name": "Gorro Natalino Vermelho",
+    "viewID": 390,
+    "Identified": "c_santa_hat_1",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_santa_hat_1"
+  },
+  {
+    "id": 20296,
+    "name": "Yoyo de Estimação",
+    "viewID": 391,
+    "Identified": "c_yoyo_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_yoyo_hat"
+  },
+  {
+    "id": 19729,
+    "name": "Tiara de Gatinha Kafra",
+    "viewID": 392,
+    "Identified": "c_neko_mimi_kafra",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_neko_mimi_kafra"
+  },
+  {
+    "id": 20222,
+    "name": "Gorro Natalino Azul",
+    "viewID": 395,
+    "Identified": "c_santa_hat_2",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_santa_hat_2"
+  },
+  {
+    "id": 19655,
+    "name": "Cartorta",
+    "viewID": 398,
+    "Identified": "c_tiraya_bonnet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tiraya_bonnet"
+  },
+  {
+    "id": 400221,
+    "name": "Diadema de Jasper",
+    "viewID": 399,
+    "Identified": "c_jasper_crest",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_jasper_crest"
+  },
+  {
+    "id": 20410,
+    "name": "Crânio Dracônico",
+    "viewID": 401,
+    "Identified": "c_bone_head",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bone_head"
+  },
+  {
+    "id": 19691,
+    "name": "Lacinhos Discretos",
+    "viewID": 407,
+    "Identified": "c_blue_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_blue_ribbon"
+  },
+  {
+    "id": 19831,
+    "name": "Bonequinho de Filir",
+    "viewID": 408,
+    "Identified": "c_filir_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_filir_hat"
+  },
+  {
+    "id": 19809,
+    "name": "Chapéu de Escrivão",
+    "viewID": 411
+  },
+  {
+    "id": 31263,
+    "name": "Balde de Pipoca",
+    "viewID": 415,
+    "Identified": "c_disposable_popcorn",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_disposable_popcorn"
+  },
+  {
+    "id": 400175,
+    "name": "Chapéu Fogueira",
+    "viewID": 416,
+    "Identified": "c_campfire_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_campfire_hat"
+  },
+  {
+    "id": 19811,
+    "name": "Chapéu de Guaraná Chique",
+    "viewID": 418,
+    "Identified": "c_beer_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_beer_cap"
+  },
+  {
+    "id": 19956,
+    "name": "Chapéu Vermelho de Fanfarra",
+    "viewID": 420,
+    "Identified": "c_soldier_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_soldier_hat"
+  },
+  {
+    "id": 20481,
+    "name": "Máscara de Ifrit",
+    "viewID": 421
+  },
+  {
+    "id": 31595,
+    "name": "Chapéu de Estudante",
+    "viewID": 423,
+    "Identified": "c_book_of_soyga",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_book_of_soyga"
+  },
+  {
+    "id": 31174,
+    "name": "Saco na Cabeça",
+    "viewID": 429,
+    "Identified": "c_weird_bread_bag",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_weird_bread_bag"
+  },
+  {
+    "id": 31628,
+    "name": "Chapéu de Macacaquinho",
+    "viewID": 430,
+    "Identified": "c_bogy_cap_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bogy_cap_tw"
+  },
+  {
+    "id": 19723,
+    "name": "Coroa Ardente",
+    "viewID": 431,
+    "Identified": "c_sacred_torch_coronet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sacred_torch_coronet"
+  },
+  {
+    "id": 20190,
+    "name": "Cocoricuca",
+    "viewID": 432,
+    "Identified": "c_chicken_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_chicken_hat"
+  },
+  {
+    "id": 400492,
+    "name": "Boné Brasileiro",
+    "viewID": 433,
+    "Identified": "c_brazil_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_brazil_cap"
+  },
+  {
+    "id": 20056,
+    "name": "Grinalda de Noiva",
+    "viewID": 437
+  },
+  {
+    "id": 20094,
+    "name": "Tiara de Laço Verde",
+    "viewID": 439,
+    "Identified": "c_fillet_green",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fillet_green"
+  },
+  {
+    "id": 20095,
+    "name": "Tiara de Laço Vermelho",
+    "viewID": 440,
+    "Identified": "c_fillet_red",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fillet_red"
+  },
+  {
+    "id": 20096,
+    "name": "Tiara de Laço Azul",
+    "viewID": 441,
+    "Identified": "c_fillet_blue",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fillet_blue"
+  },
+  {
+    "id": 20245,
+    "name": "Patinha de Doram",
+    "viewID": 447
+  },
+  {
+    "id": 19548,
+    "name": "Chapéu do Gama-sama",
+    "viewID": 448,
+    "Identified": "c_frog_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_frog_cap"
+  },
+  {
+    "id": 19951,
+    "name": "Máscara de DanbRO",
+    "viewID": 450,
+    "Identified": "c_solo_play_box2",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_solo_play_box2"
+  },
+  {
+    "id": 19841,
+    "name": "Elmo do Espírito do Dragão",
+    "viewID": 454,
+    "Identified": "c_dragonhelm_copper",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dragonhelm_copper"
+  },
+  {
+    "id": 19803,
+    "name": "Cata-vento Vermelho",
+    "viewID": 456,
+    "Identified": "c_pinwheel_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pinwheel_cap"
+  },
+  {
+    "id": 20020,
+    "name": "Fantoche da Lady Branca",
+    "viewID": 461,
+    "Identified": "c_zaha_doll_hat_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_zaha_doll_hat_j"
+  },
+  {
+    "id": 19753,
+    "name": "Chapéu da Grande Caçada",
+    "viewID": 462,
+    "Identified": "c_celestial_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_celestial_hat"
+  },
+  {
+    "id": 19668,
+    "name": "Boina Vermelha do Mensageiro",
+    "viewID": 463,
+    "Identified": "c_wind_milestone",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wind_milestone"
+  },
+  {
+    "id": 19667,
+    "name": "Capacete Dracônico",
+    "viewID": 464,
+    "Identified": "c_helm_of_dragoon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_helm_of_dragoon"
+  },
+  {
+    "id": 19953,
+    "name": "Chapéu da Festança de Rua",
+    "viewID": 465,
+    "Identified": "c_parade_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_parade_cap"
+  },
+  {
+    "id": 20148,
+    "name": "Chapéu do Dartanham",
+    "viewID": 466,
+    "Identified": "c_noble_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_noble_hat"
+  },
+  {
+    "id": 20052,
+    "name": "Balão de AFK",
+    "viewID": 471,
+    "Identified": "c_notice_board",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_notice_board"
+  },
+  {
+    "id": 20065,
+    "name": "Cocar das Mil Penas",
+    "viewID": 473,
+    "Identified": "c_hairband_of_grandpeco",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hairband_of_grandpeco"
+  },
+  {
+    "id": 400494,
+    "name": "Bandana Brasileira",
+    "viewID": 474,
+    "Identified": "c_bro_flag",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bro_flag"
+  },
+  {
+    "id": 20106,
+    "name": "Chapéu Dançante",
+    "viewID": 475,
+    "Identified": "c_classic_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_classic_hat"
+  },
+  {
+    "id": 20080,
+    "name": "Visual de Plumas e Paetês",
+    "viewID": 476,
+    "Identified": "c_shamans_hair_orna",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_shamans_hair_orna"
+  },
+  {
+    "id": 19623,
+    "name": "Pluma Arco-íris",
+    "viewID": 477,
+    "Identified": "c_bizofnil_wing_deco",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bizofnil_wing_deco"
+  },
+  {
+    "id": 20042,
+    "name": "Chapéu Estonteante",
+    "viewID": 478,
+    "Identified": "c_hermose_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hermose_cap"
+  },
+  {
+    "id": 20006,
+    "name": "Máscara do Chefão do Mal",
+    "viewID": 479,
+    "Identified": "c_dark_knight_mask",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dark_knight_mask"
+  },
+  {
+    "id": 31242,
+    "name": "Elmo Egípcio",
+    "viewID": 485,
+    "Identified": "c_anubis_helm_v",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_anubis_helm_v"
+  },
+  {
+    "id": 31169,
+    "name": "Chapéu do Agreste",
+    "viewID": 486,
+    "Identified": "c_hat_of_outlaw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hat_of_outlaw"
+  },
+  {
+    "id": 19813,
+    "name": "Casquinha Equilibrista",
+    "viewID": 488,
+    "Identified": "c_icecream_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_icecream_hat"
+  },
+  {
+    "id": 19598,
+    "name": "Elmo do Rei do Norte",
+    "viewID": 490,
+    "Identified": "c_wondering_wolf_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wondering_wolf_helm"
+  },
+  {
+    "id": 19819,
+    "name": "Capuz do Mestre Necromante",
+    "viewID": 491,
+    "Identified": "c_necromencer_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_necromencer_hood"
+  },
+  {
+    "id": 31663,
+    "name": "Chapéu de Fada",
+    "viewID": 492,
+    "Identified": "c_asara_fairy_hat_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_asara_fairy_hat_j"
+  },
+  {
+    "id": 31053,
+    "name": "O Tigre Sábio",
+    "viewID": 495,
+    "Identified": "c_king_tiger_doll_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_king_tiger_doll_hat"
+  },
+  {
+    "id": 19652,
+    "name": "Cartola Visual de Mágico",
+    "viewID": 497,
+    "Identified": "c_rabbit_magic_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rabbit_magic_hat"
+  },
+  {
+    "id": 19607,
+    "name": "Filhote de Fênix",
+    "viewID": 500,
+    "Identified": "c_love_chick_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_love_chick_hat"
+  },
+  {
+    "id": 19866,
+    "name": "Toquinha Estileira de Pijama Azul",
+    "viewID": 501
+  },
+  {
+    "id": 19867,
+    "name": "Toquinha Estileira de Pijama Rosa",
+    "viewID": 502
+  },
+  {
+    "id": 19873,
+    "name": "Chapéu Frelldora",
+    "viewID": 502,
+    "Identified": "c_carnival_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_carnival_hat"
+  },
+  {
+    "id": 19874,
+    "name": "Tiara Carnavalesca",
+    "viewID": 503,
+    "Identified": "c_carnival_circlet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_carnival_circlet"
+  },
+  {
+    "id": 31054,
+    "name": "Chapéu do Sting Vitorioso",
+    "viewID": 504
+  },
+  {
+    "id": 20045,
+    "name": "Peruca de Samambaia",
+    "viewID": 508,
+    "Identified": "c_samambaia",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_samambaia"
+  },
+  {
+    "id": 31897,
+    "name": "Elmo Submarino",
+    "viewID": 512,
+    "Identified": "c_pisces_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pisces_crown"
+  },
+  {
+    "id": 400092,
+    "name": "Chifres Luxuosos",
+    "viewID": 513,
+    "Identified": "c_l_magestic_goat2",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_l_magestic_goat2"
+  },
+  {
+    "id": 19540,
+    "name": "Protetor com Coelhinhos",
+    "viewID": 515,
+    "Identified": "c_rabbit_earplug",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rabbit_earplug"
+  },
+  {
+    "id": 19986,
+    "name": "Boné de Lunático",
+    "viewID": 521,
+    "Identified": "c_lunatic_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lunatic_hat"
+  },
+  {
+    "id": 19758,
+    "name": "Chapéu do Sapo Rei",
+    "viewID": 522,
+    "Identified": "c_king_frog_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_king_frog_hat"
+  },
+  {
+    "id": 31312,
+    "name": "Elmo de Hades",
+    "viewID": 523,
+    "Identified": "c_hades_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hades_helm"
+  },
+  {
+    "id": 20495,
+    "name": "Quati Preguiçoso",
+    "viewID": 527,
+    "Identified": "c_quati_hat_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_quati_hat_j"
+  },
+  {
+    "id": 31182,
+    "name": "Boina de Marinheiro Aposentado",
+    "viewID": 529,
+    "Identified": "c_side_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_side_cap"
+  },
+  {
+    "id": 19536,
+    "name": "Tiara de Rosas",
+    "viewID": 533,
+    "Identified": "c_rose_corsage",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rose_corsage"
+  },
+  {
+    "id": 31413,
+    "name": "Adorno de Touro",
+    "viewID": 536,
+    "Identified": "c_taurus_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_taurus_crown"
+  },
+  {
+    "id": 31466,
+    "name": "Ovo das Asas de Anjo",
+    "viewID": 537
+  },
+  {
+    "id": 19530,
+    "name": "Miniatura Selvagem",
+    "viewID": 541,
+    "Identified": "c_wild_rose",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wild_rose"
+  },
+  {
+    "id": 20414,
+    "name": "Coroa com Chifres",
+    "viewID": 544,
+    "Identified": "c_crown_of_deceit",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_crown_of_deceit"
+  },
+  {
+    "id": 19875,
+    "name": "Touca de Coelho",
+    "viewID": 549,
+    "Identified": "c_love_rabbit_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_love_rabbit_hood"
+  },
+  {
+    "id": 31889,
+    "name": "Adorno de Gêmeos",
+    "viewID": 551,
+    "Identified": "c_gemini_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gemini_crown"
+  },
+  {
+    "id": 20294,
+    "name": "Maximilian Von Babe XXIX",
+    "viewID": 553
+  },
+  {
+    "id": 31417,
+    "name": "Onigiri Saboroso",
+    "viewID": 556
+  },
+  {
+    "id": 31415,
+    "name": "Chapéu do Peregrino",
+    "viewID": 558,
+    "Identified": "c_wanderer_sakkat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wanderer_sakkat"
+  },
+  {
+    "id": 20023,
+    "name": "Boina Militar Vermelha",
+    "viewID": 559,
+    "Identified": "c_red_beret",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_red_beret"
+  },
+  {
+    "id": 31414,
+    "name": "Adorno de Câncer",
+    "viewID": 560,
+    "Identified": "c_cancer_diadem",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cancer_diadem"
+  },
+  {
+    "id": 400167,
+    "name": "Chapéu Espanta Mosquitos",
+    "viewID": 563,
+    "Identified": "c_mosquito_coil",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mosquito_coil"
+  },
+  {
+    "id": 31411,
+    "name": "Adorno de Leão",
+    "viewID": 566,
+    "Identified": "c_leo_diadem",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_leo_diadem"
+  },
+  {
+    "id": 20331,
+    "name": "Turbante do Príncipe do Deserto",
+    "viewID": 567,
+    "Identified": "c_desert_prince",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_desert_prince"
+  },
+  {
+    "id": 31412,
+    "name": "Adorno de Virgem",
+    "viewID": 573,
+    "Identified": "c_virgo_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_virgo_crown"
+  },
+  {
+    "id": 31800,
+    "name": "Lacinhos da Esperança",
+    "viewID": 575,
+    "Identified": "c_br_twin_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_br_twin_ribbon"
+  },
+  {
+    "id": 400430,
+    "name": "Boina Verde e Amarela",
+    "viewID": 576
+  },
+  {
+    "id": 19721,
+    "name": "Elmo das Trevas",
+    "viewID": 586,
+    "Identified": "c_darkness_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_darkness_helm"
+  },
+  {
+    "id": 19745,
+    "name": "Chapéu de Desfile",
+    "viewID": 587,
+    "Identified": "c_holy_marching_hat_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_holy_marching_hat_j"
+  },
+  {
+    "id": 19957,
+    "name": "Capacete de Motociclista",
+    "viewID": 588,
+    "Identified": "c_scooter_hat_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_scooter_hat_j"
+  },
+  {
+    "id": 19599,
+    "name": "Chapéu de Diabrete",
+    "viewID": 589,
+    "Identified": "c_imp_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_imp_hat"
+  },
+  {
+    "id": 20293,
+    "name": "Rochoso de Estimação",
+    "viewID": 590,
+    "Identified": "c_sleepr_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sleepr_hat"
+  },
+  {
+    "id": 19537,
+    "name": "Bebê Grifo",
+    "viewID": 591,
+    "Identified": "c_gryphon_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gryphon_hat"
+  },
+  {
+    "id": 20168,
+    "name": "Lenço de Caveira",
+    "viewID": 598,
+    "Identified": "c_skull_jhood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_skull_jhood"
+  },
+  {
+    "id": 20444,
+    "name": "Cartola Festiva",
+    "viewID": 599,
+    "Identified": "c_aniv_star_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_aniv_star_hat"
+  },
+  {
+    "id": 19670,
+    "name": "Joia do Sul",
+    "viewID": 601,
+    "Identified": "c_southern_cross",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_southern_cross"
+  },
+  {
+    "id": 19767,
+    "name": "Fivela de Sakura",
+    "viewID": 602,
+    "Identified": "c_home_cherry_blossom",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_home_cherry_blossom"
+  },
+  {
+    "id": 19671,
+    "name": "Porquinho da Fortuna",
+    "viewID": 603,
+    "Identified": "c_pig_moneybox",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pig_moneybox"
+  },
+  {
+    "id": 31185,
+    "name": "Chapéu do Maquinista",
+    "viewID": 608,
+    "Identified": "c_engineer_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_engineer_cap"
+  },
+  {
+    "id": 19756,
+    "name": "Chapéu do Amor Materno",
+    "viewID": 610,
+    "Identified": "c_holy_mom_love",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_holy_mom_love"
+  },
+  {
+    "id": 31295,
+    "name": "Boina Emplumada",
+    "viewID": 613,
+    "Identified": "c_priest_hat_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_priest_hat_j"
+  },
+  {
+    "id": 20297,
+    "name": "Mini Cacto",
+    "viewID": 615,
+    "Identified": "c_cactus_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cactus_hat"
+  },
+  {
+    "id": 20231,
+    "name": "Sr. Neves",
+    "viewID": 616,
+    "Identified": "c_snowman_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_snowman_hat"
+  },
+  {
+    "id": 31890,
+    "name": "Adorno de Sagitário",
+    "viewID": 618,
+    "Identified": "c_sagittarius_diadem",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sagittarius_diadem"
+  },
+  {
+    "id": 19697,
+    "name": "Gorro de Natal do Rudolph",
+    "viewID": 619,
+    "Identified": "c_rudolph_santa_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rudolph_santa_hat"
+  },
+  {
+    "id": 19961,
+    "name": "Diadema Rúnico",
+    "viewID": 623,
+    "Identified": "c_rune_circlet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rune_circlet"
+  },
+  {
+    "id": 19962,
+    "name": "Mitra Sagrada",
+    "viewID": 624,
+    "Identified": "c_mitra",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mitra"
+  },
+  {
+    "id": 20392,
+    "name": "Patrono da Selva",
+    "viewID": 625,
+    "Identified": "patrono_da_selva",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/patrono_da_selva"
+  },
+  {
+    "id": 19963,
+    "name": "Tiara do Piloto",
+    "viewID": 626,
+    "Identified": "c_driver_band_r",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_driver_band_r"
+  },
+  {
+    "id": 19965,
+    "name": "Ornamento Sombrio",
+    "viewID": 627,
+    "Identified": "c_shadow_handicraft",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_shadow_handicraft"
+  },
+  {
+    "id": 19966,
+    "name": "Chapéu Harmonioso",
+    "viewID": 628,
+    "Identified": "c_minstrel_song_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_minstrel_song_hat"
+  },
+  {
+    "id": 19967,
+    "name": "Sussurro Sinistro",
+    "viewID": 629,
+    "Identified": "c_midas_whisper",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_midas_whisper"
+  },
+  {
+    "id": 19968,
+    "name": "Chapéu de Cristais Arcanos",
+    "viewID": 630,
+    "Identified": "c_magic_stone_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_magic_stone_hat"
+  },
+  {
+    "id": 19969,
+    "name": "Chama Espiritual",
+    "viewID": 631,
+    "Identified": "c_blazing_soul",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_blazing_soul"
+  },
+  {
+    "id": 19970,
+    "name": "Adorno Mágico",
+    "viewID": 633,
+    "Identified": "c_wind_whisper",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wind_whisper"
+  },
+  {
+    "id": 19971,
+    "name": "Adorno de Penas de Cisne",
+    "viewID": 635,
+    "Identified": "c_dying_swan",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dying_swan"
+  },
+  {
+    "id": 19922,
+    "name": "Chapéu Arcebispal",
+    "viewID": 636,
+    "Identified": "c_noah_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_noah_hat"
+  },
+  {
+    "id": 19964,
+    "name": "Tiara do Copiloto",
+    "viewID": 637,
+    "Identified": "c_driver_band_y",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_driver_band_y"
+  },
+  {
+    "id": 31780,
+    "name": "Chapéu Preguicinha",
+    "viewID": 638
+  },
+  {
+    "id": 20164,
+    "name": "Possessão de Duneyrr",
+    "viewID": 639,
+    "Identified": "c_duneyrr_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_duneyrr_helm"
+  },
+  {
+    "id": 19532,
+    "name": "Orelhas da Lebre Rubra",
+    "viewID": 640,
+    "Identified": "c_red_bunny_band",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_red_bunny_band"
+  },
+  {
+    "id": 19744,
+    "name": "Laço Delicado",
+    "viewID": 642,
+    "Identified": "c_black_tail_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_black_tail_ribbon"
+  },
+  {
+    "id": 19827,
+    "name": "Bonequinho de Amistr",
+    "viewID": 643,
+    "Identified": "c_amistr_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_amistr_cap"
+  },
+  {
+    "id": 19768,
+    "name": "Tiara de Sakura",
+    "viewID": 645,
+    "Identified": "c_sakura_coronet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sakura_coronet"
+  },
+  {
+    "id": 20233,
+    "name": "Ídolo Angelical de Ouro",
+    "viewID": 646,
+    "Identified": "c_gold_angel_sculpture",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gold_angel_sculpture"
+  },
+  {
+    "id": 20333,
+    "name": "Lembrancinha de Jawaii",
+    "viewID": 650
+  },
+  {
+    "id": 400224,
+    "name": "Boina Militar",
+    "viewID": 652,
+    "Identified": "c_navy_beret",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_navy_beret"
+  },
+  {
+    "id": 19507,
+    "name": "Sol Risonho",
+    "viewID": 654,
+    "Identified": "clear_sun",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/clear_sun"
+  },
+  {
+    "id": 20165,
+    "name": "Capuz de Tendrilion",
+    "viewID": 658,
+    "Identified": "c_tendrilion_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tendrilion_hat"
+  },
+  {
+    "id": 31117,
+    "name": "Gálea Dourada",
+    "viewID": 660,
+    "Identified": "c_hoplite_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hoplite_helmet"
+  },
+  {
+    "id": 19706,
+    "name": "Chapéu Moranguete",
+    "viewID": 670
+  },
+  {
+    "id": 20386,
+    "name": "Coroa Asa da Vitória",
+    "viewID": 677,
+    "Identified": "c_victory_wing_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_victory_wing_helm"
+  },
+  {
+    "id": 31298,
+    "name": "Boina Torta",
+    "viewID": 682,
+    "Identified": "c_para_team_hat2",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_para_team_hat2"
+  },
+  {
+    "id": 19519,
+    "name": "Nuvem com Raios",
+    "viewID": 688,
+    "Identified": "lightning_cloud",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/lightning_cloud"
+  },
+  {
+    "id": 20373,
+    "name": "Capacete de Melancia",
+    "viewID": 690,
+    "Identified": "c_watermelon_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_watermelon_hat"
+  },
+  {
+    "id": 19544,
+    "name": "Chapéu de Gatinho Assustado",
+    "viewID": 692,
+    "Identified": "c_tare_neko_cru",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tare_neko_cru"
+  },
+  {
+    "id": 19515,
+    "name": "Chapéu Amarelo com Pluma",
+    "viewID": 701,
+    "Identified": "yellow_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/yellow_hat"
+  },
+  {
+    "id": 19516,
+    "name": "Passarinho de Canto Agudo",
+    "viewID": 702,
+    "Identified": "singing_bird",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/singing_bird"
+  },
+  {
+    "id": 19517,
+    "name": "Crista de Galo",
+    "viewID": 703,
+    "Identified": "cocks_comb",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/cocks_comb"
+  },
+  {
+    "id": 19518,
+    "name": "Arco-Íris",
+    "viewID": 704,
+    "Identified": "c_rainbow_feather_deco",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rainbow_feather_deco"
+  },
+  {
+    "id": 19520,
+    "name": "Nuvem Chuvosa",
+    "viewID": 705,
+    "Identified": "rain_cloud",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/rain_cloud"
+  },
+  {
+    "id": 19521,
+    "name": "Chapéu Antigo",
+    "viewID": 706,
+    "Identified": "charlie_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/charlie_hat"
+  },
+  {
+    "id": 19522,
+    "name": "Minicoroa",
+    "viewID": 707,
+    "Identified": "mini_crown1",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/mini_crown1"
+  },
+  {
+    "id": 19772,
+    "name": "Touca de Abelha",
+    "viewID": 709
+  },
+  {
+    "id": 19907,
+    "name": "Máscara do Folião",
+    "viewID": 710,
+    "Identified": "c_fancy_phantom_mask",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fancy_phantom_mask"
+  },
+  {
+    "id": 19904,
+    "name": "Boina da Caveira",
+    "viewID": 713,
+    "Identified": "c_skull_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_skull_cap"
+  },
+  {
+    "id": 20075,
+    "name": "Chapéu do Doram de Botas",
+    "viewID": 715,
+    "Identified": "c_little_fhat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_little_fhat"
+  },
+  {
+    "id": 19673,
+    "name": "Mitra dos Ajudantes",
+    "viewID": 716,
+    "Identified": "c_love_guard",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_love_guard"
+  },
+  {
+    "id": 19903,
+    "name": "Chapéu de Bruxa Maligna",
+    "viewID": 717,
+    "Identified": "c_witchs_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_witchs_hat"
+  },
+  {
+    "id": 19664,
+    "name": "Tiara do Festival",
+    "viewID": 721,
+    "Identified": "c_campus_festival",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_campus_festival"
+  },
+  {
+    "id": 19771,
+    "name": "Presilha de Borboleta",
+    "viewID": 723,
+    "Identified": "c_butterfly_hairpin",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_butterfly_hairpin"
+  },
+  {
+    "id": 19742,
+    "name": "Milagre de Asgard",
+    "viewID": 724,
+    "Identified": "little_golden_wing",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/little_golden_wing"
+  },
+  {
+    "id": 400313,
+    "name": "Tiara Galática",
+    "viewID": 725
+  },
+  {
+    "id": 19955,
+    "name": "Árvore de Natal",
+    "viewID": 727
+  },
+  {
+    "id": 20008,
+    "name": "Elmo do Conquistador",
+    "viewID": 729,
+    "Identified": "c_general_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_general_helmet"
+  },
+  {
+    "id": 19535,
+    "name": "Caule de Ginseng",
+    "viewID": 730,
+    "Identified": "c_sinsuncho_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sinsuncho_hat"
+  },
+  {
+    "id": 19573,
+    "name": "Tiara do Amor",
+    "viewID": 733,
+    "Identified": "c_heart_wing_hairband",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_heart_wing_hairband"
+  },
+  {
+    "id": 20085,
+    "name": "Cartola da Fortuna do Genka",
+    "viewID": 735,
+    "Identified": "c_clover_silkhat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_clover_silkhat"
+  },
+  {
+    "id": 400136,
+    "name": "Adorno dos Mil Ouros",
+    "viewID": 739
+  },
+  {
+    "id": 31710,
+    "name": "Chapéu de Florista",
+    "viewID": 740,
+    "Identified": "c_skygirl_flower",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_skygirl_flower"
+  },
+  {
+    "id": 20078,
+    "name": "Boina de Penas",
+    "viewID": 741
+  },
+  {
+    "id": 19574,
+    "name": "Elmo Sombrio de Cristal",
+    "viewID": 742,
+    "Identified": "c_lord_of_death",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lord_of_death"
+  },
+  {
+    "id": 31496,
+    "name": "Coroa Ramificada",
+    "viewID": 746
+  },
+  {
+    "id": 31175,
+    "name": "Moranpéu",
+    "viewID": 755
+  },
+  {
+    "id": 19290,
+    "name": "Chifres Vilanescos",
+    "viewID": 757,
+    "Identified": "c_elder_devil_horn",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_elder_devil_horn"
+  },
+  {
+    "id": 19570,
+    "name": "Elmo Mercurial",
+    "viewID": 759,
+    "Identified": "c_mercury_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mercury_helm"
+  },
+  {
+    "id": 19923,
+    "name": "Pequeno Chapéu da Comissão",
+    "viewID": 766,
+    "Identified": "c_dark_age",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dark_age"
+  },
+  {
+    "id": 20278,
+    "name": "Cabeleira do Rei do Rock",
+    "viewID": 775,
+    "Identified": "c_man_medal",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_man_medal"
+  },
+  {
+    "id": 400491,
+    "name": "Faixa Brasileira",
+    "viewID": 778,
+    "Identified": "c_faixa_brasileira",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_faixa_brasileira"
+  },
+  {
+    "id": 19538,
+    "name": "Luar Intenso",
+    "viewID": 780,
+    "Identified": "full_moon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/full_moon"
+  },
+  {
+    "id": 31664,
+    "name": "Lobinho de Cabeça",
+    "viewID": 783
+  },
+  {
+    "id": 31124,
+    "name": "Chapéu do RagnaChef",
+    "viewID": 785,
+    "Identified": "c_ribbon_chef_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_ribbon_chef_hat"
+  },
+  {
+    "id": 20375,
+    "name": "Chapéu do Marechal",
+    "viewID": 803,
+    "Identified": "c_ignis_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_ignis_cap"
+  },
+  {
+    "id": 19884,
+    "name": "Elmo do Gato Cavaleiro",
+    "viewID": 804,
+    "Identified": "c_vanargandr_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_vanargandr_helm"
+  },
+  {
+    "id": 20167,
+    "name": "Fone de Ouvido de Deviruchi",
+    "viewID": 805,
+    "Identified": "c_devi_headphone",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_devi_headphone"
+  },
+  {
+    "id": 19905,
+    "name": "Gorro do Bicho Papão",
+    "viewID": 806,
+    "Identified": "c_secret_society_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_secret_society_hood"
+  },
+  {
+    "id": 15889,
+    "name": "Chapéu de Boitata",
+    "viewID": 808,
+    "Identified": "boitata_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/boitata_hat"
+  },
+  {
+    "id": 31706,
+    "name": "Zanzaelmo",
+    "viewID": 810,
+    "Identified": "c_tatenasi_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tatenasi_helmet"
+  },
+  {
+    "id": 31805,
+    "name": "Boné no Estilo",
+    "viewID": 812,
+    "Identified": "c_sunglasses_bball_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sunglasses_bball_hat"
+  },
+  {
+    "id": 20377,
+    "name": "Elmo do Visual de Aviador",
+    "viewID": 820,
+    "Identified": "c_flying_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_flying_helmet"
+  },
+  {
+    "id": 19868,
+    "name": "Chapéu do Explorador",
+    "viewID": 830,
+    "Identified": "c_showy_high_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_showy_high_cap"
+  },
+  {
+    "id": 31528,
+    "name": "Tiara Cósmica",
+    "viewID": 831,
+    "Identified": "c_stardust_hairband",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_stardust_hairband"
+  },
+  {
+    "id": 31690,
+    "name": "Chapéu Pássaro Flamejante",
+    "viewID": 832,
+    "Identified": "c_flame_bird",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_flame_bird"
+  },
+  {
+    "id": 31464,
+    "name": "Cabeleira Anos 70",
+    "viewID": 837,
+    "Identified": "c_mike_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mike_hat"
+  },
+  {
+    "id": 19739,
+    "name": "Chapéu Ronronante",
+    "viewID": 838,
+    "Identified": "c_sleeping_kitty_cat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sleeping_kitty_cat"
+  },
+  {
+    "id": 31504,
+    "name": "Chapeixe",
+    "viewID": 844,
+    "Identified": "c_starving_fish_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_starving_fish_hat"
+  },
+  {
+    "id": 31092,
+    "name": "Chapéu do Coelho Elegante",
+    "viewID": 845,
+    "Identified": "c_rabbit_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rabbit_ribbon"
+  },
+  {
+    "id": 19543,
+    "name": "Capuz do Lobo Oliver",
+    "viewID": 849,
+    "Identified": "oliver_wolf_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/oliver_wolf_hood"
+  },
+  {
+    "id": 31459,
+    "name": "Chapéu de Bombom",
+    "viewID": 853,
+    "Identified": "c_sweets_bonbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sweets_bonbon"
+  },
+  {
+    "id": 31247,
+    "name": "Chapopótamo",
+    "viewID": 859,
+    "Identified": "c_hippo_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hippo_hat"
+  },
+  {
+    "id": 19575,
+    "name": "Chapéu de Dragão",
+    "viewID": 863
+  },
+  {
+    "id": 20041,
+    "name": "Tiara Flor de Espinhos",
+    "viewID": 864,
+    "Identified": "c_earth_goddess_flower",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_earth_goddess_flower"
+  },
+  {
+    "id": 19985,
+    "name": "Coroa de Cristais Brutos",
+    "viewID": 866,
+    "Identified": "c_aura_quartz_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_aura_quartz_crown"
+  },
+  {
+    "id": 19780,
+    "name": "Orelhinhas de Coelhinho de Lã",
+    "viewID": 867,
+    "Identified": "c_rabbit_ear_knit_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rabbit_ear_knit_hat"
+  },
+  {
+    "id": 31244,
+    "name": "Elmo das Falcoeiras de Rapina",
+    "viewID": 868,
+    "Identified": "c_sky_helm_v",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sky_helm_v"
+  },
+  {
+    "id": 31722,
+    "name": "Gorrinho de Sedora",
+    "viewID": 869
+  },
+  {
+    "id": 400166,
+    "name": "Capacete Aquático",
+    "viewID": 870,
+    "Identified": "c_egir_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_egir_helm"
+  },
+  {
+    "id": 19577,
+    "name": "Chapéu do 10º Aniversário",
+    "viewID": 874,
+    "Identified": "10th_anni_poring_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/10th_anni_poring_hat"
+  },
+  {
+    "id": 20282,
+    "name": "Boné do Mario Branco",
+    "viewID": 877,
+    "Identified": "c_white_boys_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_boys_hat"
+  },
+  {
+    "id": 19800,
+    "name": "Flores do Amanhecer",
+    "viewID": 878,
+    "Identified": "c_carnation_hairband",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_carnation_hairband"
+  },
+  {
+    "id": 18740,
+    "name": "Cabelo de Super Saiadim",
+    "viewID": 879,
+    "Identified": "c_hair_of_the_strong",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hair_of_the_strong"
+  },
+  {
+    "id": 18741,
+    "name": "Fogo Esmeralda",
+    "viewID": 880,
+    "Identified": "c_will_o_wisp",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_will_o_wisp"
+  },
+  {
+    "id": 31668,
+    "name": "Chifres de Majoruros",
+    "viewID": 888,
+    "Identified": "c_majoruros_horn",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_majoruros_horn"
+  },
+  {
+    "id": 19581,
+    "name": "Chapéu de Camponês",
+    "viewID": 891,
+    "Identified": "c_brabery_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_brabery_hat"
+  },
+  {
+    "id": 20496,
+    "name": "Chapéu Serumaninho",
+    "viewID": 894
+  },
+  {
+    "id": 20151,
+    "name": "Chapéu Venenoso",
+    "viewID": 899,
+    "Identified": "c_poison_spore_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_poison_spore_hat"
+  },
+  {
+    "id": 19676,
+    "name": "Chapéu do Poring Prismático",
+    "viewID": 900,
+    "Identified": "c_rainbow_poring_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rainbow_poring_hat"
+  },
+  {
+    "id": 19894,
+    "name": "Laço da Donzela do Altar",
+    "viewID": 908,
+    "Identified": "c_shrine_maiden_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_shrine_maiden_hat"
+  },
+  {
+    "id": 19600,
+    "name": "Kiel de Pelúcia",
+    "viewID": 909,
+    "Identified": "drooping_kiehl",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/drooping_kiehl"
+  },
+  {
+    "id": 19601,
+    "name": "Chapéu Monstrinho Aliot",
+    "viewID": 910,
+    "Identified": "drooping_aliot",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/drooping_aliot"
+  },
+  {
+    "id": 19895,
+    "name": "Touca Lunar",
+    "viewID": 911,
+    "Identified": "c_sorc_night_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sorc_night_cap"
+  },
+  {
+    "id": 19893,
+    "name": "Chapéu de Bruxinha",
+    "viewID": 912,
+    "Identified": "c_plain_black_mage_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_plain_black_mage_hat"
+  },
+  {
+    "id": 19892,
+    "name": "Chapéu da Amoeba Alada",
+    "viewID": 913,
+    "Identified": "c_night_sparrow_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_night_sparrow_hat"
+  },
+  {
+    "id": 31810,
+    "name": "Tiara Azul de Anjo",
+    "viewID": 915,
+    "Identified": "c_deep_angel_hairband",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_deep_angel_hairband"
+  },
+  {
+    "id": 400290,
+    "name": "Tiara Rosa de Anjo",
+    "viewID": 916,
+    "Identified": "c_pink_angel_hairband",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pink_angel_hairband"
+  },
+  {
+    "id": 20460,
+    "name": "Tiara Espinhosa",
+    "viewID": 921
+  },
+  {
+    "id": 19870,
+    "name": "Cartola do Coelho Mágico",
+    "viewID": 923,
+    "Identified": "c_black_rabbit_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_black_rabbit_hat"
+  },
+  {
+    "id": 19649,
+    "name": "Orelhas Brancas de Gatinho",
+    "viewID": 926,
+    "Identified": "c_white_baby_cat_ears",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_baby_cat_ears"
+  },
+  {
+    "id": 31290,
+    "name": "Quepe com Asinhas",
+    "viewID": 929,
+    "Identified": "c_adv_ang_schcap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_adv_ang_schcap"
+  },
+  {
+    "id": 31291,
+    "name": "Diaboina",
+    "viewID": 930,
+    "Identified": "c_adv_dev_schcap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_adv_dev_schcap"
+  },
+  {
+    "id": 19988,
+    "name": "Diadema dos Anciões",
+    "viewID": 933,
+    "Identified": "c_elder_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_elder_crown"
+  },
+  {
+    "id": 19650,
+    "name": "Adorno Arco-íris",
+    "viewID": 934,
+    "Identified": "c_rainbow_feather_deco",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rainbow_feather_deco"
+  },
+  {
+    "id": 19661,
+    "name": "Cartola Adocicada",
+    "viewID": 938,
+    "Identified": "c_sweet_bonnet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sweet_bonnet"
+  },
+  {
+    "id": 5909,
+    "name": "Bravura dos Einherjar",
+    "viewID": 940,
+    "Identified": "c_valkyrie_circlet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_valkyrie_circlet"
+  },
+  {
+    "id": 400091,
+    "name": "Elmo Safira",
+    "viewID": 941,
+    "Identified": "c_gray_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gray_helmet"
+  },
+  {
+    "id": 31326,
+    "name": "Mini Bafomé",
+    "viewID": 946,
+    "Identified": "c_rolf_von_gigue_666",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rolf_von_gigue_666"
+  },
+  {
+    "id": 20447,
+    "name": "Auréola de Porings",
+    "viewID": 955,
+    "Identified": "c_small_poring_band",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_small_poring_band"
+  },
+  {
+    "id": 20372,
+    "name": "Chapéu Delicado de Cospobre",
+    "viewID": 956
+  },
+  {
+    "id": 19685,
+    "name": "Chapéu do Super Poring Noel",
+    "viewID": 961,
+    "Identified": "c_shinesantaporing",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_shinesantaporing"
+  },
+  {
+    "id": 20109,
+    "name": "Chapéu Jolly Roger",
+    "viewID": 962,
+    "Identified": "c_jolly_roger",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_jolly_roger"
+  },
+  {
+    "id": 19687,
+    "name": "Presilha Perfumada",
+    "viewID": 963,
+    "Identified": "c_lush_rose",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lush_rose"
+  },
+  {
+    "id": 19707,
+    "name": "Urso Polar",
+    "viewID": 966,
+    "Identified": "c_snow_bear_food",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_snow_bear_food"
+  },
+  {
+    "id": 20232,
+    "name": "Fita Macabra da Celine",
+    "viewID": 967
+  },
+  {
+    "id": 19778,
+    "name": "Morangão",
+    "viewID": 968
+  },
+  {
+    "id": 19703,
+    "name": "Peruca Afro Blackpower",
+    "viewID": 969,
+    "Identified": "c_afro_wig_black",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_afro_wig_black"
+  },
+  {
+    "id": 19704,
+    "name": "Peruca Afro Ruiva",
+    "viewID": 970,
+    "Identified": "c_afro_wig_red",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_afro_wig_red"
+  },
+  {
+    "id": 19705,
+    "name": "Peruca Afro Loira",
+    "viewID": 971,
+    "Identified": "c_afro_wig_yellow",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_afro_wig_yellow"
+  },
+  {
+    "id": 31431,
+    "name": "Chapéu de Curupira",
+    "viewID": 974,
+    "Identified": "c_curupira_hat_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_curupira_hat_tw"
+  },
+  {
+    "id": 20281,
+    "name": "Chapéu Pré-Escolar",
+    "viewID": 977
+  },
+  {
+    "id": 19718,
+    "name": "Laço de Niflheim",
+    "viewID": 978,
+    "Identified": "c_gothic_head_dress",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gothic_head_dress"
+  },
+  {
+    "id": 20036,
+    "name": "Coroa dos Experientes",
+    "viewID": 981,
+    "Identified": "c_sword_master_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sword_master_crown"
+  },
+  {
+    "id": 20037,
+    "name": "Chapelão do Duque Coruja",
+    "viewID": 982,
+    "Identified": "c_owlduke_silk_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_owlduke_silk_hat"
+  },
+  {
+    "id": 19728,
+    "name": "Boneco da Zonda",
+    "viewID": 985,
+    "Identified": "c_tare_zonda",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tare_zonda"
+  },
+  {
+    "id": 19750,
+    "name": "Lacinho Frufru",
+    "viewID": 987,
+    "Identified": "c_saint_frill_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_saint_frill_ribbon"
+  },
+  {
+    "id": 19751,
+    "name": "Coroa da Luz e Trevas",
+    "viewID": 988,
+    "Identified": "c_light_darkness_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_light_darkness_crown"
+  },
+  {
+    "id": 31845,
+    "name": "Cartola da Guarda Real",
+    "viewID": 991
+  },
+  {
+    "id": 19760,
+    "name": "Véu do Arco-Íris",
+    "viewID": 992,
+    "Identified": "c_rainbow_veil",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rainbow_veil"
+  },
+  {
+    "id": 19761,
+    "name": "Flores Delicadas",
+    "viewID": 993,
+    "Identified": "c_white_lily",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_lily"
+  },
+  {
+    "id": 19762,
+    "name": "Pombinhos Apaixonados",
+    "viewID": 994,
+    "Identified": "c_happy_peace_proof",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_happy_peace_proof"
+  },
+  {
+    "id": 31467,
+    "name": "Ovo das Asas de Demônio",
+    "viewID": 999
+  },
+  {
+    "id": 19777,
+    "name": "Estrelinha Lumma",
+    "viewID": 1005,
+    "Identified": "c_twinkle_little_star",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_twinkle_little_star"
+  },
+  {
+    "id": 20395,
+    "name": "Chapéu da Bruxa Sombria",
+    "viewID": 1006,
+    "Identified": "c_black_witch_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_black_witch_hat"
+  },
+  {
+    "id": 20338,
+    "name": "Chapéu Polvo Arco-Íris",
+    "viewID": 1007,
+    "Identified": "c_rainbow_l_octopus",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rainbow_l_octopus"
+  },
+  {
+    "id": 31821,
+    "name": "Boné Estileira",
+    "viewID": 1011,
+    "Identified": "c_jeje_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_jeje_cap"
+  },
+  {
+    "id": 20494,
+    "name": "Ovning",
+    "viewID": 1017,
+    "Identified": "c_ufo_poring_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_ufo_poring_hat"
+  },
+  {
+    "id": 31430,
+    "name": "Chapéu do Bandalf",
+    "viewID": 1023,
+    "Identified": "c_seppl_hat_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_seppl_hat_tw"
+  },
+  {
+    "id": 31939,
+    "name": "Coroa de Rosas",
+    "viewID": 1026,
+    "Identified": "c_carnation_corolla",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_carnation_corolla"
+  },
+  {
+    "id": 31248,
+    "name": "Adereço Vermelho Pontiagudo",
+    "viewID": 1030,
+    "Identified": "c_isabella_red_ear",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_isabella_red_ear"
+  },
+  {
+    "id": 31508,
+    "name": "Adereço Azul Pontiagudo",
+    "viewID": 1032,
+    "Identified": "c_isabella_blue_ear",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_isabella_blue_ear"
+  },
+  {
+    "id": 19804,
+    "name": "Cata-vento elegante",
+    "viewID": 1044,
+    "Identified": "c_red_vane_hairpin",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_red_vane_hairpin"
+  },
+  {
+    "id": 19806,
+    "name": "Presilha do Festival",
+    "viewID": 1046,
+    "Identified": "c_full_bloom_hairpin",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_full_bloom_hairpin"
+  },
+  {
+    "id": 19807,
+    "name": "Elmo do Xogum",
+    "viewID": 1047,
+    "Identified": "c_majestic_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_majestic_helmet"
+  },
+  {
+    "id": 19815,
+    "name": "Chapéu da Natureza",
+    "viewID": 1048,
+    "Identified": "c_lolita_ten_gallon_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lolita_ten_gallon_hat"
+  },
+  {
+    "id": 19816,
+    "name": "Chapéu de Peco",
+    "viewID": 1049,
+    "Identified": "c_pecopeco_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pecopeco_cap"
+  },
+  {
+    "id": 19823,
+    "name": "Capuz de Gatinho Fofinho",
+    "viewID": 1052,
+    "Identified": "c_white_cat_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_cat_hood"
+  },
+  {
+    "id": 19824,
+    "name": "Chapéu de Druida Maligno",
+    "viewID": 1053,
+    "Identified": "c_evil_druid_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_evil_druid_hat"
+  },
+  {
+    "id": 19825,
+    "name": "Bandana Curativa",
+    "viewID": 1054,
+    "Identified": "c_vicious_stop_bandage",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_vicious_stop_bandage"
+  },
+  {
+    "id": 15905,
+    "name": "Capacete Ecoante",
+    "viewID": 1055,
+    "Identified": "c_helmet_of_siegfried_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_helmet_of_siegfried_j"
+  },
+  {
+    "id": 400080,
+    "name": "Coroa do Renascimento",
+    "viewID": 1056,
+    "Identified": "c_kriemhild_crown_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_kriemhild_crown_tw"
+  },
+  {
+    "id": 400131,
+    "name": "Diadema do Fogo Azul",
+    "viewID": 1057,
+    "Identified": "c_diadem_of_bruenhild",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_diadem_of_bruenhild"
+  },
+  {
+    "id": 20374,
+    "name": "Chapéu Cyberpunk Florido",
+    "viewID": 1069,
+    "Identified": "c_mechanical_plant_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mechanical_plant_hat"
+  },
+  {
+    "id": 20262,
+    "name": "Orelhas de Raposa",
+    "viewID": 1070,
+    "Identified": "c_fox_ears_bell_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fox_ears_bell_ribbon"
+  },
+  {
+    "id": 20191,
+    "name": "Chapéu da Guarda Doram",
+    "viewID": 1071,
+    "Identified": "c_black_cat_ears_beret",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_black_cat_ears_beret"
+  },
+  {
+    "id": 31433,
+    "name": "Auréola Benevolente",
+    "viewID": 1073,
+    "Identified": "c_astro_circle",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_astro_circle"
+  },
+  {
+    "id": 19934,
+    "name": "Chapéu Flamejante",
+    "viewID": 1075,
+    "Identified": "c_10gallon_hat_of_flame",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_10gallon_hat_of_flame"
+  },
+  {
+    "id": 19935,
+    "name": "Boné do D Fléchi",
+    "viewID": 1076,
+    "Identified": "c_hunting_cap_of_gust",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hunting_cap_of_gust"
+  },
+  {
+    "id": 19936,
+    "name": "Gorro de Lã do Ioxi",
+    "viewID": 1077,
+    "Identified": "c_knit_cap_of_water",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_knit_cap_of_water"
+  },
+  {
+    "id": 19937,
+    "name": "Chapéu da Fauna e Flora",
+    "viewID": 1078,
+    "Identified": "c_silk_hat_of_earth",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_silk_hat_of_earth"
+  },
+  {
+    "id": 400174,
+    "name": "Chapéu de Sorveja",
+    "viewID": 1079,
+    "Identified": "c_weissbier_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_weissbier_hat"
+  },
+  {
+    "id": 20329,
+    "name": "Bonequinha Preguiçosa",
+    "viewID": 1084,
+    "Identified": "c_tare_hschool_doll_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tare_hschool_doll_hat"
+  },
+  {
+    "id": 19881,
+    "name": "Coelhinho Carinhoso",
+    "viewID": 1085,
+    "Identified": "c_pretty_rabbit_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pretty_rabbit_hood"
+  },
+  {
+    "id": 19883,
+    "name": "Gorro da Piamette",
+    "viewID": 1087,
+    "Identified": "c_piamette_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_piamette_hood"
+  },
+  {
+    "id": 20183,
+    "name": "Presença Misteriosa",
+    "viewID": 1091,
+    "Identified": "c_there_is_something",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_there_is_something"
+  },
+  {
+    "id": 31318,
+    "name": "Deviruchi Inflável",
+    "viewID": 1092,
+    "Identified": "c_gerhard_von_devi",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gerhard_von_devi"
+  },
+  {
+    "id": 20200,
+    "name": "Chapéu de Camponesa",
+    "viewID": 1095,
+    "Identified": "c_rabbit_head_dress",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rabbit_head_dress"
+  },
+  {
+    "id": 19910,
+    "name": "Chapéu de Bruxa Brilhante",
+    "viewID": 1098,
+    "Identified": "c_halloween_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_halloween_hat"
+  },
+  {
+    "id": 19911,
+    "name": "Telhado",
+    "viewID": 1099,
+    "Identified": "telhado",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/telhado"
+  },
+  {
+    "id": 19914,
+    "name": "Chapéu do Comissário",
+    "viewID": 1101,
+    "Identified": "felock_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/felock_cap"
+  },
+  {
+    "id": 31535,
+    "name": "Chapéu de Titica",
+    "viewID": 1102,
+    "Identified": "c_old_pink_poo_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_old_pink_poo_hat"
+  },
+  {
+    "id": 19915,
+    "name": "Pequeno Par de Chifres",
+    "viewID": 1103,
+    "Identified": "c_little_devil_s_horn",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_little_devil_s_horn"
+  },
+  {
+    "id": 20079,
+    "name": "Tiara Áurea de Anjo",
+    "viewID": 1104,
+    "Identified": "c_love_daddy_2013",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_love_daddy_2013"
+  },
+  {
+    "id": 19928,
+    "name": "Tiara dos Trevosos",
+    "viewID": 1111,
+    "Identified": "c_gothic_heart_wing",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gothic_heart_wing"
+  },
+  {
+    "id": 19929,
+    "name": "Laço Clássico",
+    "viewID": 1112,
+    "Identified": "c_classical_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_classical_ribbon"
+  },
+  {
+    "id": 19930,
+    "name": "Cartola da Gótica-Valquíria",
+    "viewID": 1113,
+    "Identified": "c_angel_mini_silk_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_angel_mini_silk_hat"
+  },
+  {
+    "id": 20135,
+    "name": "Coroa do Segredo",
+    "viewID": 1117,
+    "Identified": "c12th_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c12th_crown"
+  },
+  {
+    "id": 31976,
+    "name": "Boina de Foco",
+    "viewID": 1122,
+    "Identified": "c_focus_beret",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_focus_beret"
+  },
+  {
+    "id": 19958,
+    "name": "Boina da Lutadora de Rua",
+    "viewID": 1137,
+    "Identified": "c_choir_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_choir_hat"
+  },
+  {
+    "id": 19959,
+    "name": "Penteado de Argiope",
+    "viewID": 1138,
+    "Identified": "c_drooping_argiope",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_drooping_argiope"
+  },
+  {
+    "id": 19960,
+    "name": "Correntes de Marionete",
+    "viewID": 1139,
+    "Identified": "c_chain_puppet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_chain_puppet"
+  },
+  {
+    "id": 19972,
+    "name": "Protetor Real",
+    "viewID": 1140,
+    "Identified": "c_protect_of_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_protect_of_crown"
+  },
+  {
+    "id": 19973,
+    "name": "Diadema de Ossos",
+    "viewID": 1141,
+    "Identified": "c_circlet_of_bone",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_circlet_of_bone"
+  },
+  {
+    "id": 19974,
+    "name": "Orelhas de Coelho Camuflado",
+    "viewID": 1142,
+    "Identified": "c_camouflage_rabbithood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_camouflage_rabbithood"
+  },
+  {
+    "id": 400425,
+    "name": "Flauta de Falcão",
+    "viewID": 1143
+  },
+  {
+    "id": 19976,
+    "name": "Chapéu de Gato Natalino",
+    "viewID": 1144,
+    "Identified": "c_cat_santa_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cat_santa_hat"
+  },
+  {
+    "id": 19977,
+    "name": "Sinal dos Apressados",
+    "viewID": 1145,
+    "Identified": "c_golden_exclamation",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_golden_exclamation"
+  },
+  {
+    "id": 19978,
+    "name": "Sinal dos Desesperados",
+    "viewID": 1146,
+    "Identified": "c_silver_exclamation",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_silver_exclamation"
+  },
+  {
+    "id": 19979,
+    "name": "Sinal dos Curiosos",
+    "viewID": 1147,
+    "Identified": "c_golden_question",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_golden_question"
+  },
+  {
+    "id": 19980,
+    "name": "Sinal dos Esquecidos",
+    "viewID": 1148,
+    "Identified": "c_silver_question",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_silver_question"
+  },
+  {
+    "id": 31159,
+    "name": "Chapéu de Jormungand",
+    "viewID": 1149,
+    "Identified": "c_jormungandr_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_jormungandr_hat"
+  },
+  {
+    "id": 20252,
+    "name": "Acessório Peculiar",
+    "viewID": 1150,
+    "Identified": "c_accessory_of_ascetic",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_accessory_of_ascetic"
+  },
+  {
+    "id": 19990,
+    "name": "Gorro de Coelho de Inverno",
+    "viewID": 1157,
+    "Identified": "c_snow_rabbit_knit_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_snow_rabbit_knit_hat"
+  },
+  {
+    "id": 19991,
+    "name": "Tiara de Galanthus",
+    "viewID": 1158,
+    "Identified": "c_galanthus_guard",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_galanthus_guard"
+  },
+  {
+    "id": 31804,
+    "name": "Chapéu com Lacinho",
+    "viewID": 1172,
+    "Identified": "c_flower_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_flower_hat"
+  },
+  {
+    "id": 31912,
+    "name": "Véu Obscuro",
+    "viewID": 1173,
+    "Identified": "c_black_veil_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_black_veil_j"
+  },
+  {
+    "id": 31038,
+    "name": "Bandana Xadrez",
+    "viewID": 1174,
+    "Identified": "c_cheks_vandana",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cheks_vandana"
+  },
+  {
+    "id": 20332,
+    "name": "Laço de Fita",
+    "viewID": 1175,
+    "Identified": "c_ribbon_of_lady",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_ribbon_of_lady"
+  },
+  {
+    "id": 31728,
+    "name": "Chapéu da Noviça",
+    "viewID": 1181,
+    "Identified": "c_nobility_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_nobility_hat"
+  },
+  {
+    "id": 20401,
+    "name": "Espírito Angelical",
+    "viewID": 1188,
+    "Identified": "c_angel_spirit_guides",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_angel_spirit_guides"
+  },
+  {
+    "id": 19996,
+    "name": "Cavalo Rei",
+    "viewID": 1189,
+    "Identified": "horse_king",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/horse_king"
+  },
+  {
+    "id": 19998,
+    "name": "Casco de Espinhoso",
+    "viewID": 1192,
+    "Identified": "c_dragon_turtle_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dragon_turtle_hat"
+  },
+  {
+    "id": 20003,
+    "name": "Chapéu do Roedor",
+    "viewID": 1197
+  },
+  {
+    "id": 20011,
+    "name": "Elmo Primarino",
+    "viewID": 1199,
+    "Identified": "c_lightning_speed",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lightning_speed"
+  },
+  {
+    "id": 20012,
+    "name": "Chapéu Deciduai",
+    "viewID": 1200,
+    "Identified": "c_double_horn_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_double_horn_helm"
+  },
+  {
+    "id": 20435,
+    "name": "Pingente Lunar",
+    "viewID": 1203,
+    "Identified": "c_camellia_hair_pin",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_camellia_hair_pin"
+  },
+  {
+    "id": 20016,
+    "name": "Chapéu de Lagosta",
+    "viewID": 1206,
+    "Identified": "lobster_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/lobster_hat"
+  },
+  {
+    "id": 20038,
+    "name": "Capacete do Alfonso",
+    "viewID": 1207,
+    "Identified": "alphonse_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/alphonse_helmet"
+  },
+  {
+    "id": 20018,
+    "name": "Orelhinhas Atentas",
+    "viewID": 1208,
+    "Identified": "horo_ears",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/horo_ears"
+  },
+  {
+    "id": 20025,
+    "name": "Chapéu de Vaquinha",
+    "viewID": 1211,
+    "Identified": "c_cow_hat1",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cow_hat1"
+  },
+  {
+    "id": 20027,
+    "name": "Chapéu da Mimosa Rosa",
+    "viewID": 1213,
+    "Identified": "c_cow_hat3",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cow_hat3"
+  },
+  {
+    "id": 20031,
+    "name": "Tiara Pomposa",
+    "viewID": 1215,
+    "Identified": "c_bunny_head_dress",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bunny_head_dress"
+  },
+  {
+    "id": 20032,
+    "name": "Turbante do Oráculo",
+    "viewID": 1216,
+    "Identified": "c_firinto_scarf",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_firinto_scarf"
+  },
+  {
+    "id": 20033,
+    "name": "Coroa de Dewata",
+    "viewID": 1217,
+    "Identified": "c_buddhist_priest_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_buddhist_priest_crown"
+  },
+  {
+    "id": 20467,
+    "name": "Mini Coroa da Primavera",
+    "viewID": 1219,
+    "Identified": "c_elemental_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_elemental_crown"
+  },
+  {
+    "id": 31042,
+    "name": "Diadema Delicado",
+    "viewID": 1220,
+    "Identified": "c_survive_circlet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_survive_circlet"
+  },
+  {
+    "id": 19288,
+    "name": "Elmo Titânico",
+    "viewID": 1221,
+    "Identified": "c_gigant_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gigant_helm"
+  },
+  {
+    "id": 20046,
+    "name": "Tiara da Rosa Azul",
+    "viewID": 1222,
+    "Identified": "c_decoration_bluerose",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_decoration_bluerose"
+  },
+  {
+    "id": 20048,
+    "name": "Tiara Elegante",
+    "viewID": 1224,
+    "Identified": "c_wind_of_the_prairie",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wind_of_the_prairie"
+  },
+  {
+    "id": 31325,
+    "name": "Coroa da Rainha Scaraba",
+    "viewID": 1231,
+    "Identified": "c_q_scaraba_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_q_scaraba_crown"
+  },
+  {
+    "id": 20069,
+    "name": "Tiara de Grifo Real",
+    "viewID": 1233,
+    "Identified": "c_gryphon_hairband",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gryphon_hairband"
+  },
+  {
+    "id": 20070,
+    "name": "Capuz de Alpaca Fofinha",
+    "viewID": 1234,
+    "Identified": "c_alpaca_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_alpaca_hood"
+  },
+  {
+    "id": 20098,
+    "name": "Adorno Vampiresco",
+    "viewID": 1238,
+    "Identified": "c_vampire_hairband",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_vampire_hairband"
+  },
+  {
+    "id": 20099,
+    "name": "Esplêndido Brilhante",
+    "viewID": 1239,
+    "Identified": "c_ljosalfar",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_ljosalfar"
+  },
+  {
+    "id": 20100,
+    "name": "Chapéu Ragtoberfest",
+    "viewID": 1240,
+    "Identified": "c_volume_fhat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_volume_fhat"
+  },
+  {
+    "id": 20086,
+    "name": "Dragão Ancião",
+    "viewID": 1245,
+    "Identified": "c_dragoncintamani_hat1",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dragoncintamani_hat1"
+  },
+  {
+    "id": 31419,
+    "name": "Tiara Flap Flap",
+    "viewID": 1251,
+    "Identified": "c_angel_of_happiness",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_angel_of_happiness"
+  },
+  {
+    "id": 20113,
+    "name": "Chapéu do Oráculo",
+    "viewID": 1253,
+    "Identified": "c_star_reading_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_star_reading_hat"
+  },
+  {
+    "id": 20112,
+    "name": "Chapéu de Praia Azul",
+    "viewID": 1256,
+    "Identified": "c_aqua_ten_gallon_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_aqua_ten_gallon_hat"
+  },
+  {
+    "id": 20117,
+    "name": "Chapéu do Lorde Mousse",
+    "viewID": 1257
+  },
+  {
+    "id": 20110,
+    "name": "Chapéu de Sucuri",
+    "viewID": 1258,
+    "Identified": "c_coiledup_snake_hat1",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_coiledup_snake_hat1"
+  },
+  {
+    "id": 20122,
+    "name": "Laço da Felicidade",
+    "viewID": 1260,
+    "Identified": "happy_summer_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/happy_summer_ribbon"
+  },
+  {
+    "id": 20130,
+    "name": "Cartola Sussurrante",
+    "viewID": 1265,
+    "Identified": "c_whisper_tall_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_whisper_tall_hat"
+  },
+  {
+    "id": 20133,
+    "name": "Fantasia de Poring",
+    "viewID": 1268,
+    "Identified": "c_poring_mascot_costume",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_poring_mascot_costume"
+  },
+  {
+    "id": 20134,
+    "name": "Elmo do Cavaleiro Branco",
+    "viewID": 1269,
+    "Identified": "c_helm_of_abyss_white",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_helm_of_abyss_white"
+  },
+  {
+    "id": 20139,
+    "name": "Presilha Cavalinho",
+    "viewID": 1271,
+    "Identified": "c_horse_hairpin1",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_horse_hairpin1"
+  },
+  {
+    "id": 20153,
+    "name": "Quepe Militar",
+    "viewID": 1274,
+    "Identified": "c_monochrome_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_monochrome_cap"
+  },
+  {
+    "id": 20155,
+    "name": "Chapéu de Lady Emplumado",
+    "viewID": 1276,
+    "Identified": "c_ladys_feather_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_ladys_feather_hat"
+  },
+  {
+    "id": 20162,
+    "name": "Gorro de Carneirinho",
+    "viewID": 1277,
+    "Identified": "c_lamb_hat1",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lamb_hat1"
+  },
+  {
+    "id": 31040,
+    "name": "Tiara das Plumas Mágicas",
+    "viewID": 1279,
+    "Identified": "c_magical_feather",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_magical_feather"
+  },
+  {
+    "id": 20171,
+    "name": "Chapéu Torta Holandesa",
+    "viewID": 1280,
+    "Identified": "c_sepia_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sepia_cap"
+  },
+  {
+    "id": 20172,
+    "name": "Miniabóbora Elegante",
+    "viewID": 1281,
+    "Identified": "c_pumpkin_head",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pumpkin_head"
+  },
+  {
+    "id": 20173,
+    "name": "Touca do Fantasma",
+    "viewID": 1282,
+    "Identified": "c_lude_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lude_hood"
+  },
+  {
+    "id": 20174,
+    "name": "Chapéu de Bruxa Laranja",
+    "viewID": 1283,
+    "Identified": "c_halloween_hat_orange",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_halloween_hat_orange"
+  },
+  {
+    "id": 20175,
+    "name": "Fone de Ouvido de Diabolik",
+    "viewID": 1284,
+    "Identified": "c_diabolic_headphone",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_diabolic_headphone"
+  },
+  {
+    "id": 20398,
+    "name": "Chapéu de Coelho Maldito",
+    "viewID": 1285,
+    "Identified": "c_niflheim_bunny_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_niflheim_bunny_hat"
+  },
+  {
+    "id": 20482,
+    "name": "Gaiola Florida",
+    "viewID": 1286,
+    "Identified": "c_heaven_cage",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_heaven_cage"
+  },
+  {
+    "id": 20196,
+    "name": "Gorro de Leopardo",
+    "viewID": 1293,
+    "Identified": "c_leopard_ear_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_leopard_ear_hat"
+  },
+  {
+    "id": 20197,
+    "name": "Boina de Amistr",
+    "viewID": 1294,
+    "Identified": "c_amistr_beret",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_amistr_beret"
+  },
+  {
+    "id": 20198,
+    "name": "Orelhas Peludinhas",
+    "viewID": 1295,
+    "Identified": "c_misty_ears",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_misty_ears"
+  },
+  {
+    "id": 20206,
+    "name": "Cocórigorro",
+    "viewID": 1296
+  },
+  {
+    "id": 20217,
+    "name": "Véu das Mil e Uma Noites",
+    "viewID": 1300,
+    "Identified": "c_arabian_veil",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_arabian_veil"
+  },
+  {
+    "id": 20218,
+    "name": "Auréola dos Aesir",
+    "viewID": 1301,
+    "Identified": "c_spell_circuit",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_spell_circuit"
+  },
+  {
+    "id": 20219,
+    "name": "Chapéu da Banda Sagrada",
+    "viewID": 1302,
+    "Identified": "c_angel_marcher_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_angel_marcher_hat"
+  },
+  {
+    "id": 20220,
+    "name": "Véu da Meia-Noite",
+    "viewID": 1303,
+    "Identified": "c_dark_night_veil",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dark_night_veil"
+  },
+  {
+    "id": 20212,
+    "name": "Boneco de Loki e Nidhogg",
+    "viewID": 1304,
+    "Identified": "c_loki_nidhogg_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_loki_nidhogg_hat"
+  },
+  {
+    "id": 20247,
+    "name": "Mão Diabólica",
+    "viewID": 1310,
+    "Identified": "c_blackhand_of_fate",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_blackhand_of_fate"
+  },
+  {
+    "id": 20234,
+    "name": "Máscara de Bafomé",
+    "viewID": 1311,
+    "Identified": "c_baphomet_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_baphomet_hat"
+  },
+  {
+    "id": 20242,
+    "name": "Chapéu do Jack Frost",
+    "viewID": 1313,
+    "Identified": "c_snownow_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_snownow_hat"
+  },
+  {
+    "id": 20243,
+    "name": "Cartola do Willie Wootan",
+    "viewID": 1314,
+    "Identified": "c_choco_mint_bonnet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_choco_mint_bonnet"
+  },
+  {
+    "id": 20248,
+    "name": "Peruca de Saiadim",
+    "viewID": 1315,
+    "Identified": "c_black_strong_hair",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_black_strong_hair"
+  },
+  {
+    "id": 20249,
+    "name": "Peruca do Saiadim Deus",
+    "viewID": 1316,
+    "Identified": "c_red_strong_hair",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_red_strong_hair"
+  },
+  {
+    "id": 20250,
+    "name": "Cabelo Sai Ajin Branco",
+    "viewID": 1317,
+    "Identified": "c_white_strong_hair",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_strong_hair"
+  },
+  {
+    "id": 20256,
+    "name": "Chapanquecas",
+    "viewID": 1319,
+    "Identified": "c_honey_pancakes",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_honey_pancakes"
+  },
+  {
+    "id": 20257,
+    "name": "Capuz com Orelhas de Coelho",
+    "viewID": 1320,
+    "Identified": "c_black_rabbit_bonnet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_black_rabbit_bonnet"
+  },
+  {
+    "id": 20266,
+    "name": "Zíper Secreto",
+    "viewID": 1324,
+    "Identified": "c_secret_zipper",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_secret_zipper"
+  },
+  {
+    "id": 20268,
+    "name": "Família Eclipse Dorminhoca",
+    "viewID": 1326,
+    "Identified": "c_sleep_eclipse_family",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sleep_eclipse_family"
+  },
+  {
+    "id": 20269,
+    "name": "Orelhas Incinerantes",
+    "viewID": 1327,
+    "Identified": "c_white_fox_ear_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_fox_ear_ribbon"
+  },
+  {
+    "id": 20283,
+    "name": "Boné Abençoado",
+    "viewID": 1329,
+    "Identified": "c_over_protector",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_over_protector"
+  },
+  {
+    "id": 20284,
+    "name": "Boina de Cerejeira",
+    "viewID": 1330,
+    "Identified": "c_cherry_blossom_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cherry_blossom_hat"
+  },
+  {
+    "id": 20287,
+    "name": "Cabeleira do Rei do Rock Saiadim",
+    "viewID": 1333,
+    "Identified": "c_man_medal_gold",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_man_medal_gold"
+  },
+  {
+    "id": 31379,
+    "name": "Gira-Cocuruto",
+    "viewID": 1335,
+    "Identified": "c_drama_clockwork",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_drama_clockwork"
+  },
+  {
+    "id": 20290,
+    "name": "Cartola Carcomida",
+    "viewID": 1337,
+    "Identified": "c_evil_druid_hat_black",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_evil_druid_hat_black"
+  },
+  {
+    "id": 20300,
+    "name": "Máscara Vento da Colina",
+    "viewID": 1342,
+    "Identified": "c_hill_wind_mask",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hill_wind_mask"
+  },
+  {
+    "id": 20302,
+    "name": "Coroa do Senhor das Moscas",
+    "viewID": 1343,
+    "Identified": "c_beelzebub_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_beelzebub_crown"
+  },
+  {
+    "id": 20306,
+    "name": "Boné do Príncipe Ali",
+    "viewID": 1344,
+    "Identified": "c_artist_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_artist_hat"
+  },
+  {
+    "id": 31536,
+    "name": "Belzebu de Estimação",
+    "viewID": 1350,
+    "Identified": "c_chibi_beelzebub_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_chibi_beelzebub_hat"
+  },
+  {
+    "id": 20316,
+    "name": "Elmo do Serafim",
+    "viewID": 1352,
+    "Identified": "c_seraph_wing_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_seraph_wing_helm"
+  },
+  {
+    "id": 20317,
+    "name": "Fones de Ouvido Nekomimi",
+    "viewID": 1353,
+    "Identified": "c_catears_cyber_headp",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_catears_cyber_headp"
+  },
+  {
+    "id": 31328,
+    "name": "Casca de Ovo Estilosa",
+    "viewID": 1356,
+    "Identified": "c_faceworm_egg_shell",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_faceworm_egg_shell"
+  },
+  {
+    "id": 31560,
+    "name": "Mitra Azul Adornada",
+    "viewID": 1359,
+    "Identified": "c_dvangelnursecap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dvangelnursecap"
+  },
+  {
+    "id": 31125,
+    "name": "Chapéu da Realeza Pirata",
+    "viewID": 1360,
+    "Identified": "c_queenanzrevenge",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_queenanzrevenge"
+  },
+  {
+    "id": 31160,
+    "name": "Elmo Rúnico Dourado",
+    "viewID": 1361,
+    "Identified": "c_rune_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rune_helm"
+  },
+  {
+    "id": 20324,
+    "name": "Chapéu com Pombo",
+    "viewID": 1362,
+    "Identified": "c_pigeon_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pigeon_hat"
+  },
+  {
+    "id": 20327,
+    "name": "Quepe de Grumete",
+    "viewID": 1365,
+    "Identified": "c_marine_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_marine_cap"
+  },
+  {
+    "id": 31255,
+    "name": "Capacete de Melão",
+    "viewID": 1374,
+    "Identified": "c_dalcom_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_dalcom_helmet"
+  },
+  {
+    "id": 20443,
+    "name": "Elmo de Unicórnio",
+    "viewID": 1375,
+    "Identified": "c_unicorn_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_unicorn_helm"
+  },
+  {
+    "id": 31562,
+    "name": "Jirtas Dorminhoca",
+    "viewID": 1376
+  },
+  {
+    "id": 5915,
+    "name": "Véu de Anjo",
+    "viewID": 1379,
+    "Identified": "c_angel_veil",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_angel_veil"
+  },
+  {
+    "id": 5980,
+    "name": "Chapéu da Zenny Drédiful",
+    "viewID": 1381,
+    "Identified": "c_classical_fhat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_classical_fhat"
+  },
+  {
+    "id": 20380,
+    "name": "Tiara com Asas Mecânicas",
+    "viewID": 1405,
+    "Identified": "c_mech_feather_hairband",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mech_feather_hairband"
+  },
+  {
+    "id": 20381,
+    "name": "Cartola Steampunk",
+    "viewID": 1406,
+    "Identified": "c_steampunk_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_steampunk_hat"
+  },
+  {
+    "id": 20382,
+    "name": "Boneco da Artilharia Caçadora",
+    "viewID": 1407,
+    "Identified": "c_silversniper_doll",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_silversniper_doll"
+  },
+  {
+    "id": 20383,
+    "name": "Boneco da Artilharia Arcana",
+    "viewID": 1408,
+    "Identified": "c_magicdecoy_doll",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_magicdecoy_doll"
+  },
+  {
+    "id": 31373,
+    "name": "Coroa de Ramos Verdejantes",
+    "viewID": 1412,
+    "Identified": "c_kings_crown_",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_kings_crown_"
+  },
+  {
+    "id": 20408,
+    "name": "Anel da Luz e Escuridão",
+    "viewID": 1419,
+    "Identified": "c_bldy_light_dark_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bldy_light_dark_crown"
+  },
+  {
+    "id": 31088,
+    "name": "Chapéu de Bicho Papão",
+    "viewID": 1421,
+    "Identified": "c_mad_hatter",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mad_hatter"
+  },
+  {
+    "id": 20458,
+    "name": "Poring da Rosa Selvagem",
+    "viewID": 1422,
+    "Identified": "c_wild_poring_rider",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wild_poring_rider"
+  },
+  {
+    "id": 20491,
+    "name": "Tiara da Pontaria",
+    "viewID": 1424,
+    "Identified": "c_laser_of_eagle",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_laser_of_eagle"
+  },
+  {
+    "id": 20431,
+    "name": "Fita Mágica de Cetim",
+    "viewID": 1441,
+    "Identified": "c_maggi_head_dress",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_maggi_head_dress"
+  },
+  {
+    "id": 20432,
+    "name": "Elmo da Khalitzburg",
+    "viewID": 1442,
+    "Identified": "c_khalitzburg_kn_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_khalitzburg_kn_helm"
+  },
+  {
+    "id": 20433,
+    "name": "Chapéu da Catherine Johnson",
+    "viewID": 1443,
+    "Identified": "c_louise_red_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_louise_red_hat"
+  },
+  {
+    "id": 20434,
+    "name": "Guardiã dos Penteados",
+    "viewID": 1444,
+    "Identified": "c_droop_gunslinger",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_droop_gunslinger"
+  },
+  {
+    "id": 20508,
+    "name": "Bonequinha Curiosa",
+    "viewID": 1446,
+    "Identified": "c_poster_girl_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_poster_girl_hat"
+  },
+  {
+    "id": 20449,
+    "name": "Casal de Gatinhos",
+    "viewID": 1452,
+    "Identified": "c_white_black_temp",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_black_temp"
+  },
+  {
+    "id": 20450,
+    "name": "Chapéu Multiclasse",
+    "viewID": 1453,
+    "Identified": "c_gram_peony",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gram_peony"
+  },
+  {
+    "id": 20451,
+    "name": "Quepe da Estrela",
+    "viewID": 1454,
+    "Identified": "c_sky_of_memory",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sky_of_memory"
+  },
+  {
+    "id": 20452,
+    "name": "Coroa do Príncipe Moranguinho",
+    "viewID": 1455,
+    "Identified": "c_berry_prince_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_berry_prince_crown"
+  },
+  {
+    "id": 31448,
+    "name": "Lacinho Sting",
+    "viewID": 1457
+  },
+  {
+    "id": 20455,
+    "name": "Quepe da República",
+    "viewID": 1458
+  },
+  {
+    "id": 20456,
+    "name": "Vestígios de Combate",
+    "viewID": 1460
+  },
+  {
+    "id": 20468,
+    "name": "Máscara da Gorila Chita",
+    "viewID": 1462,
+    "Identified": "c_youinone_mask",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_youinone_mask"
+  },
+  {
+    "id": 31786,
+    "name": "Chapéu de Dragonete Vermelho",
+    "viewID": 1463,
+    "Identified": "c_red_baby_dragon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_red_baby_dragon"
+  },
+  {
+    "id": 20463,
+    "name": "Boina Duplo-Tom",
+    "viewID": 1465,
+    "Identified": "c_two_tone_beret",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_two_tone_beret"
+  },
+  {
+    "id": 20470,
+    "name": "Choco-elmo",
+    "viewID": 1469,
+    "Identified": "choco_elmo",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/choco_elmo"
+  },
+  {
+    "id": 31309,
+    "name": "Chapéu de Marchinha",
+    "viewID": 1470,
+    "Identified": "c_pw_marching_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pw_marching_hat"
+  },
+  {
+    "id": 20489,
+    "name": "Tiara Papal",
+    "viewID": 1475,
+    "Identified": "c_pope_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pope_crown"
+  },
+  {
+    "id": 20490,
+    "name": "Presilha Lírio Azul",
+    "viewID": 1476,
+    "Identified": "c_full_bloom_hp_blue",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_full_bloom_hp_blue"
+  },
+  {
+    "id": 20499,
+    "name": "Cartola da Pata de Gato",
+    "viewID": 1479,
+    "Identified": "c_cat_ear_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cat_ear_hat"
+  },
+  {
+    "id": 31027,
+    "name": "Orelhas de Urso Enfeitadas",
+    "viewID": 1480,
+    "Identified": "c_pretty_bear",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pretty_bear"
+  },
+  {
+    "id": 31028,
+    "name": "Sobrepeliz de Gatinho",
+    "viewID": 1481,
+    "Identified": "c_black_cat_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_black_cat_hood"
+  },
+  {
+    "id": 31031,
+    "name": "Chapéu da Papisa",
+    "viewID": 1483,
+    "Identified": "c_tare_pope_casual",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tare_pope_casual"
+  },
+  {
+    "id": 31032,
+    "name": "Boneco de Loomin",
+    "viewID": 1484,
+    "Identified": "c_tare_luwmin",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tare_luwmin"
+  },
+  {
+    "id": 31158,
+    "name": "Chapéu de Esquilo",
+    "viewID": 1486,
+    "Identified": "c_squirrel_ear_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_squirrel_ear_hat"
+  },
+  {
+    "id": 400277,
+    "name": "Chapéu de Tarlock",
+    "viewID": 1489
+  },
+  {
+    "id": 31039,
+    "name": "Coroa de Folhas do Outono",
+    "viewID": 1491,
+    "Identified": "c_kings_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_kings_crown"
+  },
+  {
+    "id": 31046,
+    "name": "Diadema de Rosas Brancas",
+    "viewID": 1493,
+    "Identified": "c_white_rose_princess",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_rose_princess"
+  },
+  {
+    "id": 31048,
+    "name": "Par de Lírios",
+    "viewID": 1495,
+    "Identified": "c_white_lily_balck",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_lily_balck"
+  },
+  {
+    "id": 31051,
+    "name": "Viseira de Verão",
+    "viewID": 1496,
+    "Identified": "c_happysummer_sunvisor",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_happysummer_sunvisor"
+  },
+  {
+    "id": 31052,
+    "name": "Máscara do Alquimista",
+    "viewID": 1497,
+    "Identified": "c_alchemist_mask",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_alchemist_mask"
+  },
+  {
+    "id": 31409,
+    "name": "Elmo Reforçado",
+    "viewID": 1498,
+    "Identified": "c_barrel_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_barrel_helm"
+  },
+  {
+    "id": 31062,
+    "name": "Peruca de Eleanor ",
+    "viewID": 1502
+  },
+  {
+    "id": 31105,
+    "name": "Coroa de Poring Real",
+    "viewID": 1541,
+    "Identified": "c_rocelebrationhat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rocelebrationhat"
+  },
+  {
+    "id": 31108,
+    "name": "Balão de Fala (Abraços Grátis)",
+    "viewID": 1542,
+    "Identified": "c_free_hug_br",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_free_hug_br"
+  },
+  {
+    "id": 31109,
+    "name": "Balão de Fala (Recruto para Clã)",
+    "viewID": 1543,
+    "Identified": "c_guildsman_recruit_br",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_guildsman_recruit_br"
+  },
+  {
+    "id": 31110,
+    "name": "Balão de Fala (Procuro Grupo)",
+    "viewID": 1544,
+    "Identified": "c_party_seeker_br",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_party_seeker_br"
+  },
+  {
+    "id": 31111,
+    "name": "Balão de Fala (Procuro Membros)",
+    "viewID": 1545,
+    "Identified": "c_party_mem_recruit_br",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_party_mem_recruit_br"
+  },
+  {
+    "id": 31112,
+    "name": "Balão de Fala (Hue Hue Br)",
+    "viewID": 1546
+  },
+  {
+    "id": 31123,
+    "name": "Cartola Fantasma",
+    "viewID": 1551,
+    "Identified": "c_ghostring_tall_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_ghostring_tall_hat"
+  },
+  {
+    "id": 31571,
+    "name": "Chipéu",
+    "viewID": 1552,
+    "Identified": "c_guardian_processor",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_guardian_processor"
+  },
+  {
+    "id": 31397,
+    "name": "Boneca da Papisa",
+    "viewID": 1553,
+    "Identified": "c_pope_sitting_head",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pope_sitting_head"
+  },
+  {
+    "id": 31132,
+    "name": "Guirlanda Natalina",
+    "viewID": 1554,
+    "Identified": "c_christmas_wreath",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_christmas_wreath"
+  },
+  {
+    "id": 31136,
+    "name": "Boina da Torre do Relógio",
+    "viewID": 1555,
+    "Identified": "c_clock_casket",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_clock_casket"
+  },
+  {
+    "id": 31139,
+    "name": "Orelhas do Coelho Branco",
+    "viewID": 1558,
+    "Identified": "c_white_rabbit_ear",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_rabbit_ear"
+  },
+  {
+    "id": 31143,
+    "name": "Florivela",
+    "viewID": 1560,
+    "Identified": "c_krathong_crown_th",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_krathong_crown_th"
+  },
+  {
+    "id": 31149,
+    "name": "Peruca da Nidhogg",
+    "viewID": 1563,
+    "Identified": "c_nydhog_wig",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_nydhog_wig"
+  },
+  {
+    "id": 31150,
+    "name": "Lencinho Encantador",
+    "viewID": 1564,
+    "Identified": "c_shalosh_head_dress",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_shalosh_head_dress"
+  },
+  {
+    "id": 31151,
+    "name": "Orelhas Felpudas",
+    "viewID": 1565,
+    "Identified": "c_chasher_ear",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_chasher_ear"
+  },
+  {
+    "id": 31153,
+    "name": "Mini Cartolinha",
+    "viewID": 1567,
+    "Identified": "c_aniv_star_hat2",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_aniv_star_hat2"
+  },
+  {
+    "id": 31166,
+    "name": "Capuz de Ursinho",
+    "viewID": 1571,
+    "Identified": "c_teddy_bear_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_teddy_bear_hood"
+  },
+  {
+    "id": 31165,
+    "name": "Pequeno Aprendiz",
+    "viewID": 1574,
+    "Identified": "c_piggyback",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_piggyback"
+  },
+  {
+    "id": 31172,
+    "name": "Cabeça de Glugluzão",
+    "viewID": 1576,
+    "Identified": "c_roast_memory",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_roast_memory"
+  },
+  {
+    "id": 31176,
+    "name": "Boina de Ursinho",
+    "viewID": 1577
+  },
+  {
+    "id": 31177,
+    "name": "Chapéu Mãe Natureza",
+    "viewID": 1578,
+    "Identified": "c_tail_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_tail_hat"
+  },
+  {
+    "id": 31179,
+    "name": "Máscara Lupina",
+    "viewID": 1580,
+    "Identified": "c_wolf_masquerade",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wolf_masquerade"
+  },
+  {
+    "id": 31180,
+    "name": "Faixa do Shurão da Preula",
+    "viewID": 1581,
+    "Identified": "c_shura_king_pledge",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_shura_king_pledge"
+  },
+  {
+    "id": 31188,
+    "name": "Chapéu Gótico-Lolita",
+    "viewID": 1584,
+    "Identified": "c_mono_gothic_bonnet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mono_gothic_bonnet"
+  },
+  {
+    "id": 31190,
+    "name": "Cartolinha das Valquírias",
+    "viewID": 1586,
+    "Identified": "c_angel_mini_silk_hat_b",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_angel_mini_silk_hat_b"
+  },
+  {
+    "id": 31506,
+    "name": "Touca de Malangdo",
+    "viewID": 1587,
+    "Identified": "c_malangdo_pirate",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_malangdo_pirate"
+  },
+  {
+    "id": 31191,
+    "name": "Orelhas de Doram",
+    "viewID": 1588
+  },
+  {
+    "id": 31195,
+    "name": "Chapéu Confeitado",
+    "viewID": 1592,
+    "Identified": "c_choco_minihat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_choco_minihat"
+  },
+  {
+    "id": 15847,
+    "name": "Boné Alado",
+    "viewID": 1597,
+    "Identified": "c_exe_wing_cap_th",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_exe_wing_cap_th"
+  },
+  {
+    "id": 31197,
+    "name": "Chapéu das Areias",
+    "viewID": 1598,
+    "Identified": "c_egg_crispinette",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_egg_crispinette"
+  },
+  {
+    "id": 31259,
+    "name": "Tiara dos ArchAngeling",
+    "viewID": 1633,
+    "Identified": "c_bubble_a_angel_h",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bubble_a_angel_h"
+  },
+  {
+    "id": 31249,
+    "name": "Orelhas do Coelho da Lua",
+    "viewID": 1635,
+    "Identified": "c_rabbit_hopping",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rabbit_hopping"
+  },
+  {
+    "id": 31252,
+    "name": "Cartola do Gatomaníaco",
+    "viewID": 1638,
+    "Identified": "c_cat_ear_hat_white",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cat_ear_hat_white"
+  },
+  {
+    "id": 31597,
+    "name": "Chapéu de Peixinho",
+    "viewID": 1645,
+    "Identified": "c_goldfish_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_goldfish_hat"
+  },
+  {
+    "id": 31293,
+    "name": "Coroa de Pétalas de Lavanda",
+    "viewID": 1651,
+    "Identified": "c_kings_crown_purple",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_kings_crown_purple"
+  },
+  {
+    "id": 31388,
+    "name": "Chapéu Dupliponta",
+    "viewID": 1653,
+    "Identified": "c_garden_of_eden",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_garden_of_eden"
+  },
+  {
+    "id": 31314,
+    "name": "Chifres de Oni Adornados",
+    "viewID": 1663,
+    "Identified": "c_ghost_holiday",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_ghost_holiday"
+  },
+  {
+    "id": 19294,
+    "name": "Fones de Ouvido Nekobits",
+    "viewID": 1668,
+    "Identified": "c_catears_cyber_headp_r",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_catears_cyber_headp_r"
+  },
+  {
+    "id": 19292,
+    "name": "Boina Selvagem",
+    "viewID": 1671,
+    "Identified": "c_wildcat_knit_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_wildcat_knit_cap"
+  },
+  {
+    "id": 31324,
+    "name": "Fones da DJ Kitty",
+    "viewID": 1672
+  },
+  {
+    "id": 31329,
+    "name": "Peruca de Alice",
+    "viewID": 1673,
+    "Identified": "c_alice_wig",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_alice_wig"
+  },
+  {
+    "id": 31331,
+    "name": "Bao-Bao da Donzela Verde",
+    "viewID": 1675,
+    "Identified": "c_chung_e_shinyon_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_chung_e_shinyon_cap"
+  },
+  {
+    "id": 31332,
+    "name": "Elmo Negro da Khalitzburg",
+    "viewID": 1676,
+    "Identified": "c_khalitzburg_helm_bl",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_khalitzburg_helm_bl"
+  },
+  {
+    "id": 31368,
+    "name": "Fogaréu",
+    "viewID": 1677
+  },
+  {
+    "id": 31382,
+    "name": "Touca de Patinhas",
+    "viewID": 1682,
+    "Identified": "c_cat_ears_punkish",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cat_ears_punkish"
+  },
+  {
+    "id": 31385,
+    "name": "Abóbora Companheira",
+    "viewID": 1685,
+    "Identified": "c_gothic_pumpkin_head",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gothic_pumpkin_head"
+  },
+  {
+    "id": 31387,
+    "name": "Jakk Aventureiro",
+    "viewID": 1687,
+    "Identified": "c_jjakk",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_jjakk"
+  },
+  {
+    "id": 31389,
+    "name": "Rosas Aladas de Hermes",
+    "viewID": 1688,
+    "Identified": "c_white_bird_rose",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_bird_rose"
+  },
+  {
+    "id": 31390,
+    "name": "Chapéu da Nevasca",
+    "viewID": 1690
+  },
+  {
+    "id": 31396,
+    "name": "Capuz Trevoso",
+    "viewID": 1692
+  },
+  {
+    "id": 31530,
+    "name": "Elmo de Áries",
+    "viewID": 1695,
+    "Identified": "c_greater_dracul_horn",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_greater_dracul_horn"
+  },
+  {
+    "id": 31402,
+    "name": "Coroa de Maçã Verde",
+    "viewID": 1698,
+    "Identified": "c_idun_green_apple",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_idun_green_apple"
+  },
+  {
+    "id": 31405,
+    "name": "Peruca Dourada de Eleanor",
+    "viewID": 1701,
+    "Identified": "c_eleanor_wig_yl",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_eleanor_wig_yl"
+  },
+  {
+    "id": 31406,
+    "name": "Peruca Platinada da Nidhogg",
+    "viewID": 1702,
+    "Identified": "c_nydhog_wig_wh",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_nydhog_wig_wh"
+  },
+  {
+    "id": 31407,
+    "name": "Peruca Rosa de Alice",
+    "viewID": 1703,
+    "Identified": "c_alice_wig_pk",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_alice_wig_pk"
+  },
+  {
+    "id": 31438,
+    "name": "Capa Angelical",
+    "viewID": 1706,
+    "Identified": "c_fluffy_angel_cape",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fluffy_angel_cape"
+  },
+  {
+    "id": 31440,
+    "name": "Touca de Urso Polar",
+    "viewID": 1708,
+    "Identified": "c_snow_bear_food",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_snow_bear_food"
+  },
+  {
+    "id": 31441,
+    "name": "Chapinguim",
+    "viewID": 1709,
+    "Identified": "c_penguin_cap_bu",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_penguin_cap_bu"
+  },
+  {
+    "id": 31445,
+    "name": "Fedora de Comodo",
+    "viewID": 1710,
+    "Identified": "feather_fedora_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/feather_fedora_tw"
+  },
+  {
+    "id": 31596,
+    "name": "Chapéu Biológico",
+    "viewID": 1711,
+    "Identified": "c_spider_temp_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_spider_temp_tw"
+  },
+  {
+    "id": 31451,
+    "name": "Laço Azul Listrado",
+    "viewID": 1714,
+    "Identified": "c_blue_frill_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_blue_frill_ribbon"
+  },
+  {
+    "id": 15841,
+    "name": "Capacete com Visores",
+    "viewID": 1721,
+    "Identified": "c_hat_of_goggle",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_hat_of_goggle"
+  },
+  {
+    "id": 31465,
+    "name": "Cartola de Ovos",
+    "viewID": 1722,
+    "Identified": "c_egg_minihat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_egg_minihat"
+  },
+  {
+    "id": 31474,
+    "name": "Cabelo Longo Preto",
+    "viewID": 1725,
+    "Identified": "c_straight_long_bl",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_straight_long_bl"
+  },
+  {
+    "id": 31475,
+    "name": "Orelhas da Raposa Astuta",
+    "viewID": 1726,
+    "Identified": "c_black_fox_ear_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_black_fox_ear_ribbon"
+  },
+  {
+    "id": 31476,
+    "name": "Chapéu do Desabrochar",
+    "viewID": 1727,
+    "Identified": "c_cherry_blossom_hat_yl",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cherry_blossom_hat_yl"
+  },
+  {
+    "id": 400108,
+    "name": "Boina de Roleta",
+    "viewID": 1735
+  },
+  {
+    "id": 31489,
+    "name": "Chapéu de Ramalhete",
+    "viewID": 1739,
+    "Identified": "c_bouquet_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bouquet_hat"
+  },
+  {
+    "id": 31509,
+    "name": "Orelhinhas Ferozes",
+    "viewID": 1751,
+    "Identified": "c_fawn_ear",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fawn_ear"
+  },
+  {
+    "id": 31513,
+    "name": "Orelhas do Coelho Minguante",
+    "viewID": 1755,
+    "Identified": "c_rabbit_hopping_bl",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rabbit_hopping_bl"
+  },
+  {
+    "id": 31516,
+    "name": "Mini Melão",
+    "viewID": 1758,
+    "Identified": "c_mini_melon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mini_melon"
+  },
+  {
+    "id": 31842,
+    "name": "Protetor do Almirante",
+    "viewID": 1759
+  },
+  {
+    "id": 31518,
+    "name": "Pipocas Saltitantes",
+    "viewID": 1763,
+    "Identified": "c_pop_popcorn_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pop_popcorn_hat"
+  },
+  {
+    "id": 31524,
+    "name": "Marmita Equilibrista",
+    "viewID": 1766,
+    "Identified": "c_lunch_box",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lunch_box"
+  },
+  {
+    "id": 31529,
+    "name": "Laçarote das Orelhas Pontudas",
+    "viewID": 1769,
+    "Identified": "c_happy_rabbit_ribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_happy_rabbit_ribbon"
+  },
+  {
+    "id": 31531,
+    "name": "Chapéu Mágico Duas-Pontas",
+    "viewID": 1770,
+    "Identified": "c_lovely_heart_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lovely_heart_cap"
+  },
+  {
+    "id": 31543,
+    "name": "Chapéu de Urso",
+    "viewID": 1774,
+    "Identified": "c_eru_rava_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_eru_rava_hat"
+  },
+  {
+    "id": 31546,
+    "name": "Boina do Guia do Relógio",
+    "viewID": 1777,
+    "Identified": "c_clock_casket_rd",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_clock_casket_rd"
+  },
+  {
+    "id": 31547,
+    "name": "Capuz de Poporing",
+    "viewID": 1778,
+    "Identified": "c_poporing_mascot_cos",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_poporing_mascot_cos"
+  },
+  {
+    "id": 15382,
+    "name": "Tiara Qixiqué",
+    "viewID": 1780
+  },
+  {
+    "id": 31557,
+    "name": "Gálea de Prata",
+    "viewID": 1781
+  },
+  {
+    "id": 31558,
+    "name": "Gálea de Bronze",
+    "viewID": 1782
+  },
+  {
+    "id": 31564,
+    "name": "Véu do Submundo",
+    "viewID": 1785,
+    "Identified": "c_variant_veil",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_variant_veil"
+  },
+  {
+    "id": 31565,
+    "name": "Laço com Coroa",
+    "viewID": 1786,
+    "Identified": "c_princess_ribbon_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_princess_ribbon_crown"
+  },
+  {
+    "id": 31573,
+    "name": "Orelhas Metálicas de Gatinho",
+    "viewID": 1789,
+    "Identified": "c_mecha_cat_ears",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_mecha_cat_ears"
+  },
+  {
+    "id": 31587,
+    "name": "Super Capacete de Kunlun",
+    "viewID": 1798,
+    "Identified": "c_nationalday_helmet_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_nationalday_helmet_tw"
+  },
+  {
+    "id": 31588,
+    "name": "Tiara da Nevasca",
+    "viewID": 1799,
+    "Identified": "c_snowflake_tiara",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_snowflake_tiara"
+  },
+  {
+    "id": 31589,
+    "name": "Chifres Magníficos",
+    "viewID": 1800
+  },
+  {
+    "id": 31598,
+    "name": "Chapéu Natureba",
+    "viewID": 1802,
+    "Identified": "c_forest_guide",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_forest_guide"
+  },
+  {
+    "id": 31607,
+    "name": "Chapéu da Bruxa Doram",
+    "viewID": 1808,
+    "Identified": "c_b_earwitchhat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_b_earwitchhat"
+  },
+  {
+    "id": 31612,
+    "name": "Coroa Chamativa",
+    "viewID": 1811,
+    "Identified": "c_large_sorcerer_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_large_sorcerer_crown"
+  },
+  {
+    "id": 31721,
+    "name": "Tambores de Invocação",
+    "viewID": 1823,
+    "Identified": "c_resonatetaego",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_resonatetaego"
+  },
+  {
+    "id": 31667,
+    "name": "Boina de Poring",
+    "viewID": 1825,
+    "Identified": "c_poringberet_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_poringberet_tw"
+  },
+  {
+    "id": 15838,
+    "name": "Proteção de Vesper",
+    "viewID": 1827,
+    "Identified": "c_vesperheadgear_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_vesperheadgear_j"
+  },
+  {
+    "id": 31613,
+    "name": "Peruca do Super Saiadim Deus",
+    "viewID": 1858,
+    "Identified": "c_blue_strong_hair",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_blue_strong_hair"
+  },
+  {
+    "id": 31674,
+    "name": "Boina de Bemol",
+    "viewID": 1868,
+    "Identified": "c_jitterbug_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_jitterbug_cap"
+  },
+  {
+    "id": 19464,
+    "name": "Boina de Melão",
+    "viewID": 1878,
+    "Identified": "c_melon_cap",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_melon_cap"
+  },
+  {
+    "id": 31707,
+    "name": "Peruca de Youkai",
+    "viewID": 1884,
+    "Identified": "c_nine_tail_fox_hair",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_nine_tail_fox_hair"
+  },
+  {
+    "id": 31736,
+    "name": "Peruca de Pipoca",
+    "viewID": 1895
+  },
+  {
+    "id": 31733,
+    "name": "Cartola Ilusória",
+    "viewID": 1899,
+    "Identified": "c_phantom_of_masquerade",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_phantom_of_masquerade"
+  },
+  {
+    "id": 31734,
+    "name": "Laço de Frutas",
+    "viewID": 1900,
+    "Identified": "c_citrusribbon",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_citrusribbon"
+  },
+  {
+    "id": 31765,
+    "name": "Tiara Adornada com Rubi",
+    "viewID": 1906,
+    "Identified": "c_garnet_tiara",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_garnet_tiara"
+  },
+  {
+    "id": 31766,
+    "name": "Adorno de Peônia",
+    "viewID": 1907,
+    "Identified": "c_peony_hair_ornament",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_peony_hair_ornament"
+  },
+  {
+    "id": 31884,
+    "name": "Elmo de Dragão Roxo",
+    "viewID": 1917,
+    "Identified": "c_magic_helm",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_magic_helm"
+  },
+  {
+    "id": 400020,
+    "name": "Bola de Praia",
+    "viewID": 1918,
+    "Identified": "c_beachball",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_beachball"
+  },
+  {
+    "id": 31815,
+    "name": "Peruca-Lebre",
+    "viewID": 1925,
+    "Identified": "c_angola_intention",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_angola_intention"
+  },
+  {
+    "id": 31818,
+    "name": "O Melhor Jogador",
+    "viewID": 1930,
+    "Identified": "c_topplayer_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_topplayer_tw"
+  },
+  {
+    "id": 31832,
+    "name": "Chapéu da Bruxa Felina",
+    "viewID": 1938,
+    "Identified": "c_bicolor_cat_witch_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bicolor_cat_witch_hat"
+  },
+  {
+    "id": 31841,
+    "name": "Fone da Curtição",
+    "viewID": 1943,
+    "Identified": "c_bj_headsetb",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bj_headsetb"
+  },
+  {
+    "id": 31848,
+    "name": "Gorro de Rosas",
+    "viewID": 1946,
+    "Identified": "c_rose_gothic_bonnet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rose_gothic_bonnet"
+  },
+  {
+    "id": 31849,
+    "name": "Capacete Ragzord",
+    "viewID": 1947,
+    "Identified": "c_runaway_accelerator",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_runaway_accelerator"
+  },
+  {
+    "id": 31850,
+    "name": "Chapéu Exuberante",
+    "viewID": 1948,
+    "Identified": "c_gift_of_panagia",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gift_of_panagia"
+  },
+  {
+    "id": 400046,
+    "name": "Maçã Flechada",
+    "viewID": 1952,
+    "Identified": "c_pierced_apple",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pierced_apple"
+  },
+  {
+    "id": 440002,
+    "name": "Felina Cauda-Longa",
+    "viewID": 1980,
+    "Identified": "c_happy_cat_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_happy_cat_tw"
+  },
+  {
+    "id": 31906,
+    "name": "Gorro do Gatinho Amoroso",
+    "viewID": 1984,
+    "Identified": "c_pgstone_knit_hat_pk",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pgstone_knit_hat_pk"
+  },
+  {
+    "id": 31907,
+    "name": "Capuz Felino",
+    "viewID": 1985,
+    "Identified": "c_pgstone_knit_hat_bw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pgstone_knit_hat_bw"
+  },
+  {
+    "id": 31950,
+    "name": "Cabeção de Esquilo",
+    "viewID": 1991,
+    "Identified": "c_nut_cracker_jp",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_nut_cracker_jp"
+  },
+  {
+    "id": 15842,
+    "name": "Cartola do Sumiço",
+    "viewID": 1998,
+    "Identified": "c_disapear_time_j",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_disapear_time_j"
+  },
+  {
+    "id": 31937,
+    "name": "Adorno de Unicórnio",
+    "viewID": 2006,
+    "Identified": "c_unicorn_ornament",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_unicorn_ornament"
+  },
+  {
+    "id": 31943,
+    "name": "Touquinha de Sapo",
+    "viewID": 2010,
+    "Identified": "c_frog_hood",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_frog_hood"
+  },
+  {
+    "id": 400093,
+    "name": "Chapéu de 18 Anos",
+    "viewID": 2015
+  },
+  {
+    "id": 31952,
+    "name": "Chapéu das Mil Dimensões",
+    "viewID": 2016,
+    "Identified": "c_gatesofnetherworld",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_gatesofnetherworld"
+  },
+  {
+    "id": 400115,
+    "name": "Boina Mágica de Angeling",
+    "viewID": 2019,
+    "Identified": "c_rag_origin_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_rag_origin_hat"
+  },
+  {
+    "id": 15843,
+    "name": "Resto de Caça",
+    "viewID": 2024
+  },
+  {
+    "id": 420015,
+    "name": "Chifre Florido",
+    "viewID": 2026,
+    "Identified": "c_onihime_camellia",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_onihime_camellia"
+  },
+  {
+    "id": 15858,
+    "name": "Cartola Recheada",
+    "viewID": 2087,
+    "Identified": "c_choco_banana",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_choco_banana"
+  },
+  {
+    "id": 15881,
+    "name": "Crispinette de Rosas",
+    "viewID": 2091
+  },
+  {
+    "id": 430001,
+    "name": "Elmo do Clã",
+    "viewID": 2094
+  },
+  {
+    "id": 400429,
+    "name": "Elmo de Montanhista",
+    "viewID": 2098
+  },
+  {
+    "id": 400143,
+    "name": "Asas de Asgard",
+    "viewID": 2100,
+    "Identified": "c_asgard_circlet_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_asgard_circlet_tw"
+  },
+  {
+    "id": 400157,
+    "name": "Chapéu Mágico",
+    "viewID": 2125,
+    "Identified": "c_white_wizardry_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_wizardry_hat"
+  },
+  {
+    "id": 31974,
+    "name": "Melofone",
+    "viewID": 2129,
+    "Identified": "c_melon_headphone",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_melon_headphone"
+  },
+  {
+    "id": 400158,
+    "name": "Coroa do Mal",
+    "viewID": 2135,
+    "Identified": "c_demon_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_demon_crown"
+  },
+  {
+    "id": 400176,
+    "name": "Cesta de Guloseimas",
+    "viewID": 2145,
+    "Identified": "c_fishbowl_parfait_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fishbowl_parfait_hat"
+  },
+  {
+    "id": 440010,
+    "name": "Cabeça de Ursinho",
+    "viewID": 2147,
+    "Identified": "c_bear_head",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bear_head"
+  },
+  {
+    "id": 400204,
+    "name": "Chapéu da Bruxa Gatinha",
+    "viewID": 2153,
+    "Identified": "c_cat_ear_red_hat_tw",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_cat_ear_red_hat_tw"
+  },
+  {
+    "id": 400197,
+    "name": "Cartola do Poring Doceiro",
+    "viewID": 2163,
+    "Identified": "c_sweet_chef_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_sweet_chef_hat"
+  },
+  {
+    "id": 400188,
+    "name": "Faixa Ragnarök",
+    "viewID": 2179,
+    "Identified": "c_evt_ragfes_band",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_evt_ragfes_band"
+  },
+  {
+    "id": 400205,
+    "name": "Aplique de Coque Celeste",
+    "viewID": 2190,
+    "Identified": "c_bun_twin_tail_bu",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bun_twin_tail_bu"
+  },
+  {
+    "id": 400206,
+    "name": "Aplique de Coque Cereja",
+    "viewID": 2191,
+    "Identified": "c_bun_twin_tail_rd",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bun_twin_tail_rd"
+  },
+  {
+    "id": 400207,
+    "name": "Aplique de Coque Loiro",
+    "viewID": 2192,
+    "Identified": "c_bun_twin_tail_yl",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bun_twin_tail_yl"
+  },
+  {
+    "id": 400208,
+    "name": "Aplique de Coque Verde",
+    "viewID": 2193,
+    "Identified": "c_bun_twin_tail_gn",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bun_twin_tail_gn"
+  },
+  {
+    "id": 400209,
+    "name": "Aplique de Coque Preto",
+    "viewID": 2194,
+    "Identified": "c_bun_twin_tail_bl",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bun_twin_tail_bl"
+  },
+  {
+    "id": 400210,
+    "name": "Aplique de Coque Platinado",
+    "viewID": 2195,
+    "Identified": "c_bun_twin_tail_wh",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bun_twin_tail_wh"
+  },
+  {
+    "id": 400211,
+    "name": "Aplique de Coque Marrom",
+    "viewID": 2196,
+    "Identified": "c_bun_twin_tail_om",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bun_twin_tail_om"
+  },
+  {
+    "id": 400212,
+    "name": "Aplique de Coque Lilás",
+    "viewID": 2197,
+    "Identified": "c_bun_twin_tail_pp",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_bun_twin_tail_pp"
+  },
+  {
+    "id": 400214,
+    "name": "Chapéu Aclamado",
+    "viewID": 2198,
+    "Identified": "c_faith_of_yggdrasil",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_faith_of_yggdrasil"
+  },
+  {
+    "id": 400225,
+    "name": "Capa Coelho Felpudo",
+    "viewID": 2205,
+    "Identified": "c_fluffy_rabbit_cape",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fluffy_rabbit_cape"
+  },
+  {
+    "id": 400253,
+    "name": "Chapéu Doceria",
+    "viewID": 2223,
+    "Identified": "c_macaron_bunny_head",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_macaron_bunny_head"
+  },
+  {
+    "id": 400310,
+    "name": "Tiara Alada",
+    "viewID": 2283,
+    "Identified": "c_indomitable_crown",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_indomitable_crown"
+  },
+  {
+    "id": 400398,
+    "name": "Boina Alada Branca",
+    "viewID": 2286
+  },
+  {
+    "id": 400343,
+    "name": "Chapéu de Bambu de Raposa",
+    "viewID": 2294,
+    "Identified": "c_fox_bamboo_hat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_fox_bamboo_hat"
+  },
+  {
+    "id": 15952,
+    "name": "Naga Tailandesa",
+    "viewID": 2296,
+    "Identified": "c_15th_nov_helmet",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_15th_nov_helmet"
+  },
+  {
+    "id": 400351,
+    "name": "Capacete de Proteção Porin GG",
+    "viewID": 2302
+  },
+  {
+    "id": 400354,
+    "name": "Elmo de Vanargandr",
+    "viewID": 2312,
+    "Identified": "c_vanargandr_helm_gl",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_vanargandr_helm_gl"
+  },
+  {
+    "id": 400355,
+    "name": "Gorro Bufante",
+    "viewID": 2313
+  },
+  {
+    "id": 400356,
+    "name": "Quepe do Pô Pai",
+    "viewID": 2314
+  },
+  {
+    "id": 400370,
+    "name": "Chapéu de Bruxa com Orelhas",
+    "viewID": 2323,
+    "Identified": "c_pu_earwitchhat",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_pu_earwitchhat"
+  },
+  {
+    "id": 430005,
+    "name": "Óculos do Tigre Branco",
+    "viewID": 2325,
+    "Identified": "c_white_tiger_glass",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_white_tiger_glass"
+  }
+]
