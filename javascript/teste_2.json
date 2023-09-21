@@ -1,0 +1,34 @@
+[
+  {
+    "id": 440008,
+    "name": "Grande Mestre",
+    "viewID": 0,
+    "Identified": "c_master",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_master",
+    "TypeItem": ": Topo",
+    "TypeItemNew": [
+      "TOPO"
+    ]
+  },
+  {
+    "id": 19578,
+    "name": "Óculos de Aviação",
+    "viewID": 1,
+    "TypeItem": [
+      "TOPO",
+      "MEIO"
+    ]
+  },
+  {
+    "id": 19574,
+    "name": "Elmo Sombrio de Cristal",
+    "viewID": 742,
+    "Identified": "c_lord_of_death",
+    "link": "https://playragnarokonlinebr.com/database/thor/equipamentos/detalhes/c_lord_of_death",
+    "TypeItem": " : Topo e Meio",
+    "TypeItemNew": [
+      "TOPO",
+      "MEIO"
+    ]
+  }
+]
